@@ -9,6 +9,14 @@
 
 * Cada crisis será puntuada y sólo los coordinadores con cierto nivel de experiencia podrán atenderla.
 
+* r1: Las crisis será caterizadas como: compleja, intermedia o simple. El sistema determinará su puntaje de acuerdo a la cantidad de alertas que se reciban para esa crisis, sumando un puntaje de 10 cada alerta.
+Entonces la categorización será la siguiente:
+
+puntaje (crisis compleja) > 150
+
+50 <= puntaje (crisis intermedia) <= 150
+
+0 < puntaje (crisis simple) < 50
 
 # 2) Police (Info Diffusion)
 **Some carefully selected information on the crisis and alerts should be made available to the Police headquarters for its diffusion**
@@ -20,3 +28,7 @@
 * La información de ese campo podrá ser validada con un conjunto de palabras críticas (q2: cómo se determina ese conjunto de palabras críticas?) para evitar que se publique información privada o sensible que pueda afectar a los involucrados del hecho. Luego de esa verificiación, el contenido será remitido via email a la seccional de policía correspondiente (q3- cómo son las seccionales añadidas al sistema?) de acuerdo a la ubicación del evento.
 
 * El conjunto de palabras críticas podrá ser extraído a partir de la información recibida en las alertas de la crisis.
+
+* r2: Los campos de datos personales en la entrada de usuario para crear una alerta determinarán el conjunto de palabras críticas que contiene la información que debe preservarse. Puede advertirse al usuario de no ingresar datos personales en los campos que se utilizarían para difundir la información.
+
+* r3: Las seccionales de policía se ingresan al sistema desde el panel del administrador quien será el encargado de esta tarea, donde se carga entre otros datos el nombre de la seccional, la ubicación (coordenadas), email, etc.
