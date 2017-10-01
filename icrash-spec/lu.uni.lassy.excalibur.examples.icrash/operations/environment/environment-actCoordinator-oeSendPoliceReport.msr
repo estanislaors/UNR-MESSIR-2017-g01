@@ -1,0 +1,43 @@
+package icrash.environment.operations.actCoordinator.outactCoordinator.oeSendPoliceReport {
+
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.messir.libraries.calendar
+import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
+import icrash.environment
+
+	Operation Model {
+
+		operation: icrash.environment.actCoordinator.outactCoordinator.oeSendPoliceReport(AdtReport:dtReport):ptBoolean{
+		// include below the specification information (pre,post or ocl or prolog)
+		
+		preP {
+			self.rnActor.rnSystem.vpStarted = true
+		}
+		
+		preF {
+			let
+				TheSystem: ctState,
+				TheActCoordinator: actCoordinator,
+				TheCrises: Set(ctCrisis),
+				TheCrisis: ctCrisis
+			in
+				self.rnActor.rnSystem = TheSystem
+				self.rnActor = TheActCoordinator
+				//TheSystem.rnctCrisis = TheCrises,
+				//TheCrsis = TheCrises -> select(c:ctCrisis | c.id = AdtCrisisID)
+				TheActCoordinator.rnctCoordinator = TheActCoordinator
+				TheActCoordinator.rnHandled = TheHandledCrisis
+				TheHandledCrisis = exists (c:ctCrisis | c.id = AdtCrisisID)
+		}
+		
+		postF {
+					
+		}
+		
+		postP {true}
+		}
+	}
+}

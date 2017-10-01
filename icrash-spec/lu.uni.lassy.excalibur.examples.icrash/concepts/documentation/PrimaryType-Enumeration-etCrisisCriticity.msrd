@@ -1,0 +1,12 @@
+/*
+@author estani
+@date Wed Sep 27 18:56:46 ART 2017
+*/
+
+
+@@Primary Type Enumeration icrash.concepts.primarytypes.datatypes.etCrisisCriticity
+@description ""
+@operation
+icrash.concepts.primarytypes.datatypes.etCrisisCriticity.is
+""
+@endOperations

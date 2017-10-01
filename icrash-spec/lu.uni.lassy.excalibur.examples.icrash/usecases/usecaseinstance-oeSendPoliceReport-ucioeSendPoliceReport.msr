@@ -1,0 +1,14 @@
+package usecases.ucioeSendPoliceReport {
+	import icrash.usecases.subfunctions
+	import icrash.environment
+
+	Use Case Model {
+
+		use case instance ucioeSendPoliceReport : subfunction oeSendPoliceReport{
+			actors {
+				estani : actCoordinator
+				seccional2 : actPoliceHeadquarter
+			}
+		}
+	}
+}

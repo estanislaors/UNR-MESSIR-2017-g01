@@ -1,0 +1,26 @@
+/*
+@author estani
+@date Wed Sep 27 18:14:52 ART 2017
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeSendPoliceReport
+@description "Send report about victims from a crisis"
+@parameter icrash.usecases.subfunctions.oeSendPoliceReport.AdtReport ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"
