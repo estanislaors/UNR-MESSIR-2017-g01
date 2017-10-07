@@ -4,14 +4,47 @@ import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.messir.libraries.calendar
-
 import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
 import icrash.environment
 
 Operation Model {
 
 operation: actCoordinator.outactCoordinator.oeGetAlertsSet(AetAlertStatus:etAlertStatus):ptBoolean{
-prolog{"src/Operations/Environment/OUT/outactCoordinator-oeGetAlertsSet.pl"}
+preP {
+  let TheSystem: ctState in
+  let TheActor:actAuthenticated in
+  self.rnActor.rnSystem = TheSystem
+  and self.rnActor = TheActor
+  
+  /* PreP01 */
+  and TheSystem.vpStarted = true
+  /* PreP02 */
+  and TheActor.rnctAuthenticated.vpIsLogged = true 
+}
+preF {
+	/* PreF01 */
+	true
+}
+postF {
+    let 
+    	TheSystem: ctState,
+    	TheAlerts: Set(ctAlert),
+    	TheCoordinator: actCoordinator
+	in
+		self.rnActor.rnSystem = TheSystem
+		self.rnActor = TheCoordinator
+		TheSystem.rnctAlert = TheAlerts
+		TheAlerts->forAll(a:ctAlert | a.status = AetAlertStatus
+										and a.rnTheCrisis.rnHandled = TheCoordinator
+										and a.isSentToCoordinator(TheCoordinator))
+}
+postP {
+	/* PostP01 */
+	true
+}
+prolog{"src/Operations/Environment/OUT/outactCoordinator-oeGetCrisisSet.pl"}
+
 }
 }
 }
