@@ -5,7 +5,7 @@
 
 
 @@Use Case Subfunction icrash.usecases.subfunctions.oeSendPoliceReport
-@description "Send report about victims from a crisis"
+@description "To send a report to Police Headquarter about a crisis near to location"
 @parameter icrash.usecases.subfunctions.oeSendPoliceReport.AdtReport ""
 @endParameters
 @protocolCondition

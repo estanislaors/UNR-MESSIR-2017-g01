@@ -5,7 +5,7 @@
 
 
 @@Actor icrash.environment.actPoliceHeadquarter
-@description ""
+@description "represent police headquarter who need to be communicated"
 //input events
 @inputEvent
 icrash.environment.actPoliceHeadquarter.inactPoliceHeadquarter.ieSendReport
