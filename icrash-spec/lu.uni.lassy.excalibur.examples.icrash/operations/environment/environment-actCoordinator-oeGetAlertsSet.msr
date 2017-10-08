@@ -32,12 +32,13 @@ postF {
     	TheAlerts: Set(ctAlert),
     	TheCoordinator: actCoordinator
 	in
-		self.rnActor.rnSystem = TheSystem
-		self.rnActor = TheCoordinator
-		TheSystem.rnctAlert = TheAlerts
+		TheSystem = self.rnActor.rnSystem 
+		TheCoordinator = self.rnActor
+		TheAlerts = TheSystem.rnctAlert
 		TheAlerts->forAll(a:ctAlert | a.status = AetAlertStatus
 										and a.rnTheCrisis.rnHandled = TheCoordinator
-										and a.isSentToCoordinator(TheCoordinator))
+										and a.isSentToCoordinator(TheCoordinator)
+										and TheCoordinator.rnInterfaceIN^isSendAnAlert(a))
 }
 postP {
 	/* PostP01 */
