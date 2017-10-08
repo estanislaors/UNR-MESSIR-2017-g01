@@ -12,15 +12,17 @@ Operation Model {
 
 operation: actCoordinator.outactCoordinator.oeGetAlertsSet(AetAlertStatus:etAlertStatus):ptBoolean{
 preP {
-  let TheSystem: ctState in
-  let TheActor:actAuthenticated in
-  self.rnActor.rnSystem = TheSystem
-  and self.rnActor = TheActor
+  let
+  	TheSystem: ctState,
+  	TheActor: actAuthenticated
+  in
+  	TheSystem = self.rnActor.rnSystem
+  	TheActor = self.rnActor 
   
-  /* PreP01 */
-  and TheSystem.vpStarted = true
-  /* PreP02 */
-  and TheActor.rnctAuthenticated.vpIsLogged = true 
+    /* PreP01 */
+    TheSystem.vpStarted = true
+	/* PreP02 */
+	TheActor.rnctAuthenticated.vpIsLogged = true 
 }
 preF {
 	/* PreF01 */
