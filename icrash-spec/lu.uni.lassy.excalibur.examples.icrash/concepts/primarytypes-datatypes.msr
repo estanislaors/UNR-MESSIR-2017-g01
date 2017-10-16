@@ -15,6 +15,9 @@ import lu.uni.lassy.messir.libraries.calendar
 			datatype dtCrisisID extends dtString {
 				operation is():ptBoolean
 			}
+			datatype dtPoliceHeadquarterID extends dtString {
+				operation is():ptBoolean
+			}
 			datatype dtLogin extends dtString {
 				operation is():ptBoolean
 			}
