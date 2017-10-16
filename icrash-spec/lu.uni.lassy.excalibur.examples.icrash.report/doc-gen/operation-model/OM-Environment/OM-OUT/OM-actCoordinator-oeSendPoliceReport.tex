@@ -1,0 +1,43 @@
+\subsection{Operation Model for oeSendPoliceReport}
+
+\label{OM-oeSendPoliceReport}
+
+
+The \msrcode{oeSendPoliceReport} operation has the following properties:
+
+	\begin{operationmodel}
+	\addheading{Operation}
+	\adddoublerow{oeSendPoliceReport}{
+	 Notify to Police Headquarters near by crisis location  
+	 }
+
+	\addrowheading{Parameters}
+	\addnumbereddoublerow{}{AdtReport: dtReport}{} 
+
+	\addrowheading{Return type}
+	\addsinglerow{ptBoolean}
+
+	\addrowheading{Pre-Condition (protocol)}
+	\addnumberedsinglerow{PreP}{ the vpStarted is true }
+		
+	\addrowheading{Pre-Condition (functional)}
+	\addnumberedsinglerow{PreF}{ the actCoordinator is handling the crisis whose information he want to share }
+
+	\addrowheading{Post-Condition (functional)}
+	\addnumberedsinglerow{PostF}{ }
+
+	\addrowheading{Post-Condition (protocol)}
+	\addnumberedsinglerow{PostP}{ }
+	\end{operationmodel}
+
+
+
+	
+	
+	
+	
+
+
+
+
+
