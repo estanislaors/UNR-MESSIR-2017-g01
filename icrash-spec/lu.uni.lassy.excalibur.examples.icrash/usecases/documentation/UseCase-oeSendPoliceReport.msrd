@@ -5,19 +5,22 @@
 
 
 @@Use Case Subfunction icrash.usecases.subfunctions.oeSendPoliceReport
-@description "To send a report to Police Headquarter about a crisis near to location"
+@description "To send a report to Police Headquarters about a crisis near to location"
 @parameter icrash.usecases.subfunctions.oeSendPoliceReport.AdtReport ""
 @endParameters
 @protocolCondition
 "
+there is a coordinator and a crisis created in the system 
 "
 @endProtocolConditions
 @preCondition
 "
+the crisis associated in the report must be handled by the coordinator who want to send it
 "
 @endPreConditions
 @postCondition
 "
+send report in SMS message to police headquarters near to crisis location
 "
 @endPostConditions
 @additionalInformation

@@ -18,6 +18,8 @@ icrash.environment.actCoordinator.outactCoordinator.oeSendPoliceReport.AdtReport
 //preProtocol descriptions
 @preP
 " the vpStarted is true "
+@preP
+"the actor logged in previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)"
 @endPreP
 //preFunctional descriptions
 @preF
@@ -25,11 +27,11 @@ icrash.environment.actCoordinator.outactCoordinator.oeSendPoliceReport.AdtReport
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+" crisis's vpReported attribute must be true "
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+" none "
 @endPostP
 //example
 @example" "

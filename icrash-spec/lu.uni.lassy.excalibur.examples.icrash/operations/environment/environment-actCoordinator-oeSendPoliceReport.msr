@@ -13,31 +13,44 @@ import icrash.environment
 		operation: icrash.environment.actCoordinator.outactCoordinator.oeSendPoliceReport(AdtReport:dtReport):ptBoolean{
 		// include below the specification information (pre,post or ocl or prolog)
 		
-		preP {
-			self.rnActor.rnSystem.vpStarted = true
-		}
-		
-		preF {
-			let
-				TheSystem: ctState,
-				TheActCoordinator: actCoordinator,
-				TheCrises: Set(ctCrisis),
-				TheCrisis: ctCrisis
-			in
-				self.rnActor.rnSystem = TheSystem
-				self.rnActor = TheActCoordinator
-				//TheSystem.rnctCrisis = TheCrises,
-				//TheCrsis = TheCrises -> select(c:ctCrisis | c.id = AdtCrisisID)
-				TheActCoordinator.rnctCoordinator = TheActCoordinator
-				TheActCoordinator.rnHandled = TheHandledCrisis
-				TheHandledCrisis = exists (c:ctCrisis | c.id = AdtCrisisID)
-		}
-		
-		postF {
-					
-		}
-		
-		postP {true}
+			preP {
+			    /* PreP01 */
+				self.rnActor.rnSystem.vpStarted = true
+				/* PreP02 */	
+				self.rnActor.rnctAuthenticated.vpIsLogged = true 
+			}
+			
+			preF {
+				/* PreF01 */
+				let
+					TheSystem : ctState,
+					TheActCoordinator : actCoordinator,
+					TheHandledCrises : Set(ctCrisis)
+				in
+					TheSystem = self.rnActor.rnSystem 
+					TheActCoordinator = self.rnActor 
+					TheHandledCrises =  TheActCoordinator.rnHandled 
+					TheHandledCrises -> exists (c : ctCrisis | c.id = AdtReport.crisisId)
+			}
+			
+			
+			postF {
+				let
+					TheActCoordinator : actCoordinator,
+					ThePoliceHeadQuarters : Set(ctPoliceHeadquarter),
+					TheHandledCrises : Set(ctCrisis),
+					ReportedCrisis : Set(ctCrisis)
+				in
+					TheActCoordinator = self.rnActor
+					ThePoliceHeadQuarters = self.rnActor.rnSystem.rnctPoliceHeadquarter
+					TheHandledCrises =  TheActCoordinator.rnHandled 
+					ReportedCrisis = TheHandledCrises -> select (c : ctCrisis | c.id = AdtReport.crisisId)
+					/* PostF02 */
+					ReportedCrisis -> forAll (c : ctCrisis | c.vpReported = true)
+			}
+			
+			postP {true}
+			
 		}
 	}
 }
