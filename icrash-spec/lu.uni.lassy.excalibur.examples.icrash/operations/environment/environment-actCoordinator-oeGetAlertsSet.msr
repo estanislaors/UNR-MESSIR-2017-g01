@@ -13,8 +13,8 @@ Operation Model {
 operation: actCoordinator.outactCoordinator.oeGetAlertsSet(AetAlertStatus:etAlertStatus):ptBoolean{
 preP {
   let
-  	TheSystem: ctState,
-  	TheActor: actAuthenticated
+  	TheSystem : ctState,
+  	TheActor : actAuthenticated
   in
   	TheSystem = self.rnActor.rnSystem
   	TheActor = self.rnActor 
@@ -30,14 +30,15 @@ preF {
 }
 postF {
     let 
-    	TheSystem: ctState,
-    	TheAlerts: Set(ctAlert),
-    	TheCoordinator: actCoordinator
+    	TheSystem : ctState,
+    	TheAlerts : Set(ctAlert),
+    	TheCoordinator : actCoordinator
 	in
 		TheSystem = self.rnActor.rnSystem 
 		TheCoordinator = self.rnActor
 		TheAlerts = TheSystem.rnctAlert
-		TheAlerts->forAll(a:ctAlert | a.status = AetAlertStatus
+		/* PostF01 */
+		TheAlerts->forAll(a : ctAlert | a.status = AetAlertStatus
 										and a.rnTheCrisis.rnHandled = TheCoordinator
 										and a.isSentToCoordinator(TheCoordinator)
 										and TheCoordinator.rnInterfaceIN^isSendAnAlert(a))

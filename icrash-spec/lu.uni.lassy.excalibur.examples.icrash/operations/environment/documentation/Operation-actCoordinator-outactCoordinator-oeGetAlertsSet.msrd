@@ -11,7 +11,7 @@ icrash.environment.actCoordinator.outactCoordinator.oeGetAlertsSet
 @preP
 "the system is started"
 @preP
-"the actor logged previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)"
+"the actor logged in previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)"
 @endPreP
 
 //preFunctional descriptions
