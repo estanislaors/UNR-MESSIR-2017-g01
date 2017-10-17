@@ -28,6 +28,8 @@ icrash.environment.actCoordinator.outactCoordinator.oeSendPoliceReport.AdtReport
 //postFunctional descriptions
 @postF 
 " crisis's vpReported attribute must be true "
+@postF 
+" send report to police headquarters nearest to crisis location "
 @endPostF
 //postProtocol descriptions
 @postP 

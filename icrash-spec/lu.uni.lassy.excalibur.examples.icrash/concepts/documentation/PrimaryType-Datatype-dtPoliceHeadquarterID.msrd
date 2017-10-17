@@ -1,0 +1,12 @@
+/*
+@author estani
+@date Mon Oct 16 19:43:59 ART 2017
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtPoliceHeadquarterID
+@description "a unique identification information."
+@operation
+icrash.concepts.primarytypes.datatypes.dtPoliceHeadquarterID.is
+"used to determine which strings are considered as valid police headquarter identifiers."
+@endOperations

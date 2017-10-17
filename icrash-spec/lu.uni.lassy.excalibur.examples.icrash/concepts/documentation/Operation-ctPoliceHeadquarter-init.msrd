@@ -1,0 +1,31 @@
+/*
+@author estani
+@date Mon Oct 16 19:57:10 ART 2017
+*/
+
+
+@@Operation
+icrash.concepts.primarytypes.classes.ctPoliceHeadquarter.init
+//parameters
+@parameter
+icrash.concepts.primarytypes.classes.ctPoliceHeadquarter.init.Aid
+" a unique police headquarter identification"
+@parameter
+icrash.concepts.primarytypes.classes.ctPoliceHeadquarter.init.Aname
+" complete name for the police headquarter"
+@parameter
+icrash.concepts.primarytypes.classes.ctPoliceHeadquarter.init.Alocation
+" Gps coordinates for police headquarter location"
+@parameter
+icrash.concepts.primarytypes.classes.ctPoliceHeadquarter.init.AphoneNumber
+" police headquarter's telephone number for main communication"
+@endParameters
+
+@description "
+used to initialize the current object as a new instance of the ctPoliceHeadquarter type. "
+//postFunctional descriptions
+@postF 
+"true iff the system poststate includes the current object as a new ctPoliceHeadquarter instance having its attributes equal to the ones provided as parameters. "
+@endPostF
+//example
+@example" "

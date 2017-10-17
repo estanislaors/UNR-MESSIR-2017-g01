@@ -37,16 +37,22 @@ import icrash.environment
 			postF {
 				let
 					TheActCoordinator : actCoordinator,
-					ThePoliceHeadQuarters : Set(ctPoliceHeadquarter),
+					ThePoliceHeadquarters : Set(ctPoliceHeadquarter),
+					NearPoliceHeadquarters : Set(ctPoliceHeadquarter),
 					TheHandledCrises : Set(ctCrisis),
-					ReportedCrisis : Set(ctCrisis)
+					ReportedCrises : Set(ctCrisis),
+					TheReportedCrisis : ctCrisis
 				in
 					TheActCoordinator = self.rnActor
-					ThePoliceHeadQuarters = self.rnActor.rnSystem.rnctPoliceHeadquarter
-					TheHandledCrises =  TheActCoordinator.rnHandled 
-					ReportedCrisis = TheHandledCrises -> select (c : ctCrisis | c.id = AdtReport.crisisId)
-					/* PostF02 */
-					ReportedCrisis -> forAll (c : ctCrisis | c.vpReported = true)
+					ThePoliceHeadquarters = self.rnActor.rnSystem.rnctPoliceHeadquarter
+					TheHandledCrises =  TheActCoordinator@post.rnHandled 
+					ReportedCrises = TheHandledCrises -> select (c : ctCrisis | c.id = AdtReport.crisisId)
+					TheReportedCrisis = RepotedCrises.first()
+					/* PostF01 */
+					TheReportedCrisis.vpReported = true
+					/* PostF02 */ 
+					NearPoliceHeadquarters = ThePoliceHeadquarters -> select (p : ctPoliceHeadquarter | (TheReportedCrisis.location).isNearTo(p.location))
+					NearPoliceHeadquarters -> forAll (p : ctPoliceHeadquarter | p.rnInterfaceIN^ieSendReport(AdtReport))
 			}
 			
 			postP {true}

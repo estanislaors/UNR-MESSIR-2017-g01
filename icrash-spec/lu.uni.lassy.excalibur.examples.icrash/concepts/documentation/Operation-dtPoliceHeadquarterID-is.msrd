@@ -1,0 +1,16 @@
+/*
+@author estani
+@date Mon Oct 16 20:04:46 ART 2017
+*/
+
+
+@@Operation
+icrash.concepts.primarytypes.datatypes.dtPoliceHeadquarterID.is
+@description 
+" used to determine which strings are considered as police headquarter identification."
+//postFunctional descriptions
+@postF 
+" "
+@endPostF
+//example
+@example" "

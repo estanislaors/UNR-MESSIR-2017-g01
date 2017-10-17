@@ -20,7 +20,7 @@ the crisis associated in the report must be handled by the coordinator who want 
 @endPreConditions
 @postCondition
 "
-send report in SMS message to police headquarters near to crisis location
+send report in SMS message to police headquarters nearest to crisis location
 "
 @endPostConditions
 @additionalInformation

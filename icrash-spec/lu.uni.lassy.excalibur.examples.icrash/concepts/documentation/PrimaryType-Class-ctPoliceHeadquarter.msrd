@@ -3,6 +3,16 @@
 @date Wed Sep 27 18:56:41 ART 2017
 */
 
-
 @@Primary Type Class icrash.concepts.primarytypes.classes.ctPoliceHeadquarter
-@description ""
+@description
+"used to model system's representation about the police headquarters to take communication with them."
+
+@attribute icrash.concepts.primarytypes.classes.ctPoliceHeadquarter.id
+"a unique identification information."
+
+@endAttributes
+
+@operation icrash.concepts.primarytypes.classes.ctPoliceHeadquarter.init
+"used to initialize the current object as a new instance of the ctPoliceHeadquarter type."
+
+@endOperations
