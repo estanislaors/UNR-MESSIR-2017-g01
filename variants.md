@@ -15,9 +15,26 @@ Entonces la categorización de una crisis será la siguiente:
 
 Categoría | Puntaje (p)
 ------------ | -------------
-Compleja | p >= 200
-Intermedia | 50 < p < 200
+Compleja | p >= 250
+Intermedia | 50 < p < 250
 Simple | 0 < p <= 50
+
+El nivel de experiencia se determinan de acuerdo a la cantidad de puntos alcanzados por el coordinador, que es un dato numérico asociado a cada coordinador y define una relacion de orden entre ellos: A > B > C
+
+Nivel de experiencia | Puntos de EXP
+--|--
+A | 2000 <= EXP
+B | 500 < EXP < 2000
+C | 500 <= EXP
+
+El sistema emitirá la notificación de atención a los coordinadores de acuerdo el nivel de experiencia alcanzado. La relación es la siguiente:
+
+Clase de crisis | Nivel de experiencia necesario
+-- | --
+Compleja | A
+Intermedia | B
+Simple | C
+
 
 # 2) Police (Info Diffusion)
 **Some carefully selected information on the crisis and alerts should be made available to the Police headquarters for its diffusion**
