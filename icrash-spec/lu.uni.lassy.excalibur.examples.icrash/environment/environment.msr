@@ -131,11 +131,16 @@ import lu.uni.lassy.messir.libraries.calendar
 		}
 		
 		actor actPoliceHeadquarter role rnactPoliceHeadquarter cardinality[0 .. *] {
-				input interface inactPoliceHeadquarter {
-					operation ieSendReport(AdtReport:dtReport):ptBoolean
-				}
-				output interface outactPoliceHeadquarter {
-				}
+	
+			operation init():ptBoolean
+	
+			output interface outactPoliceHeadquarter {
+			}
+			
+			input interface inactPoliceHeadquarter {
+				operation ieSendReport(AdtReport:dtReport):ptBoolean
+			}
+		
 		}
 	}
 }

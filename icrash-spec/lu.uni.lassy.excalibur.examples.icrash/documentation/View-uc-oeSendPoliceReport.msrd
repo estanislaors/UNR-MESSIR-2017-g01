@@ -6,5 +6,5 @@
 
 @@view uc-oeSendPoliceReport
 @model Use-Case icrash.usecases.subfunctions.oeSendPoliceReport 
-@description ""
+@description " send a crisis report to the police headquarters near to the crisis"
 @caption ""

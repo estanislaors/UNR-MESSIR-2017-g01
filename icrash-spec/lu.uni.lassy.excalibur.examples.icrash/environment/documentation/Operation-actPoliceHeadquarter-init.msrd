@@ -1,0 +1,16 @@
+/*
+@author estani
+@date Wed Oct 18 00:43:47 ART 2017
+*/
+
+
+@@Operation
+icrash.environment.actPoliceHeadquarter.init
+@description "
+used to initialize the current object as a new instance of the actPoliceHeadquarter type. "
+//postFunctional descriptions
+@postF 
+"true iff the system poststate includes the current object as a new actPoliceHeadquarter instance having its attributes equal to the ones provided as parameters. "
+@endPostF
+//example
+@example" "

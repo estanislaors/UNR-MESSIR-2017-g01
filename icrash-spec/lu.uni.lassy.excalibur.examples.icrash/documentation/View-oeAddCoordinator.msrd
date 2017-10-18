@@ -1,0 +1,10 @@
+/*
+@author estani
+@date Wed Oct 18 00:22:57 ART 2017
+*/
+
+
+@@view oeAddCoordinator
+@model Use-Case icrash.usecases.subfunctions.oeAddCoordinator 
+@description " the admin creates new coordinator in the system"
+@caption " new coordinator"

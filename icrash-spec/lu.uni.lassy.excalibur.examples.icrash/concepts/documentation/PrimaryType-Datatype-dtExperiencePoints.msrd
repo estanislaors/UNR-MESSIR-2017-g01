@@ -5,7 +5,7 @@
 
 
 @@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtExperiencePoints
-@description ""
+@description " integer that represent coordinator's experience to handle crisis "
 @operation
 icrash.concepts.primarytypes.datatypes.dtExperiencePoints.is
 ""

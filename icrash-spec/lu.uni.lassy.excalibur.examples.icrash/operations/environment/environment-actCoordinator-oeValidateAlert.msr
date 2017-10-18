@@ -48,8 +48,8 @@ postF {
 		TheCoordinator = self.rnActor
 		TheAlerts = TheSystem.rnctAlert@post->select(a:ctAlert | a.id = AdtAlertID and a.status = "valid")
 		if (not(TheAlerts->isEmpty()))
-		then (AptStringMessageForTheCoordinator.eq('The alert was validated!'))
-		else (AptStringMessageForTheCoordinator.eq('The alert was not validated...'))
+		then (AptStringMessageForTheCoordinator.eq('The alert was validate!'))
+		else (AptStringMessageForTheCoordinator.eq('The alert could not be validated...'))
 		endif
 		TheCoordinator.rnInterfaceIN^ieMessage(AMessageForCrisisHandlers)
 }

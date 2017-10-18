@@ -1,0 +1,8 @@
+/*
+@author estani
+@date Wed Oct 18 00:09:52 ART 2017
+*/
+
+
+@@Instance Use Case Subfunction usecases.ucioeAddCoordinator.ucioeAddCoordinator
+@description " the administrator creates new coordinator in the system"

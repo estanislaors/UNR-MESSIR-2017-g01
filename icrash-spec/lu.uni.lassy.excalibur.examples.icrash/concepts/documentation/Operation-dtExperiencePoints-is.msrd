@@ -6,11 +6,10 @@
 
 @@Operation
 icrash.concepts.primarytypes.datatypes.dtExperiencePoints.is
-@description "
- "
+@description " used to determine which values are valid experience points "
 //postFunctional descriptions
 @postF 
-" "
+" true iff the value is a natural number"
 @endPostF
 //example
 @example" "
