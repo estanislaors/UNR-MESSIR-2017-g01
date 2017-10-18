@@ -15,6 +15,9 @@ import lu.uni.lassy.messir.libraries.calendar
 			datatype dtCrisisID extends dtString {
 				operation is():ptBoolean
 			}
+			datatype dtPoliceHeadquarterID extends dtString {
+				operation is():ptBoolean
+			}
 			datatype dtLogin extends dtString {
 				operation is():ptBoolean
 			}
@@ -36,8 +39,13 @@ import lu.uni.lassy.messir.libraries.calendar
 			datatype dtLongitude extends dtReal {
 				operation is():ptBoolean			
 			}
+			
+			datatype dtExperiencePoints extends dtReal {
+				operation is():ptBoolean
+			}
 						
 		    datatype dtReport {
+		    	attribute crisisId:dtCrisisID
 				attribute position:dtGPSLocation
 				attribute criticity:etCrisisCriticity
 				operation is():ptBoolean
@@ -51,7 +59,7 @@ import lu.uni.lassy.messir.libraries.calendar
 			}
 			
 			enum etCrisisCriticity {
-				constants["low", "medium", "high","catastrophe"]
+				constants["simple", "intermediate", "complex"]
 				operation is():ptBoolean
 			}
 			

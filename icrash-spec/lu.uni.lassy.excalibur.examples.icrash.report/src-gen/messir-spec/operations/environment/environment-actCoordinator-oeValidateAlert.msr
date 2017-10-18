@@ -5,11 +5,59 @@ import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.messir.libraries.calendar
 import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
 import icrash.environment
 
 Operation Model {
 
 operation: actCoordinator.outactCoordinator.oeValidateAlert(AdtAlertID:dtAlertID):ptBoolean{
+preP {
+	let
+  		TheSystem: ctState,
+  		TheActor: actAuthenticated
+  	in
+  		TheSystem = self.rnActor.rnSystem
+  		TheActor = self.rnActor 
+  
+    	/* PreP01 */
+    	TheSystem.vpStarted = true
+		/* PreP02 */
+		TheActor.rnctAuthenticated.vpIsLogged = true 
+}
+preF {
+	let
+		TheSystem: ctState,
+		TheCoordinator: actCoordinator,
+   		TheAlerts: Set(ctAlert)
+    in
+  		TheSystem = self.rnActor.rnSystem
+  		TheCoordinator = self.rnActor
+  		TheAlerts = TheSystem.rnctAlert
+  		TheAlerts -> exists(a:ctAlert | a.id = AdtAlertID
+  										and a.isSentToCoordinator(TheCoordinator))
+}
+
+postF {
+	let
+		TheSystem: ctState,
+		TheCoordinator: actCoordinator,
+		AptStringMessageForTheCoordinator: ptString,
+		TheAlerts : Set(ctAlert)
+	in
+		TheSystem = self.rnActor.rnSystem
+		TheCoordinator = self.rnActor
+		TheAlerts = TheSystem.rnctAlert@post->select(a:ctAlert | a.id = AdtAlertID and a.status = "valid")
+		if (not(TheAlerts->isEmpty()))
+		then (AptStringMessageForTheCoordinator.eq('The alert was validated!'))
+		else (AptStringMessageForTheCoordinator.eq('The alert was not validated...'))
+		endif
+		TheCoordinator.rnInterfaceIN^ieMessage(AMessageForCrisisHandlers)
+}
+
+postP {
+	true
+}
+	
 prolog{"src/Operations/Environment/OUT/outactCoordinator-oeValidateAlert.pl"}
 }
 

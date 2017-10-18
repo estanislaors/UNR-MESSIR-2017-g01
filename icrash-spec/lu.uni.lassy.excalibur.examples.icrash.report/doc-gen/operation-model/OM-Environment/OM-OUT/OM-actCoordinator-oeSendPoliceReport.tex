@@ -19,15 +19,17 @@ The \msrcode{oeSendPoliceReport} operation has the following properties:
 
 	\addrowheading{Pre-Condition (protocol)}
 	\addnumberedsinglerow{PreP}{ the vpStarted is true }
+	\addnumberedsinglerow{PreP}{the actor logged in previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)}
 		
 	\addrowheading{Pre-Condition (functional)}
 	\addnumberedsinglerow{PreF}{ the actCoordinator is handling the crisis whose information he want to share }
 
 	\addrowheading{Post-Condition (functional)}
-	\addnumberedsinglerow{PostF}{ }
+	\addnumberedsinglerow{PostF}{ crisis's vpReported attribute must be true }
+	\addnumberedsinglerow{PostF}{ send report to police headquarters nearest to crisis location }
 
 	\addrowheading{Post-Condition (protocol)}
-	\addnumberedsinglerow{PostP}{ }
+	\addnumberedsinglerow{PostP}{ none }
 	\end{operationmodel}
 
 

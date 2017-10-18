@@ -3,7 +3,7 @@
 \label{RE-use-case-oeSendPoliceReport}
 
 
-Send report about victims from a crisis		  
+To send a report to Police Headquarters about a crisis near to location		  
 
 
 \begin{usecase}
@@ -23,18 +23,21 @@ Send report about victims from a crisis
 \addnumberedsinglerow{}{\msrcode{actPoliceHeadquarter[passive, multiple]}}
 
 \addrowheading{Goal(s) description}
-\addsinglerow{Send report about victims from a crisis}
+\addsinglerow{To send a report to Police Headquarters about a crisis near to location}
 
 \addrowheading{Protocol condition(s)}
 \addnumberedsinglerow{}{
+there is a coordinator and a crisis created in the system 
 }
 
 \addrowheading{Pre-condition(s)}
 \addnumberedsinglerow{}{
+the crisis associated in the report must be handled by the coordinator who want to send it
 }
 
 \addrowheading{Main post-condition(s)}
 \addnumberedsinglerow{}{
+send report in SMS message to police headquarters nearest to crisis location
 }
 
 \addrowheading{Additional Information}

@@ -127,7 +127,7 @@ import icrash.environment
       ieMessage(AMessage) returned to actCoordinator
       //ieMessage(AMessage) returned to actAdministrator
     }
-  }            
+  }
 //----------------------------------------------------
   use case system subfunction oeValidateAlert(AdtAlertID:dtAlertID) {
     actor actCoordinator[primary,active]
@@ -135,11 +135,12 @@ import icrash.environment
       ieMessage(AMessage) returned to actCoordinator
     }
   }
+//----------------------------------------------------
     use case system subfunction oeSendPoliceReport(AdtReport:dtReport) {
 	  	actor actCoordinator[primary,active]
 	  	actor actPoliceHeadquarter[secondary,passive,multiple]
 	  	returned messages {
-	  		actPoliceHeadquarter.inactPoliceHeadquarter.ieSendReport(AdtReport) returned to actPoliceHeadquarter
+	  		ieSendReport(AdtReport) returned to actPoliceHeadquarter
 	  	}
 	 }
   }

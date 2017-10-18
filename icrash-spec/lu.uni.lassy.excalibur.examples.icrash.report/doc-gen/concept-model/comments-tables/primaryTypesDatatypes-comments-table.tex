@@ -22,6 +22,9 @@ The table below is providing comments on the graphical views given for the datat
 \adddoublerow{dtCrisisID}{ A string used to identify crisis.}
 \addsingletwocolumnrow{extends}{dtString}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid crisis identifiers.}
+\adddoublerow{dtExperiencePoints}{}
+\addsingletwocolumnrow{extends}{dtReal}
+\adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{}
 \adddoublerow{dtGPSLocation}{used to define coordinates of geograpical positions on earth. It is defined a couple made of a latitude and a longitude.}
 \adddoubletwocolumnrow{attribute}{\msrcode{latitude: dtLatitude}}{for the latitude part of the coordinate.}
 \adddoubletwocolumnrow{attribute}{\msrcode{longitude: dtLongitude}}{for the longitude part of the coordinate.}
@@ -42,7 +45,10 @@ The table below is providing comments on the graphical views given for the datat
 \adddoublerow{dtPhoneNumber}{a string used to store the phone number from the human declaring the crisis or the alert.}
 \addsingletwocolumnrow{extends}{dtString}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid dtPhoneNumber.}
-\adddoublerow{dtReport}{}
+\adddoublerow{dtPoliceHeadquarterID}{a unique identification information.}
+\addsingletwocolumnrow{extends}{dtString}
+\adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid police headquarter identifiers.}
+\adddoublerow{dtReport}{represent information about crisis}
 \adddoubletwocolumnrow{attribute}{\msrcode{criticity: etCrisisCriticity}}{}
 \adddoubletwocolumnrow{attribute}{\msrcode{position: dtGPSLocation}}{}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{}
