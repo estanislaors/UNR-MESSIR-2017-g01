@@ -13,6 +13,7 @@ The \msrcode{oeAddCoordinator} operation has the following properties:
 	\addnumbereddoublerow{}{AdtCoordinatorID: dtCoordinatorID}{used to initialize the id field} 
 	\addnumbereddoublerow{}{AdtLogin: dtLogin}{used to initialize the login field} 
 	\addnumbereddoublerow{}{AdtPassword: dtPassword}{used to initialize the password field} 
+	\addnumbereddoublerow{}{AdtExperiencePoints: dtExperiencePoints}{used to initialized the experience points value} 
 
 	\addrowheading{Return type}
 	\addsinglerow{ptBoolean}
@@ -23,6 +24,7 @@ The \msrcode{oeAddCoordinator} operation has the following properties:
 		
 	\addrowheading{Pre-Condition (functional)}
 	\addnumberedsinglerow{PreF}{ it is supposed that there cannot exist a ctCoordinator instance with the same \msrcode{id} attribute as the one the administrator wants to delete.}
+	\addnumberedsinglerow{PreF}{ experience points must be a natural number}
 
 	\addrowheading{Post-Condition (functional)}
 	\addnumberedsinglerow{PostF}{ the environment has a new instance of coordinator actor allowing for input/output message communication with the system.}

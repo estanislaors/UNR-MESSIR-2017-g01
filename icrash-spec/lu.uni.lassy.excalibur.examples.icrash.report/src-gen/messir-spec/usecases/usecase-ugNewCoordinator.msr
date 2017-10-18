@@ -1,0 +1,18 @@
+/*
+* @author estani
+* @date Wed Oct 18 09:25:04 ART 2017
+*/
+
+package lu.uni.lassy.excalibur.examples.icrash.usecases.ugNewCoordinator {
+
+import lu.uni.lassy.messir.libraries.primitives
+import icrash.environment
+
+
+	Use Case Model {
+
+	
+	}
+
+
+}

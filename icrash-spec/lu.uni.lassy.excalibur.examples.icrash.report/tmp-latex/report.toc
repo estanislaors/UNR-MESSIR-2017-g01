@@ -1,337 +1,354 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}
-\contentsline {section}{\numberline {1.1}Overview}{13}{section.1.1}
-\contentsline {section}{\numberline {1.2}Purpose and recipients of the document}{13}{section.1.2}
-\contentsline {section}{\numberline {1.3}Application Domain}{13}{section.1.3}
-\contentsline {section}{\numberline {1.4}Definitions, acronyms and abbreviations}{13}{section.1.4}
-\contentsline {section}{\numberline {1.5}Document structure}{14}{section.1.5}
-\contentsline {chapter}{\numberline {2}General Description}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}Domain Stakeholders}{15}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Communication Company}{15}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Humans}{16}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Coordinators}{16}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Administrator}{16}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Creator}{17}{subsection.2.1.5}
-\contentsline {subsection}{\numberline {2.1.6}Activator}{17}{subsection.2.1.6}
-\contentsline {section}{\numberline {2.2}System's Actors}{18}{section.2.2}
-\contentsline {section}{\numberline {2.3}Use Cases Model}{18}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Use Cases}{18}{subsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.1.1}summary-suDeployAndRun}{18}{subsubsection.2.3.1.1}
-\contentsline {subsubsection}{\numberline {2.3.1.2}summary-suGlobalCrisisHandling}{19}{subsubsection.2.3.1.2}
-\contentsline {subsubsection}{\numberline {2.3.1.3}usergoal-ugAdministrateTheSystem}{21}{subsubsection.2.3.1.3}
-\contentsline {subsubsection}{\numberline {2.3.1.4}usergoal-ugManageCrisis}{22}{subsubsection.2.3.1.4}
-\contentsline {subsubsection}{\numberline {2.3.1.5}usergoal-ugMonitor}{23}{subsubsection.2.3.1.5}
-\contentsline {subsubsection}{\numberline {2.3.1.6}usergoal-ugSecurelyUseSystem}{23}{subsubsection.2.3.1.6}
-\contentsline {subsubsection}{\numberline {2.3.1.7}subfunction-oeSendPoliceReport}{26}{subsubsection.2.3.1.7}
-\contentsline {subsubsection}{\numberline {2.3.1.8}subfunction-oeSetCrisisHandler}{27}{subsubsection.2.3.1.8}
-\contentsline {subsubsection}{\numberline {2.3.1.9}subfunction-oeSollicitateCrisisHandling}{28}{subsubsection.2.3.1.9}
-\contentsline {subsection}{\numberline {2.3.2}Use Case Instance(s)}{30}{subsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Use-Case Instance - uciSimpleAndCompletePart01:suDeployAndRun}{30}{subsubsection.2.3.2.1}
-\contentsline {subsubsection}{\numberline {2.3.2.2}Use-Case Instance - uciSimpleAndCompletePart02:suDeployAndRun}{30}{subsubsection.2.3.2.2}
-\contentsline {subsubsection}{\numberline {2.3.2.3}Use-Case Instance - uciugSecurelyUseSystem:ugSecurelyUseSystem}{30}{subsubsection.2.3.2.3}
-\contentsline {subsubsection}{\numberline {2.3.2.4}Use-Case Instance - ucioeSendPoliceReport:oeSendPoliceReport}{33}{subsubsection.2.3.2.4}
-\contentsline {chapter}{\numberline {3}Environment Model}{35}{chapter.3}
-\contentsline {section}{\numberline {3.1}Local view 01}{35}{section.3.1}
-\contentsline {section}{\numberline {3.2}Local view 02}{35}{section.3.2}
-\contentsline {section}{\numberline {3.3}Local view 03}{35}{section.3.3}
-\contentsline {section}{\numberline {3.4}Local view 04}{35}{section.3.4}
-\contentsline {section}{\numberline {3.5}Local view 05}{35}{section.3.5}
-\contentsline {section}{\numberline {3.6}Global view 01}{35}{section.3.6}
-\contentsline {section}{\numberline {3.7}Actors and Interfaces Descriptions}{39}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}\msrcode {actActivator} Actor}{39}{subsection.3.7.1}
-\contentsline {subsection}{\numberline {3.7.2}\msrcode {actAdministrator} Actor}{40}{subsection.3.7.2}
-\contentsline {subsection}{\numberline {3.7.3}\msrcode {actAuthenticated} Actor}{40}{subsection.3.7.3}
-\contentsline {subsection}{\numberline {3.7.4}\msrcode {actComCompany} Actor}{40}{subsection.3.7.4}
-\contentsline {subsection}{\numberline {3.7.5}\msrcode {actCoordinator} Actor}{41}{subsection.3.7.5}
-\contentsline {subsection}{\numberline {3.7.6}\msrcode {actMsrCreator} Actor}{41}{subsection.3.7.6}
-\contentsline {subsection}{\numberline {3.7.7}\msrcode {actPoliceHeadquarter} Actor}{42}{subsection.3.7.7}
-\contentsline {chapter}{\numberline {4}Concept Model}{43}{chapter.4}
-\contentsline {section}{\numberline {4.1}PrimaryTypes-Classes}{43}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Local view 01}{43}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Local view 02}{43}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Local view 03}{43}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Local view 04}{43}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Global view 01}{43}{subsection.4.1.5}
-\contentsline {section}{\numberline {4.2}PrimaryTypes-Datatypes}{43}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Local view 06}{43}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Global view 01}{48}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}SecondaryTypes-Datatypes}{48}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Local view 01}{48}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Concept Model Types Descriptions}{48}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Primary types - Class types descriptions}{48}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Primary types - Datatypes types descriptions}{51}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Primary types - Association types descriptions}{53}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Primary types - Aggregation types descriptions}{53}{subsection.4.4.4}
-\contentsline {subsubsection}{\numberline {4.4.4.1}Primary types - Composition types descriptions}{54}{subsubsection.4.4.4.1}
-\contentsline {subsection}{\numberline {4.4.5}Secondary types - Class types descriptions}{54}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Secondary types - Datatypes types descriptions}{54}{subsection.4.4.6}
-\contentsline {subsection}{\numberline {4.4.7}Secondary types - Association types descriptions}{54}{subsection.4.4.7}
-\contentsline {subsection}{\numberline {4.4.8}Secondary types - Aggregation types descriptions}{54}{subsection.4.4.8}
-\contentsline {subsection}{\numberline {4.4.9}Secondary types - Composition types descriptions}{54}{subsection.4.4.9}
-\contentsline {chapter}{\numberline {5}Operation Model}{55}{chapter.5}
-\contentsline {section}{\numberline {5.1}Environment - Out Interface Operation Scheme for actActivator}{55}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Operation Model for oeSetClock}{55}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Operation Model for oeSollicitateCrisisHandling}{55}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Environment - Out Interface Operation Scheme for actAdministrator}{57}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Operation Model for oeAddCoordinator}{57}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Operation Model for oeDeleteCoordinator}{57}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Environment - Out Interface Operation Scheme for actAuthenticated}{58}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Operation Model for oeLogin}{58}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Operation Model for oeLogout}{59}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Environment - Out Interface Operation Scheme for actComCompany}{59}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Operation Model for oeAlert}{59}{subsection.5.4.1}
-\contentsline {section}{\numberline {5.5}Environment - Out Interface Operation Scheme for actCoordinator}{60}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Operation Model for oeCloseCrisis}{60}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Operation Model for oeGetAlertsSet}{61}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Operation Model for oeGetCrisisSet}{62}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Operation Model for oeInvalidateAlert}{62}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}Operation Model for oeReportOnCrisis}{63}{subsection.5.5.5}
-\contentsline {subsection}{\numberline {5.5.6}Operation Model for oeSendPoliceReport}{63}{subsection.5.5.6}
-\contentsline {subsection}{\numberline {5.5.7}Operation Model for oeSetCrisisHandler}{64}{subsection.5.5.7}
-\contentsline {subsection}{\numberline {5.5.8}Operation Model for oeSetCrisisStatus}{65}{subsection.5.5.8}
-\contentsline {subsection}{\numberline {5.5.9}Operation Model for oeSetCrisisType}{66}{subsection.5.5.9}
-\contentsline {subsection}{\numberline {5.5.10}Operation Model for oeValidateAlert}{66}{subsection.5.5.10}
-\contentsline {section}{\numberline {5.6}Environment - Out Interface Operation Scheme for actMsrCreator}{67}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Operation Model for oeCreateSystemAndEnvironment}{67}{subsection.5.6.1}
-\contentsline {section}{\numberline {5.7}Environment - Actor Operation Scheme for actMsrCreator}{68}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Operation Model for init}{68}{subsection.5.7.1}
-\contentsline {section}{\numberline {5.8}Primary Types - Operation Schemes for Class ctAdministrator}{68}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Operation Model for init}{68}{subsection.5.8.1}
-\contentsline {section}{\numberline {5.9}Primary Types - Operation Schemes for Class ctAlert}{70}{section.5.9}
-\contentsline {subsection}{\numberline {5.9.1}Operation Model for init}{70}{subsection.5.9.1}
-\contentsline {subsection}{\numberline {5.9.2}Operation Model for isSentToCoordinator}{71}{subsection.5.9.2}
-\contentsline {section}{\numberline {5.10}Primary Types - Operation Schemes for Class ctAuthenticated}{71}{section.5.10}
-\contentsline {subsection}{\numberline {5.10.1}Operation Model for init}{71}{subsection.5.10.1}
-\contentsline {section}{\numberline {5.11}Primary Types - Operation Schemes for Class ctCoordinator}{71}{section.5.11}
-\contentsline {subsection}{\numberline {5.11.1}Operation Model for init}{71}{subsection.5.11.1}
-\contentsline {section}{\numberline {5.12}Primary Types - Operation Schemes for Class ctCrisis}{72}{section.5.12}
-\contentsline {subsection}{\numberline {5.12.1}Operation Model for init}{72}{subsection.5.12.1}
-\contentsline {subsection}{\numberline {5.12.2}Operation Model for handlingDelayPassed}{72}{subsection.5.12.2}
-\contentsline {subsection}{\numberline {5.12.3}Operation Model for maxHandlingDelayPassed}{73}{subsection.5.12.3}
-\contentsline {subsection}{\numberline {5.12.4}Operation Model for isSentToCoordinator}{73}{subsection.5.12.4}
-\contentsline {subsection}{\numberline {5.12.5}Operation Model for isAllocatedIfPossible}{73}{subsection.5.12.5}
-\contentsline {section}{\numberline {5.13}Primary Types - Operation Schemes for Class ctHuman}{74}{section.5.13}
-\contentsline {subsection}{\numberline {5.13.1}Operation Model for init}{74}{subsection.5.13.1}
-\contentsline {subsection}{\numberline {5.13.2}Operation Model for isAcknowledged}{74}{subsection.5.13.2}
-\contentsline {section}{\numberline {5.14}Primary Types - Operation Schemes for Class ctState}{75}{section.5.14}
-\contentsline {subsection}{\numberline {5.14.1}Operation Model for init}{75}{subsection.5.14.1}
-\contentsline {section}{\numberline {5.15}Primary Types - Operation Schemes for Datatype dtAlertID}{75}{section.5.15}
-\contentsline {subsection}{\numberline {5.15.1}Operation Model for is}{75}{subsection.5.15.1}
-\contentsline {section}{\numberline {5.16}Primary Types - Operation Schemes for Datatype dtComment}{76}{section.5.16}
-\contentsline {subsection}{\numberline {5.16.1}Operation Model for is}{76}{subsection.5.16.1}
-\contentsline {section}{\numberline {5.17}Primary Types - Operation Schemes for Datatype dtCoordinatorID}{76}{section.5.17}
-\contentsline {subsection}{\numberline {5.17.1}Operation Model for is}{76}{subsection.5.17.1}
-\contentsline {section}{\numberline {5.18}Primary Types - Operation Schemes for Datatype dtCrisisID}{76}{section.5.18}
-\contentsline {subsection}{\numberline {5.18.1}Operation Model for is}{76}{subsection.5.18.1}
-\contentsline {section}{\numberline {5.19}Primary Types - Operation Schemes for Datatype dtGPSLocation}{77}{section.5.19}
-\contentsline {subsection}{\numberline {5.19.1}Operation Model for is}{77}{subsection.5.19.1}
-\contentsline {subsection}{\numberline {5.19.2}Operation Model for isNearTo}{77}{subsection.5.19.2}
-\contentsline {section}{\numberline {5.20}Primary Types - Operation Schemes for Datatype dtLatitude}{77}{section.5.20}
-\contentsline {subsection}{\numberline {5.20.1}Operation Model for is}{77}{subsection.5.20.1}
-\contentsline {section}{\numberline {5.21}Primary Types - Operation Schemes for Datatype dtLogin}{78}{section.5.21}
-\contentsline {subsection}{\numberline {5.21.1}Operation Model for is}{78}{subsection.5.21.1}
-\contentsline {section}{\numberline {5.22}Primary Types - Operation Schemes for Datatype dtLongitude}{78}{section.5.22}
-\contentsline {subsection}{\numberline {5.22.1}Operation Model for is}{78}{subsection.5.22.1}
-\contentsline {section}{\numberline {5.23}Primary Types - Operation Schemes for Datatype dtPassword}{78}{section.5.23}
-\contentsline {subsection}{\numberline {5.23.1}Operation Model for is}{78}{subsection.5.23.1}
-\contentsline {section}{\numberline {5.24}Primary Types - Operation Schemes for Datatype dtPhoneNumber}{78}{section.5.24}
-\contentsline {subsection}{\numberline {5.24.1}Operation Model for is}{78}{subsection.5.24.1}
-\contentsline {section}{\numberline {5.25}Primary Types - Operation Schemes for Enumeration etAlertStatus}{79}{section.5.25}
-\contentsline {subsection}{\numberline {5.25.1}Operation Model for is}{79}{subsection.5.25.1}
-\contentsline {section}{\numberline {5.26}Primary Types - Operation Schemes for Enumeration etCrisisStatus}{79}{section.5.26}
-\contentsline {subsection}{\numberline {5.26.1}Operation Model for is}{79}{subsection.5.26.1}
-\contentsline {section}{\numberline {5.27}Primary Types - Operation Schemes for Enumeration etCrisisType}{79}{section.5.27}
-\contentsline {subsection}{\numberline {5.27.1}Operation Model for is}{79}{subsection.5.27.1}
-\contentsline {section}{\numberline {5.28}Primary Types - Operation Schemes for Enumeration etHumanKind}{80}{section.5.28}
-\contentsline {subsection}{\numberline {5.28.1}Operation Model for is}{80}{subsection.5.28.1}
-\contentsline {section}{\numberline {5.29}Secondary Types - Operation Schemes for Classes}{80}{section.5.29}
-\contentsline {section}{\numberline {5.30}Secondary Types - Operation Schemes for Datatype dtSMS}{80}{section.5.30}
-\contentsline {subsection}{\numberline {5.30.1}Operation Model for is}{80}{subsection.5.30.1}
-\contentsline {section}{\numberline {5.31}Secondary Types - Operation Schemes for Enumerations}{80}{section.5.31}
-\contentsline {chapter}{\numberline {6}Test Model(s)}{81}{chapter.6}
-\contentsline {section}{\numberline {6.1}Test Model for testcase01}{81}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Test Steps Specification}{81}{subsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.1.1}testcase01-ts01oeCreateSystemAndEnvironment-actMsrCreator.outactMsrCreator.oeCreateSystemAndEnvironment}{81}{subsubsection.6.1.1.1}
-\contentsline {subsubsection}{\numberline {6.1.1.2}testcase01-ts02oeSetClock-actActivator.outactActivator.oeSetClock}{82}{subsubsection.6.1.1.2}
-\contentsline {subsubsection}{\numberline {6.1.1.3}testcase01-ts03oeLogin-actAdministrator.outactAdministrator.oeLogin}{82}{subsubsection.6.1.1.3}
-\contentsline {subsubsection}{\numberline {6.1.1.4}testcase01-ts04oeAddCoordinator-actAdministrator.outactAdministrator.oeAddCoordinator}{83}{subsubsection.6.1.1.4}
-\contentsline {subsubsection}{\numberline {6.1.1.5}testcase01-ts05oeLogout-actAdministrator.outactAdministrator.oeLogout}{83}{subsubsection.6.1.1.5}
-\contentsline {subsubsection}{\numberline {6.1.1.6}testcase01-ts06oeSetClock02-actActivator.outactActivator.oeSetClock}{84}{subsubsection.6.1.1.6}
-\contentsline {subsubsection}{\numberline {6.1.1.7}testcase01-ts07oeAlert1-actComCompany.outactComCompany.oeAlert}{85}{subsubsection.6.1.1.7}
-\contentsline {subsubsection}{\numberline {6.1.1.8}testcase01-ts08oeSetClock03-actActivator.outactActivator.oeSetClock}{85}{subsubsection.6.1.1.8}
-\contentsline {subsubsection}{\numberline {6.1.1.9}testcase01-ts09oeSollicitateCrisisHandling-actActivator.outactActivator.oeSollicitateCrisisHandling}{86}{subsubsection.6.1.1.9}
-\contentsline {subsubsection}{\numberline {6.1.1.10}testcase01-ts10oeLogin02-actAuthenticated.outactAuthenticated.oeLogin}{87}{subsubsection.6.1.1.10}
-\contentsline {subsubsection}{\numberline {6.1.1.11}testcase01-ts11oeGetCrisisSet-actCoordinator.outactCoordinator.oeGetCrisisSet}{87}{subsubsection.6.1.1.11}
-\contentsline {subsubsection}{\numberline {6.1.1.12}testcase01-ts12oeSetCrisisHandler-actCoordinator.outactCoordinator.oeSetCrisisHandler}{88}{subsubsection.6.1.1.12}
-\contentsline {subsubsection}{\numberline {6.1.1.13}testcase01-ts13oeSetClock04-actActivator.outactActivator.oeSetClock}{89}{subsubsection.6.1.1.13}
-\contentsline {subsubsection}{\numberline {6.1.1.14}testcase01-ts14oeValidateAlert-actCoordinator.outactCoordinator.oeValidateAlert}{89}{subsubsection.6.1.1.14}
-\contentsline {subsubsection}{\numberline {6.1.1.15}testcase01-ts15oeAlert2-actComCompany.outactComCompany.oeAlert}{90}{subsubsection.6.1.1.15}
-\contentsline {subsubsection}{\numberline {6.1.1.16}testcase01-ts16oeSetClock05-actActivator.outactActivator.oeSetClock}{91}{subsubsection.6.1.1.16}
-\contentsline {subsubsection}{\numberline {6.1.1.17}testcase01-ts17oeSetCrisisStatus-actCoordinator.outactCoordinator.oeSetCrisisStatus}{91}{subsubsection.6.1.1.17}
-\contentsline {subsubsection}{\numberline {6.1.1.18}testcase01-ts18oeReportOnCrisis-actCoordinator.outactCoordinator.oeReportOnCrisis}{92}{subsubsection.6.1.1.18}
-\contentsline {subsubsection}{\numberline {6.1.1.19}testcase01-ts19oeCloseCrisis-actCoordinator.outactCoordinator.oeCloseCrisis}{93}{subsubsection.6.1.1.19}
-\contentsline {subsection}{\numberline {6.1.2}Test Case Instance - instance01}{93}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Test Case Instance - instance01Part01}{93}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Test Case Instance - instance01Part02}{95}{subsection.6.1.4}
-\contentsline {chapter}{\numberline {7}Additional Constraints}{97}{chapter.7}
-\contentsline {section}{\numberline {7.1}Quality Constraints}{97}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Functional suitability}{97}{subsection.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.1.1}Functional completeness}{97}{subsubsection.7.1.1.1}
-\contentsline {subsubsection}{\numberline {7.1.1.2}Functional correctness}{97}{subsubsection.7.1.1.2}
-\contentsline {subsubsection}{\numberline {7.1.1.3}Functional appropriateness}{97}{subsubsection.7.1.1.3}
-\contentsline {subsection}{\numberline {7.1.2}Performance efficiency}{97}{subsection.7.1.2}
-\contentsline {subsubsection}{\numberline {7.1.2.1}Time behaviour}{97}{subsubsection.7.1.2.1}
-\contentsline {subsubsection}{\numberline {7.1.2.2}Resource utilization}{98}{subsubsection.7.1.2.2}
-\contentsline {subsubsection}{\numberline {7.1.2.3}Capacity}{98}{subsubsection.7.1.2.3}
-\contentsline {subsection}{\numberline {7.1.3}Compatibility}{98}{subsection.7.1.3}
-\contentsline {subsubsection}{\numberline {7.1.3.1}Co-existence}{98}{subsubsection.7.1.3.1}
-\contentsline {subsubsection}{\numberline {7.1.3.2}Interoperability}{98}{subsubsection.7.1.3.2}
-\contentsline {subsection}{\numberline {7.1.4}Usability}{98}{subsection.7.1.4}
-\contentsline {subsubsection}{\numberline {7.1.4.1}Appropriateness recognizability}{98}{subsubsection.7.1.4.1}
-\contentsline {subsubsection}{\numberline {7.1.4.2}Learnability}{98}{subsubsection.7.1.4.2}
-\contentsline {subsubsection}{\numberline {7.1.4.3}Operability}{99}{subsubsection.7.1.4.3}
-\contentsline {subsubsection}{\numberline {7.1.4.4}User error protection}{99}{subsubsection.7.1.4.4}
-\contentsline {subsubsection}{\numberline {7.1.4.5}User interface aesthetics}{99}{subsubsection.7.1.4.5}
-\contentsline {subsubsection}{\numberline {7.1.4.6}Accessibility}{99}{subsubsection.7.1.4.6}
-\contentsline {subsection}{\numberline {7.1.5}Reliability}{99}{subsection.7.1.5}
-\contentsline {subsubsection}{\numberline {7.1.5.1}Maturity}{99}{subsubsection.7.1.5.1}
-\contentsline {subsubsection}{\numberline {7.1.5.2}Availability}{99}{subsubsection.7.1.5.2}
-\contentsline {subsubsection}{\numberline {7.1.5.3}Fault tolerance}{99}{subsubsection.7.1.5.3}
-\contentsline {subsubsection}{\numberline {7.1.5.4}Recoverability}{100}{subsubsection.7.1.5.4}
-\contentsline {subsection}{\numberline {7.1.6}Security}{100}{subsection.7.1.6}
-\contentsline {subsubsection}{\numberline {7.1.6.1}Confidentiality}{100}{subsubsection.7.1.6.1}
-\contentsline {subsubsection}{\numberline {7.1.6.2}Integrity}{100}{subsubsection.7.1.6.2}
-\contentsline {subsubsection}{\numberline {7.1.6.3}Non-repudiation}{100}{subsubsection.7.1.6.3}
-\contentsline {subsubsection}{\numberline {7.1.6.4}Accountability}{100}{subsubsection.7.1.6.4}
-\contentsline {subsubsection}{\numberline {7.1.6.5}Authenticity}{100}{subsubsection.7.1.6.5}
-\contentsline {subsection}{\numberline {7.1.7}Maintainability}{100}{subsection.7.1.7}
-\contentsline {subsubsection}{\numberline {7.1.7.1}Modularity}{101}{subsubsection.7.1.7.1}
-\contentsline {subsubsection}{\numberline {7.1.7.2}Reusability}{101}{subsubsection.7.1.7.2}
-\contentsline {subsubsection}{\numberline {7.1.7.3}Analysability}{101}{subsubsection.7.1.7.3}
-\contentsline {subsubsection}{\numberline {7.1.7.4}Modifiability}{101}{subsubsection.7.1.7.4}
-\contentsline {subsubsection}{\numberline {7.1.7.5}Testability}{101}{subsubsection.7.1.7.5}
-\contentsline {subsection}{\numberline {7.1.8}Portability}{101}{subsection.7.1.8}
-\contentsline {subsubsection}{\numberline {7.1.8.1}Adaptability}{101}{subsubsection.7.1.8.1}
-\contentsline {subsubsection}{\numberline {7.1.8.2}Installability}{101}{subsubsection.7.1.8.2}
-\contentsline {subsubsection}{\numberline {7.1.8.3}Replaceability}{102}{subsubsection.7.1.8.3}
-\contentsline {section}{\numberline {7.2}Other Constraints}{102}{section.7.2}
-\contentsline {chapter}{\numberline {A}Undocumented Messir Specification Elements}{103}{appendix.A}
-\contentsline {section}{\numberline {A.1}Undocumented Use Case Instances}{103}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Undocumented Use Case Instances - User-Goal Level}{103}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A.1.2}Undocumented Use Case Instances - Subfunction Level}{103}{subsection.A.1.2}
-\contentsline {subsection}{\numberline {A.1.3}Undocumented Use Case Instance Views}{103}{subsection.A.1.3}
-\contentsline {section}{\numberline {A.2}Undocumented Primary Types}{103}{section.A.2}
-\contentsline {subsection}{\numberline {A.2.1}Undocumented Primary Datatype Types}{103}{subsection.A.2.1}
-\contentsline {subsection}{\numberline {A.2.2}Undocumented Primary Enumeration Types}{103}{subsection.A.2.2}
-\contentsline {section}{\numberline {A.3}Undocumented Concept Model Views}{103}{section.A.3}
-\contentsline {section}{\numberline {A.4}Undocumented Operation Specifications}{103}{section.A.4}
-\contentsline {section}{\numberline {A.5}Undocumented Test-Case Instance Specifications}{104}{section.A.5}
-\contentsline {chapter}{\numberline {B}Specification project lu.uni.lassy.excalibur.examples.icrash}{105}{appendix.B}
-\contentsline {section}{\numberline {B.1}Use Cases Model}{106}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}Use Cases}{106}{subsection.B.1.1}
-\contentsline {subsubsection}{\numberline {B.1.1.1}subfunction-oeCloseCrisis}{106}{subsubsection.B.1.1.1}
-\contentsline {chapter}{\numberline {C}Messir Specification Files Listing}{107}{appendix.C}
-\contentsline {section}{\numberline {C.1}File /src-gen/messir-spec/.views.msr}{107}{section.C.1}
-\contentsline {section}{\numberline {C.2}File /src-gen/messir-spec/operations/concepts/secondarytypes-datatypes/dtSMS.msr}{107}{section.C.2}
-\contentsline {section}{\numberline {C.3}File /src-gen/messir-spec/operations.../environment-actActivator-oeSetClock.msr}{108}{section.C.3}
-\contentsline {section}{\numberline {C.4}File /src-gen.../environment-actActivator-oeSollicitateCrisisHandling.msr}{108}{section.C.4}
-\contentsline {section}{\numberline {C.5}File /src-gen/messir-spec.../environment-actAdministrator-oeAddCoordinator.msr}{109}{section.C.5}
-\contentsline {section}{\numberline {C.6}File /src-gen.../environment-actAdministrator-oeDeleteCoordinator.msr}{110}{section.C.6}
-\contentsline {section}{\numberline {C.7}File /src-gen/messir-spec/operations.../environment-actAuthenticated.msr}{111}{section.C.7}
-\contentsline {section}{\numberline {C.8}File /src-gen/messir-spec/operations/environment/environment-actComCompany.msr}{113}{section.C.8}
-\contentsline {section}{\numberline {C.9}File /src-gen/messir-spec.../environment-actCoordinator-oeCloseCrisis.msr}{115}{section.C.9}
-\contentsline {section}{\numberline {C.10}File /src-gen/messir-spec.../environment-actCoordinator-oeGetAlertsSet.msr}{116}{section.C.10}
-\contentsline {section}{\numberline {C.11}File /src-gen/messir-spec.../environment-actCoordinator-oeGetCrisisSet.msr}{117}{section.C.11}
-\contentsline {section}{\numberline {C.12}File /src-gen/messir-spec.../environment-actCoordinator-oeInvalidateAlert.msr}{117}{section.C.12}
-\contentsline {section}{\numberline {C.13}File /src-gen/messir-spec.../environment-actCoordinator-oeReportOnCrisis.msr}{117}{section.C.13}
-\contentsline {section}{\numberline {C.14}File /src-gen/messir-spec.../environment-actCoordinator-oeSendPoliceReport.msr}{118}{section.C.14}
-\contentsline {section}{\numberline {C.15}File /src-gen/messir-spec.../environment-actCoordinator-oeSetCrisisHandler.msr}{119}{section.C.15}
-\contentsline {section}{\numberline {C.16}File /src-gen/messir-spec.../environment-actCoordinator-oeSetCrisisStatus.msr}{119}{section.C.16}
-\contentsline {section}{\numberline {C.17}File /src-gen/messir-spec.../environment-actCoordinator-oeSetCrisisType.msr}{119}{section.C.17}
-\contentsline {section}{\numberline {C.18}File /src-gen/messir-spec.../environment-actCoordinator-oeValidateAlert.msr}{120}{section.C.18}
-\contentsline {section}{\numberline {C.19}File /src-gen/messir-spec/operations.../environment-actMsrCreator-init.msr}{121}{section.C.19}
-\contentsline {section}{\numberline {C.20}File /src-gen.../environment-actMsrCreator-oeCreateSystemAndEnvironment.msr}{121}{section.C.20}
-\contentsline {section}{\numberline {C.21}File /src-gen/messir-spec/environment/environment.msr}{122}{section.C.21}
-\contentsline {section}{\numberline {C.22}File /src-gen/messir-spec/concepts/primarytypes-associations.msr}{124}{section.C.22}
-\contentsline {section}{\numberline {C.23}File /src-gen/messir-spec.../primarytypes-classes-ctAdministrator.msr}{125}{section.C.23}
-\contentsline {section}{\numberline {C.24}File /src-gen/messir-spec/operations.../primarytypes-classes-ctAlert.msr}{126}{section.C.24}
-\contentsline {section}{\numberline {C.25}File /src-gen/messir-spec.../primarytypes-classes-ctAuthenticated.msr}{127}{section.C.25}
-\contentsline {section}{\numberline {C.26}File /src-gen/messir-spec/operations.../primarytypes-classes-ctCoordinator.msr}{127}{section.C.26}
-\contentsline {section}{\numberline {C.27}File /src-gen/messir-spec/operations.../primarytypes-classes-ctCrisis.msr}{127}{section.C.27}
-\contentsline {section}{\numberline {C.28}File /src-gen/messir-spec/operations.../primarytypes-classes-ctHuman.msr}{130}{section.C.28}
-\contentsline {section}{\numberline {C.29}File /src-gen/messir-spec/operations.../primarytypes-classes-ctState.msr}{130}{section.C.29}
-\contentsline {section}{\numberline {C.30}File /src-gen/messir-spec/concepts/primarytypes-classes.msr}{131}{section.C.30}
-\contentsline {section}{\numberline {C.31}File /src-gen/messir-spec/operations.../primarytypes-datatypes-dtAlertID.msr}{133}{section.C.31}
-\contentsline {section}{\numberline {C.32}File /src-gen/messir-spec/operations.../primarytypes-datatypes-dtComment.msr}{133}{section.C.32}
-\contentsline {section}{\numberline {C.33}File /src-gen/messir-spec.../primarytypes-datatypes-dtCoordinatorID.msr}{134}{section.C.33}
-\contentsline {section}{\numberline {C.34}File /src-gen/messir-spec/operations.../primarytypes-datatypes-dtCrisisID.msr}{134}{section.C.34}
-\contentsline {section}{\numberline {C.35}File /src-gen/messir-spec.../primarytypes-datatypes-dtGPSLocation.msr}{135}{section.C.35}
-\contentsline {section}{\numberline {C.36}File /src-gen/messir-spec/operations.../primarytypes-datatypes-dtLogin.msr}{136}{section.C.36}
-\contentsline {section}{\numberline {C.37}File /src-gen/messir-spec/operations.../primarytypes-datatypes-dtPassword.msr}{137}{section.C.37}
-\contentsline {section}{\numberline {C.38}File /src-gen/messir-spec.../primarytypes-datatypes-dtPhoneNumber.msr}{137}{section.C.38}
-\contentsline {section}{\numberline {C.39}File /src-gen/messir-spec.../primarytypes-datatypes-etAlertStatus.msr}{138}{section.C.39}
-\contentsline {section}{\numberline {C.40}File /src-gen/messir-spec.../primarytypes-datatypes-etCrisisStatus.msr}{138}{section.C.40}
-\contentsline {section}{\numberline {C.41}File /src-gen/messir-spec/operations.../primarytypes-datatypes-etCrisisType.msr}{138}{section.C.41}
-\contentsline {section}{\numberline {C.42}File /src-gen/messir-spec/operations.../primarytypes-datatypes-etHumanKind.msr}{139}{section.C.42}
-\contentsline {section}{\numberline {C.43}File /src-gen/messir-spec/concepts/primarytypes-datatypes.msr}{139}{section.C.43}
-\contentsline {section}{\numberline {C.44}File /src-gen/messir-spec/concepts/secondarytypes-associations.msr}{141}{section.C.44}
-\contentsline {section}{\numberline {C.45}File /src-gen/messir-spec/concepts/secondarytypes-classes.msr}{141}{section.C.45}
-\contentsline {section}{\numberline {C.46}File /src-gen/messir-spec/concepts/secondarytypes-datatypes.msr}{141}{section.C.46}
-\contentsline {section}{\numberline {C.47}File /src-gen/messir-spec/usecases/subfunctions-usecases.msr}{142}{section.C.47}
-\contentsline {section}{\numberline {C.48}File /src-gen/messir-spec/test/tc-testcase01.msr}{144}{section.C.48}
-\contentsline {section}{\numberline {C.49}File /src-gen/messir-spec/test/tci-testcase01-instance01.msr}{152}{section.C.49}
-\contentsline {section}{\numberline {C.50}File /src-gen/messir-spec/usecases/usecase-suDeployAndRun.msr}{161}{section.C.50}
-\contentsline {section}{\numberline {C.51}File /src-gen/messir-spec/usecases/usecase-suGlobalCrisisHandling.msr}{166}{section.C.51}
-\contentsline {section}{\numberline {C.52}File /src-gen/messir-spec/usecases/usecase-ugAdministrateTheSystem.msr}{166}{section.C.52}
-\contentsline {section}{\numberline {C.53}File /src-gen/messir-spec/usecases/usecase-ugManageCrisis.msr}{167}{section.C.53}
-\contentsline {section}{\numberline {C.54}File /src-gen/messir-spec/usecases/usecase-ugMonitor.msr}{168}{section.C.54}
-\contentsline {section}{\numberline {C.55}File /src-gen/messir-spec/usecases/usecase-ugSecurelyUseSystem.msr}{168}{section.C.55}
-\contentsline {section}{\numberline {C.56}File /src-gen.../usecaseinstance-oeSendPoliceReport-ucioeSendPoliceReport.msr}{168}{section.C.56}
-\contentsline {section}{\numberline {C.57}File /src-gen.../usecaseinstance-ugSecurelyUseSystem-uciugSecurelyUseSystem.msr}{169}{section.C.57}
-\contentsline {chapter}{\numberline {D}Listing of the Prolog Files Referenced in the Operation Model Specification}{171}{appendix.D}
-\contentsline {section}{\numberline {D.1}File /src-gen/prolog-ref-spec/Operations.../outactActivator-oeSetClock.pl}{171}{section.D.1}
-\contentsline {section}{\numberline {D.2}File /src-gen/prolog-ref-spec.../outactActivator-oeSollicitateCrisisHandling.pl}{172}{section.D.2}
-\contentsline {section}{\numberline {D.3}File /src-gen/prolog-ref-spec.../outactAdministrator-oeAddCoordinator.pl}{174}{section.D.3}
-\contentsline {section}{\numberline {D.4}File /src-gen/prolog-ref-spec.../outactAdministrator-oeDeleteCoordinator.pl}{175}{section.D.4}
-\contentsline {section}{\numberline {D.5}File /src-gen/prolog-ref-spec/Operations.../outactAuthenticated-oeLogin.pl}{176}{section.D.5}
-\contentsline {section}{\numberline {D.6}File /src-gen/prolog-ref-spec/Operations.../outactAuthenticated-oeLogout.pl}{178}{section.D.6}
-\contentsline {section}{\numberline {D.7}File /src-gen/prolog-ref-spec/Operations.../outactComCompany-oeAlert.pl}{179}{section.D.7}
-\contentsline {section}{\numberline {D.8}File /src-gen/prolog-ref-spec/Operations.../outactCoordinator-oeCloseCrisis.pl}{183}{section.D.8}
-\contentsline {section}{\numberline {D.9}File /src-gen/prolog-ref-spec/Operations.../outactCoordinator-oeGetCrisisSet.pl}{184}{section.D.9}
-\contentsline {section}{\numberline {D.10}File /src-gen/prolog-ref-spec.../outactCoordinator-oeInvalidateAlert.pl}{185}{section.D.10}
-\contentsline {section}{\numberline {D.11}File /src-gen/prolog-ref-spec.../outactCoordinator-oeReportOnCrisis.pl}{187}{section.D.11}
-\contentsline {section}{\numberline {D.12}File /src-gen/prolog-ref-spec.../outactCoordinator-oeSetCrisisHandler.pl}{188}{section.D.12}
-\contentsline {section}{\numberline {D.13}File /src-gen/prolog-ref-spec.../outactCoordinator-oeSetCrisisStatus.pl}{190}{section.D.13}
-\contentsline {section}{\numberline {D.14}File /src-gen/prolog-ref-spec.../outactCoordinator-oeSetCrisisType.pl}{192}{section.D.14}
-\contentsline {section}{\numberline {D.15}File /src-gen/prolog-ref-spec.../outactCoordinator-oeValidateAlert.pl}{193}{section.D.15}
-\contentsline {section}{\numberline {D.16}File /src-gen.../outactMsrCreator-oeCreateSystemAndEnvironment.pl}{195}{section.D.16}
-\contentsline {section}{\numberline {D.17}File /src-gen/prolog-ref-spec.../PrimaryTypesClasses-ctAdministrator-init.pl}{197}{section.D.17}
-\contentsline {section}{\numberline {D.18}File /src-gen/prolog-ref-spec/Operations.../PrimaryTypesClasses-ctAlert-init.pl}{197}{section.D.18}
-\contentsline {section}{\numberline {D.19}File /src-gen.../PrimaryTypesClasses-ctAlert-isSentToCoordinator.pl}{198}{section.D.19}
-\contentsline {section}{\numberline {D.20}File /src-gen/prolog-ref-spec.../PrimaryTypesClasses-ctAuthenticated-init.pl}{198}{section.D.20}
-\contentsline {section}{\numberline {D.21}File /src-gen/prolog-ref-spec.../PrimaryTypesClasses-ctCoordinator-init.pl}{199}{section.D.21}
-\contentsline {section}{\numberline {D.22}File /src-gen.../PrimaryTypesClasses-ctCrisis-handlingDelayPassed.pl}{199}{section.D.22}
-\contentsline {section}{\numberline {D.23}File /src-gen/prolog-ref-spec.../PrimaryTypesClasses-ctCrisis-init.pl}{200}{section.D.23}
-\contentsline {section}{\numberline {D.24}File /src-gen.../PrimaryTypesClasses-ctCrisis-isAllocatedIfPossible.pl}{200}{section.D.24}
-\contentsline {section}{\numberline {D.25}File /src-gen.../PrimaryTypesClasses-ctCrisis-isSentToCoordinator.pl}{201}{section.D.25}
-\contentsline {section}{\numberline {D.26}File /src-gen.../PrimaryTypesClasses-ctCrisis-maxHandlingDelayPassed.pl}{202}{section.D.26}
-\contentsline {section}{\numberline {D.27}File /src-gen/prolog-ref-spec/Operations.../PrimaryTypesClasses-ctHuman-init.pl}{202}{section.D.27}
-\contentsline {section}{\numberline {D.28}File /src-gen/prolog-ref-spec.../PrimaryTypesClasses-ctHuman-isAcknowledged.pl}{203}{section.D.28}
-\contentsline {section}{\numberline {D.29}File /src-gen/prolog-ref-spec/Operations.../PrimaryTypesClasses-ctState-init.pl}{203}{section.D.29}
-\contentsline {section}{\numberline {D.30}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtAlertID-is.pl}{204}{section.D.30}
-\contentsline {section}{\numberline {D.31}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtComment-is.pl}{205}{section.D.31}
-\contentsline {section}{\numberline {D.32}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtCoordinatorID-is.pl}{205}{section.D.32}
-\contentsline {section}{\numberline {D.33}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtCrisisID-is.pl}{206}{section.D.33}
-\contentsline {section}{\numberline {D.34}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtGPSLocation-is.pl}{206}{section.D.34}
-\contentsline {section}{\numberline {D.35}File /src-gen.../PrimaryTypesDatatypes-dtGPSLocation-isNearTo.pl}{207}{section.D.35}
-\contentsline {section}{\numberline {D.36}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtLatitude-is.pl}{208}{section.D.36}
-\contentsline {section}{\numberline {D.37}File /src-gen/prolog-ref-spec/Operations.../PrimaryTypesDatatypes-dtLogin-is.pl}{208}{section.D.37}
-\contentsline {section}{\numberline {D.38}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtLongitude-is.pl}{209}{section.D.38}
-\contentsline {section}{\numberline {D.39}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtPassword-is.pl}{209}{section.D.39}
-\contentsline {section}{\numberline {D.40}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtPhoneNumber-is.pl}{210}{section.D.40}
-\contentsline {section}{\numberline {D.41}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-etAlertStatus-is.pl}{210}{section.D.41}
-\contentsline {section}{\numberline {D.42}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-etCrisisStatus-is.pl}{211}{section.D.42}
-\contentsline {section}{\numberline {D.43}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-etCrisisType-is.pl}{211}{section.D.43}
-\contentsline {section}{\numberline {D.44}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-etHumanKind-is.pl}{212}{section.D.44}
-\contentsline {section}{\numberline {D.45}File /src-gen/prolog-ref-spec/Operations.../SecondaryTypesDatatypes-dtSMS-is.pl}{212}{section.D.45}
-\contentsline {chapter}{Glossary}{213}{section*.2}
+\contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1}
+\contentsline {section}{\numberline {1.1}Overview}{15}{section.1.1}
+\contentsline {section}{\numberline {1.2}Purpose and recipients of the document}{15}{section.1.2}
+\contentsline {section}{\numberline {1.3}Application Domain}{15}{section.1.3}
+\contentsline {section}{\numberline {1.4}Definitions, acronyms and abbreviations}{15}{section.1.4}
+\contentsline {section}{\numberline {1.5}Document structure}{16}{section.1.5}
+\contentsline {chapter}{\numberline {2}General Description}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Domain Stakeholders}{17}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Communication Company}{17}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Humans}{18}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Coordinators}{18}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Administrator}{18}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Creator}{19}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}Activator}{19}{subsection.2.1.6}
+\contentsline {section}{\numberline {2.2}System's Actors}{20}{section.2.2}
+\contentsline {section}{\numberline {2.3}Use Cases Model}{20}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Use Cases}{20}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}summary-suDeployAndRun}{20}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}summary-suGlobalCrisisHandling}{21}{subsubsection.2.3.1.2}
+\contentsline {subsubsection}{\numberline {2.3.1.3}usergoal-ugAdministrateTheSystem}{23}{subsubsection.2.3.1.3}
+\contentsline {subsubsection}{\numberline {2.3.1.4}usergoal-ugManageCrisis}{24}{subsubsection.2.3.1.4}
+\contentsline {subsubsection}{\numberline {2.3.1.5}usergoal-ugMonitor}{25}{subsubsection.2.3.1.5}
+\contentsline {subsubsection}{\numberline {2.3.1.6}usergoal-ugSecurelyUseSystem}{25}{subsubsection.2.3.1.6}
+\contentsline {subsubsection}{\numberline {2.3.1.7}subfunction-oeAddCoordinator}{28}{subsubsection.2.3.1.7}
+\contentsline {subsubsection}{\numberline {2.3.1.8}subfunction-oeSendPoliceReport}{29}{subsubsection.2.3.1.8}
+\contentsline {subsubsection}{\numberline {2.3.1.9}subfunction-oeSetCrisisHandler}{29}{subsubsection.2.3.1.9}
+\contentsline {subsubsection}{\numberline {2.3.1.10}subfunction-oeSollicitateCrisisHandling}{30}{subsubsection.2.3.1.10}
+\contentsline {subsection}{\numberline {2.3.2}Use Case Instance(s)}{32}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Use-Case Instance - uciSimpleAndCompletePart01:suDeployAndRun}{32}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Use-Case Instance - uciSimpleAndCompletePart02:suDeployAndRun}{32}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Use-Case Instance - uciugSecurelyUseSystem:ugSecurelyUseSystem}{32}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Use-Case Instance - ucioeAddCoordinator:oeAddCoordinator}{35}{subsubsection.2.3.2.4}
+\contentsline {subsubsection}{\numberline {2.3.2.5}Use-Case Instance - ucioeSendPoliceReport:oeSendPoliceReport}{35}{subsubsection.2.3.2.5}
+\contentsline {chapter}{\numberline {3}Environment Model}{39}{chapter.3}
+\contentsline {section}{\numberline {3.1}Local view 01}{39}{section.3.1}
+\contentsline {section}{\numberline {3.2}Local view 02}{39}{section.3.2}
+\contentsline {section}{\numberline {3.3}Local view 03}{39}{section.3.3}
+\contentsline {section}{\numberline {3.4}Local view 04}{39}{section.3.4}
+\contentsline {section}{\numberline {3.5}Local view 05}{39}{section.3.5}
+\contentsline {section}{\numberline {3.6}Local view 08}{39}{section.3.6}
+\contentsline {section}{\numberline {3.7}Global view 01}{43}{section.3.7}
+\contentsline {section}{\numberline {3.8}Actors and Interfaces Descriptions}{44}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}\msrcode {actActivator} Actor}{44}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}\msrcode {actAdministrator} Actor}{45}{subsection.3.8.2}
+\contentsline {subsection}{\numberline {3.8.3}\msrcode {actAuthenticated} Actor}{45}{subsection.3.8.3}
+\contentsline {subsection}{\numberline {3.8.4}\msrcode {actComCompany} Actor}{45}{subsection.3.8.4}
+\contentsline {subsection}{\numberline {3.8.5}\msrcode {actCoordinator} Actor}{46}{subsection.3.8.5}
+\contentsline {subsection}{\numberline {3.8.6}\msrcode {actMsrCreator} Actor}{46}{subsection.3.8.6}
+\contentsline {subsection}{\numberline {3.8.7}\msrcode {actPoliceHeadquarter} Actor}{47}{subsection.3.8.7}
+\contentsline {chapter}{\numberline {4}Concept Model}{49}{chapter.4}
+\contentsline {section}{\numberline {4.1}PrimaryTypes-Classes}{49}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Local view 01}{49}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Local view 02}{49}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Local view 03}{49}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Local view 04}{49}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Local view 09}{49}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Global view 01}{49}{subsection.4.1.6}
+\contentsline {section}{\numberline {4.2}PrimaryTypes-Datatypes}{49}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Local view 06}{49}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Global view 01}{52}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}SecondaryTypes-Datatypes}{52}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Local view 01}{52}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Concept Model Types Descriptions}{52}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Primary types - Class types descriptions}{52}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Primary types - Datatypes types descriptions}{55}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Primary types - Association types descriptions}{57}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Primary types - Aggregation types descriptions}{58}{subsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.4.1}Primary types - Composition types descriptions}{58}{subsubsection.4.4.4.1}
+\contentsline {subsection}{\numberline {4.4.5}Secondary types - Class types descriptions}{58}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Secondary types - Datatypes types descriptions}{58}{subsection.4.4.6}
+\contentsline {subsection}{\numberline {4.4.7}Secondary types - Association types descriptions}{58}{subsection.4.4.7}
+\contentsline {subsection}{\numberline {4.4.8}Secondary types - Aggregation types descriptions}{58}{subsection.4.4.8}
+\contentsline {subsection}{\numberline {4.4.9}Secondary types - Composition types descriptions}{58}{subsection.4.4.9}
+\contentsline {chapter}{\numberline {5}Operation Model}{61}{chapter.5}
+\contentsline {section}{\numberline {5.1}Environment - Out Interface Operation Scheme for actActivator}{61}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Operation Model for oeSetClock}{61}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Operation Model for oeSollicitateCrisisHandling}{61}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Environment - Out Interface Operation Scheme for actAdministrator}{62}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Operation Model for oeAddCoordinator}{62}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Operation Model for oeDeleteCoordinator}{63}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Environment - Out Interface Operation Scheme for actAuthenticated}{65}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Operation Model for oeLogin}{65}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Operation Model for oeLogout}{65}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Environment - Out Interface Operation Scheme for actComCompany}{66}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Operation Model for oeAlert}{66}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}Environment - Out Interface Operation Scheme for actCoordinator}{69}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Operation Model for oeCloseCrisis}{69}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Operation Model for oeGetAlertsSet}{69}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Operation Model for oeGetCrisisSet}{70}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Operation Model for oeInvalidateAlert}{70}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Operation Model for oeReportOnCrisis}{71}{subsection.5.5.5}
+\contentsline {subsection}{\numberline {5.5.6}Operation Model for oeSendPoliceReport}{71}{subsection.5.5.6}
+\contentsline {subsection}{\numberline {5.5.7}Operation Model for oeSetCrisisHandler}{72}{subsection.5.5.7}
+\contentsline {subsection}{\numberline {5.5.8}Operation Model for oeSetCrisisStatus}{73}{subsection.5.5.8}
+\contentsline {subsection}{\numberline {5.5.9}Operation Model for oeSetCrisisType}{73}{subsection.5.5.9}
+\contentsline {subsection}{\numberline {5.5.10}Operation Model for oeValidateAlert}{74}{subsection.5.5.10}
+\contentsline {section}{\numberline {5.6}Environment - Out Interface Operation Scheme for actMsrCreator}{74}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Operation Model for oeCreateSystemAndEnvironment}{74}{subsection.5.6.1}
+\contentsline {section}{\numberline {5.7}Environment - Actor Operation Scheme for actActivator}{75}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Operation Model for init}{75}{subsection.5.7.1}
+\contentsline {section}{\numberline {5.8}Environment - Actor Operation Scheme for actAdministrator}{76}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Operation Model for init}{76}{subsection.5.8.1}
+\contentsline {section}{\numberline {5.9}Environment - Actor Operation Scheme for actMsrCreator}{76}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}Operation Model for init}{76}{subsection.5.9.1}
+\contentsline {section}{\numberline {5.10}Environment - Actor Operation Scheme for actPoliceHeadquarter}{76}{section.5.10}
+\contentsline {subsection}{\numberline {5.10.1}Operation Model for init}{76}{subsection.5.10.1}
+\contentsline {section}{\numberline {5.11}Primary Types - Operation Schemes for Class ctAdministrator}{77}{section.5.11}
+\contentsline {subsection}{\numberline {5.11.1}Operation Model for init}{77}{subsection.5.11.1}
+\contentsline {section}{\numberline {5.12}Primary Types - Operation Schemes for Class ctAlert}{77}{section.5.12}
+\contentsline {subsection}{\numberline {5.12.1}Operation Model for init}{77}{subsection.5.12.1}
+\contentsline {subsection}{\numberline {5.12.2}Operation Model for isSentToCoordinator}{78}{subsection.5.12.2}
+\contentsline {section}{\numberline {5.13}Primary Types - Operation Schemes for Class ctAuthenticated}{78}{section.5.13}
+\contentsline {subsection}{\numberline {5.13.1}Operation Model for init}{78}{subsection.5.13.1}
+\contentsline {section}{\numberline {5.14}Primary Types - Operation Schemes for Class ctCoordinator}{78}{section.5.14}
+\contentsline {subsection}{\numberline {5.14.1}Operation Model for init}{78}{subsection.5.14.1}
+\contentsline {section}{\numberline {5.15}Primary Types - Operation Schemes for Class ctCrisis}{79}{section.5.15}
+\contentsline {subsection}{\numberline {5.15.1}Operation Model for init}{79}{subsection.5.15.1}
+\contentsline {subsection}{\numberline {5.15.2}Operation Model for handlingDelayPassed}{79}{subsection.5.15.2}
+\contentsline {subsection}{\numberline {5.15.3}Operation Model for maxHandlingDelayPassed}{80}{subsection.5.15.3}
+\contentsline {subsection}{\numberline {5.15.4}Operation Model for isSentToCoordinator}{80}{subsection.5.15.4}
+\contentsline {subsection}{\numberline {5.15.5}Operation Model for isAllocatedIfPossible}{80}{subsection.5.15.5}
+\contentsline {section}{\numberline {5.16}Primary Types - Operation Schemes for Class ctHuman}{81}{section.5.16}
+\contentsline {subsection}{\numberline {5.16.1}Operation Model for init}{81}{subsection.5.16.1}
+\contentsline {subsection}{\numberline {5.16.2}Operation Model for isAcknowledged}{81}{subsection.5.16.2}
+\contentsline {section}{\numberline {5.17}Primary Types - Operation Schemes for Class ctPoliceHeadquarter}{82}{section.5.17}
+\contentsline {subsection}{\numberline {5.17.1}Operation Model for init}{82}{subsection.5.17.1}
+\contentsline {section}{\numberline {5.18}Primary Types - Operation Schemes for Class ctState}{82}{section.5.18}
+\contentsline {subsection}{\numberline {5.18.1}Operation Model for init}{82}{subsection.5.18.1}
+\contentsline {section}{\numberline {5.19}Primary Types - Operation Schemes for Datatype dtAlertID}{83}{section.5.19}
+\contentsline {subsection}{\numberline {5.19.1}Operation Model for is}{83}{subsection.5.19.1}
+\contentsline {section}{\numberline {5.20}Primary Types - Operation Schemes for Datatype dtComment}{83}{section.5.20}
+\contentsline {subsection}{\numberline {5.20.1}Operation Model for is}{83}{subsection.5.20.1}
+\contentsline {section}{\numberline {5.21}Primary Types - Operation Schemes for Datatype dtCoordinatorID}{83}{section.5.21}
+\contentsline {subsection}{\numberline {5.21.1}Operation Model for is}{83}{subsection.5.21.1}
+\contentsline {section}{\numberline {5.22}Primary Types - Operation Schemes for Datatype dtCrisisID}{84}{section.5.22}
+\contentsline {subsection}{\numberline {5.22.1}Operation Model for is}{84}{subsection.5.22.1}
+\contentsline {section}{\numberline {5.23}Primary Types - Operation Schemes for Datatype dtExperiencePoints}{84}{section.5.23}
+\contentsline {subsection}{\numberline {5.23.1}Operation Model for is}{84}{subsection.5.23.1}
+\contentsline {section}{\numberline {5.24}Primary Types - Operation Schemes for Datatype dtGPSLocation}{84}{section.5.24}
+\contentsline {subsection}{\numberline {5.24.1}Operation Model for is}{84}{subsection.5.24.1}
+\contentsline {subsection}{\numberline {5.24.2}Operation Model for isNearTo}{85}{subsection.5.24.2}
+\contentsline {section}{\numberline {5.25}Primary Types - Operation Schemes for Datatype dtLatitude}{85}{section.5.25}
+\contentsline {subsection}{\numberline {5.25.1}Operation Model for is}{85}{subsection.5.25.1}
+\contentsline {section}{\numberline {5.26}Primary Types - Operation Schemes for Datatype dtLogin}{85}{section.5.26}
+\contentsline {subsection}{\numberline {5.26.1}Operation Model for is}{85}{subsection.5.26.1}
+\contentsline {section}{\numberline {5.27}Primary Types - Operation Schemes for Datatype dtLongitude}{86}{section.5.27}
+\contentsline {subsection}{\numberline {5.27.1}Operation Model for is}{86}{subsection.5.27.1}
+\contentsline {section}{\numberline {5.28}Primary Types - Operation Schemes for Datatype dtPassword}{86}{section.5.28}
+\contentsline {subsection}{\numberline {5.28.1}Operation Model for is}{86}{subsection.5.28.1}
+\contentsline {section}{\numberline {5.29}Primary Types - Operation Schemes for Datatype dtPhoneNumber}{86}{section.5.29}
+\contentsline {subsection}{\numberline {5.29.1}Operation Model for is}{86}{subsection.5.29.1}
+\contentsline {section}{\numberline {5.30}Primary Types - Operation Schemes for Enumeration etAlertStatus}{87}{section.5.30}
+\contentsline {subsection}{\numberline {5.30.1}Operation Model for is}{87}{subsection.5.30.1}
+\contentsline {section}{\numberline {5.31}Primary Types - Operation Schemes for Enumeration etCrisisStatus}{87}{section.5.31}
+\contentsline {subsection}{\numberline {5.31.1}Operation Model for is}{87}{subsection.5.31.1}
+\contentsline {section}{\numberline {5.32}Primary Types - Operation Schemes for Enumeration etCrisisType}{87}{section.5.32}
+\contentsline {subsection}{\numberline {5.32.1}Operation Model for is}{87}{subsection.5.32.1}
+\contentsline {section}{\numberline {5.33}Primary Types - Operation Schemes for Enumeration etHumanKind}{88}{section.5.33}
+\contentsline {subsection}{\numberline {5.33.1}Operation Model for is}{88}{subsection.5.33.1}
+\contentsline {section}{\numberline {5.34}Secondary Types - Operation Schemes for Classes}{88}{section.5.34}
+\contentsline {section}{\numberline {5.35}Secondary Types - Operation Schemes for Datatype dtSMS}{88}{section.5.35}
+\contentsline {subsection}{\numberline {5.35.1}Operation Model for is}{88}{subsection.5.35.1}
+\contentsline {section}{\numberline {5.36}Secondary Types - Operation Schemes for Enumerations}{88}{section.5.36}
+\contentsline {chapter}{\numberline {6}Test Model(s)}{89}{chapter.6}
+\contentsline {section}{\numberline {6.1}Test Model for testcase01}{89}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Test Steps Specification}{89}{subsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1.1}testcase01-ts01oeCreateSystemAndEnvironment-actMsrCreator.outactMsrCreator.oeCreateSystemAndEnvironment}{89}{subsubsection.6.1.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1.2}testcase01-ts02oeSetClock-actActivator.outactActivator.oeSetClock}{90}{subsubsection.6.1.1.2}
+\contentsline {subsubsection}{\numberline {6.1.1.3}testcase01-ts03oeLogin-actAdministrator.outactAdministrator.oeLogin}{90}{subsubsection.6.1.1.3}
+\contentsline {subsubsection}{\numberline {6.1.1.4}testcase01-ts04oeAddCoordinator-actAdministrator.outactAdministrator.oeAddCoordinator}{91}{subsubsection.6.1.1.4}
+\contentsline {subsubsection}{\numberline {6.1.1.5}testcase01-ts05oeLogout-actAdministrator.outactAdministrator.oeLogout}{91}{subsubsection.6.1.1.5}
+\contentsline {subsubsection}{\numberline {6.1.1.6}testcase01-ts06oeSetClock02-actActivator.outactActivator.oeSetClock}{92}{subsubsection.6.1.1.6}
+\contentsline {subsubsection}{\numberline {6.1.1.7}testcase01-ts07oeAlert1-actComCompany.outactComCompany.oeAlert}{93}{subsubsection.6.1.1.7}
+\contentsline {subsubsection}{\numberline {6.1.1.8}testcase01-ts08oeSetClock03-actActivator.outactActivator.oeSetClock}{93}{subsubsection.6.1.1.8}
+\contentsline {subsubsection}{\numberline {6.1.1.9}testcase01-ts09oeSollicitateCrisisHandling-actActivator.outactActivator.oeSollicitateCrisisHandling}{94}{subsubsection.6.1.1.9}
+\contentsline {subsubsection}{\numberline {6.1.1.10}testcase01-ts10oeLogin02-actAuthenticated.outactAuthenticated.oeLogin}{95}{subsubsection.6.1.1.10}
+\contentsline {subsubsection}{\numberline {6.1.1.11}testcase01-ts11oeGetCrisisSet-actCoordinator.outactCoordinator.oeGetCrisisSet}{95}{subsubsection.6.1.1.11}
+\contentsline {subsubsection}{\numberline {6.1.1.12}testcase01-ts12oeSetCrisisHandler-actCoordinator.outactCoordinator.oeSetCrisisHandler}{96}{subsubsection.6.1.1.12}
+\contentsline {subsubsection}{\numberline {6.1.1.13}testcase01-ts13oeSetClock04-actActivator.outactActivator.oeSetClock}{97}{subsubsection.6.1.1.13}
+\contentsline {subsubsection}{\numberline {6.1.1.14}testcase01-ts14oeValidateAlert-actCoordinator.outactCoordinator.oeValidateAlert}{97}{subsubsection.6.1.1.14}
+\contentsline {subsubsection}{\numberline {6.1.1.15}testcase01-ts15oeAlert2-actComCompany.outactComCompany.oeAlert}{98}{subsubsection.6.1.1.15}
+\contentsline {subsubsection}{\numberline {6.1.1.16}testcase01-ts16oeSetClock05-actActivator.outactActivator.oeSetClock}{99}{subsubsection.6.1.1.16}
+\contentsline {subsubsection}{\numberline {6.1.1.17}testcase01-ts17oeSetCrisisStatus-actCoordinator.outactCoordinator.oeSetCrisisStatus}{99}{subsubsection.6.1.1.17}
+\contentsline {subsubsection}{\numberline {6.1.1.18}testcase01-ts18oeReportOnCrisis-actCoordinator.outactCoordinator.oeReportOnCrisis}{100}{subsubsection.6.1.1.18}
+\contentsline {subsubsection}{\numberline {6.1.1.19}testcase01-ts19oeCloseCrisis-actCoordinator.outactCoordinator.oeCloseCrisis}{101}{subsubsection.6.1.1.19}
+\contentsline {subsection}{\numberline {6.1.2}Test Case Instance - instance01}{101}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Test Case Instance - instance01Part01}{101}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Test Case Instance - instance01Part02}{103}{subsection.6.1.4}
+\contentsline {chapter}{\numberline {7}Additional Constraints}{105}{chapter.7}
+\contentsline {section}{\numberline {7.1}Quality Constraints}{105}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Functional suitability}{105}{subsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.1.1}Functional completeness}{105}{subsubsection.7.1.1.1}
+\contentsline {subsubsection}{\numberline {7.1.1.2}Functional correctness}{105}{subsubsection.7.1.1.2}
+\contentsline {subsubsection}{\numberline {7.1.1.3}Functional appropriateness}{105}{subsubsection.7.1.1.3}
+\contentsline {subsection}{\numberline {7.1.2}Performance efficiency}{105}{subsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.2.1}Time behaviour}{105}{subsubsection.7.1.2.1}
+\contentsline {subsubsection}{\numberline {7.1.2.2}Resource utilization}{106}{subsubsection.7.1.2.2}
+\contentsline {subsubsection}{\numberline {7.1.2.3}Capacity}{106}{subsubsection.7.1.2.3}
+\contentsline {subsection}{\numberline {7.1.3}Compatibility}{106}{subsection.7.1.3}
+\contentsline {subsubsection}{\numberline {7.1.3.1}Co-existence}{106}{subsubsection.7.1.3.1}
+\contentsline {subsubsection}{\numberline {7.1.3.2}Interoperability}{106}{subsubsection.7.1.3.2}
+\contentsline {subsection}{\numberline {7.1.4}Usability}{106}{subsection.7.1.4}
+\contentsline {subsubsection}{\numberline {7.1.4.1}Appropriateness recognizability}{106}{subsubsection.7.1.4.1}
+\contentsline {subsubsection}{\numberline {7.1.4.2}Learnability}{106}{subsubsection.7.1.4.2}
+\contentsline {subsubsection}{\numberline {7.1.4.3}Operability}{107}{subsubsection.7.1.4.3}
+\contentsline {subsubsection}{\numberline {7.1.4.4}User error protection}{107}{subsubsection.7.1.4.4}
+\contentsline {subsubsection}{\numberline {7.1.4.5}User interface aesthetics}{107}{subsubsection.7.1.4.5}
+\contentsline {subsubsection}{\numberline {7.1.4.6}Accessibility}{107}{subsubsection.7.1.4.6}
+\contentsline {subsection}{\numberline {7.1.5}Reliability}{107}{subsection.7.1.5}
+\contentsline {subsubsection}{\numberline {7.1.5.1}Maturity}{107}{subsubsection.7.1.5.1}
+\contentsline {subsubsection}{\numberline {7.1.5.2}Availability}{107}{subsubsection.7.1.5.2}
+\contentsline {subsubsection}{\numberline {7.1.5.3}Fault tolerance}{107}{subsubsection.7.1.5.3}
+\contentsline {subsubsection}{\numberline {7.1.5.4}Recoverability}{108}{subsubsection.7.1.5.4}
+\contentsline {subsection}{\numberline {7.1.6}Security}{108}{subsection.7.1.6}
+\contentsline {subsubsection}{\numberline {7.1.6.1}Confidentiality}{108}{subsubsection.7.1.6.1}
+\contentsline {subsubsection}{\numberline {7.1.6.2}Integrity}{108}{subsubsection.7.1.6.2}
+\contentsline {subsubsection}{\numberline {7.1.6.3}Non-repudiation}{108}{subsubsection.7.1.6.3}
+\contentsline {subsubsection}{\numberline {7.1.6.4}Accountability}{108}{subsubsection.7.1.6.4}
+\contentsline {subsubsection}{\numberline {7.1.6.5}Authenticity}{108}{subsubsection.7.1.6.5}
+\contentsline {subsection}{\numberline {7.1.7}Maintainability}{108}{subsection.7.1.7}
+\contentsline {subsubsection}{\numberline {7.1.7.1}Modularity}{109}{subsubsection.7.1.7.1}
+\contentsline {subsubsection}{\numberline {7.1.7.2}Reusability}{109}{subsubsection.7.1.7.2}
+\contentsline {subsubsection}{\numberline {7.1.7.3}Analysability}{109}{subsubsection.7.1.7.3}
+\contentsline {subsubsection}{\numberline {7.1.7.4}Modifiability}{109}{subsubsection.7.1.7.4}
+\contentsline {subsubsection}{\numberline {7.1.7.5}Testability}{109}{subsubsection.7.1.7.5}
+\contentsline {subsection}{\numberline {7.1.8}Portability}{109}{subsection.7.1.8}
+\contentsline {subsubsection}{\numberline {7.1.8.1}Adaptability}{109}{subsubsection.7.1.8.1}
+\contentsline {subsubsection}{\numberline {7.1.8.2}Installability}{109}{subsubsection.7.1.8.2}
+\contentsline {subsubsection}{\numberline {7.1.8.3}Replaceability}{110}{subsubsection.7.1.8.3}
+\contentsline {section}{\numberline {7.2}Other Constraints}{110}{section.7.2}
+\contentsline {chapter}{\numberline {A}Undocumented Messir Specification Elements}{111}{appendix.A}
+\contentsline {section}{\numberline {A.1}Undocumented Use Case Instances}{111}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Undocumented Use Case Instances - User-Goal Level}{111}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Undocumented Use Case Instance Views}{111}{subsection.A.1.2}
+\contentsline {section}{\numberline {A.2}Undocumented Environment Model Views}{111}{section.A.2}
+\contentsline {section}{\numberline {A.3}Undocumented Concept Model Views}{111}{section.A.3}
+\contentsline {section}{\numberline {A.4}Undocumented Test-Case Instance Specifications}{111}{section.A.4}
+\contentsline {chapter}{\numberline {B}Specification project lu.uni.lassy.excalibur.examples.icrash}{113}{appendix.B}
+\contentsline {section}{\numberline {B.1}Use Cases Model}{114}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Use Cases}{114}{subsection.B.1.1}
+\contentsline {subsubsection}{\numberline {B.1.1.1}subfunction-oeCloseCrisis}{114}{subsubsection.B.1.1.1}
+\contentsline {chapter}{\numberline {C}Messir Specification Files Listing}{115}{appendix.C}
+\contentsline {section}{\numberline {C.1}File /src-gen/messir-spec/.views.msr}{115}{section.C.1}
+\contentsline {section}{\numberline {C.2}File /src-gen/messir-spec/operations/concepts/secondarytypes-datatypes/dtSMS.msr}{115}{section.C.2}
+\contentsline {section}{\numberline {C.3}File /src-gen/messir-spec/operations.../environment-actActivator-init.msr}{116}{section.C.3}
+\contentsline {section}{\numberline {C.4}File /src-gen/messir-spec/operations.../environment-actActivator-oeSetClock.msr}{116}{section.C.4}
+\contentsline {section}{\numberline {C.5}File /src-gen.../environment-actActivator-oeSollicitateCrisisHandling.msr}{117}{section.C.5}
+\contentsline {section}{\numberline {C.6}File /src-gen/messir-spec/operations.../environment-actAdministrator-init.msr}{118}{section.C.6}
+\contentsline {section}{\numberline {C.7}File /src-gen/messir-spec.../environment-actAdministrator-oeAddCoordinator.msr}{118}{section.C.7}
+\contentsline {section}{\numberline {C.8}File /src-gen.../environment-actAdministrator-oeDeleteCoordinator.msr}{119}{section.C.8}
+\contentsline {section}{\numberline {C.9}File /src-gen/messir-spec/operations.../environment-actAuthenticated.msr}{120}{section.C.9}
+\contentsline {section}{\numberline {C.10}File /src-gen/messir-spec/operations/environment/environment-actComCompany.msr}{122}{section.C.10}
+\contentsline {section}{\numberline {C.11}File /src-gen/messir-spec.../environment-actCoordinator-oeCloseCrisis.msr}{124}{section.C.11}
+\contentsline {section}{\numberline {C.12}File /src-gen/messir-spec.../environment-actCoordinator-oeGetAlertsSet.msr}{124}{section.C.12}
+\contentsline {section}{\numberline {C.13}File /src-gen/messir-spec.../environment-actCoordinator-oeGetCrisisSet.msr}{125}{section.C.13}
+\contentsline {section}{\numberline {C.14}File /src-gen/messir-spec.../environment-actCoordinator-oeInvalidateAlert.msr}{126}{section.C.14}
+\contentsline {section}{\numberline {C.15}File /src-gen/messir-spec.../environment-actCoordinator-oeReportOnCrisis.msr}{126}{section.C.15}
+\contentsline {section}{\numberline {C.16}File /src-gen/messir-spec.../environment-actCoordinator-oeSendPoliceReport.msr}{126}{section.C.16}
+\contentsline {section}{\numberline {C.17}File /src-gen/messir-spec.../environment-actCoordinator-oeSetCrisisHandler.msr}{127}{section.C.17}
+\contentsline {section}{\numberline {C.18}File /src-gen/messir-spec.../environment-actCoordinator-oeSetCrisisStatus.msr}{128}{section.C.18}
+\contentsline {section}{\numberline {C.19}File /src-gen/messir-spec.../environment-actCoordinator-oeSetCrisisType.msr}{128}{section.C.19}
+\contentsline {section}{\numberline {C.20}File /src-gen/messir-spec.../environment-actCoordinator-oeValidateAlert.msr}{128}{section.C.20}
+\contentsline {section}{\numberline {C.21}File /src-gen/messir-spec/operations.../environment-actMsrCreator-init.msr}{129}{section.C.21}
+\contentsline {section}{\numberline {C.22}File /src-gen.../environment-actMsrCreator-oeCreateSystemAndEnvironment.msr}{130}{section.C.22}
+\contentsline {section}{\numberline {C.23}File /src-gen/messir-spec.../environment-actPoliceHeadquarter-init.msr}{131}{section.C.23}
+\contentsline {section}{\numberline {C.24}File /src-gen/messir-spec/environment/environment.msr}{131}{section.C.24}
+\contentsline {section}{\numberline {C.25}File /src-gen/messir-spec/concepts/primarytypes-associations.msr}{133}{section.C.25}
+\contentsline {section}{\numberline {C.26}File /src-gen/messir-spec.../primarytypes-classes-ctAdministrator.msr}{134}{section.C.26}
+\contentsline {section}{\numberline {C.27}File /src-gen/messir-spec/operations.../primarytypes-classes-ctAlert.msr}{135}{section.C.27}
+\contentsline {section}{\numberline {C.28}File /src-gen/messir-spec.../primarytypes-classes-ctAuthenticated.msr}{136}{section.C.28}
+\contentsline {section}{\numberline {C.29}File /src-gen/messir-spec/operations.../primarytypes-classes-ctCoordinator.msr}{136}{section.C.29}
+\contentsline {section}{\numberline {C.30}File /src-gen/messir-spec/operations.../primarytypes-classes-ctCrisis.msr}{137}{section.C.30}
+\contentsline {section}{\numberline {C.31}File /src-gen/messir-spec/operations.../primarytypes-classes-ctHuman.msr}{139}{section.C.31}
+\contentsline {section}{\numberline {C.32}File /src-gen/messir-spec.../primarytypes-classes-ctPoliceHeadquarter-init.msr}{139}{section.C.32}
+\contentsline {section}{\numberline {C.33}File /src-gen/messir-spec/operations.../primarytypes-classes-ctState.msr}{140}{section.C.33}
+\contentsline {section}{\numberline {C.34}File /src-gen/messir-spec/concepts/primarytypes-classes.msr}{140}{section.C.34}
+\contentsline {section}{\numberline {C.35}File /src-gen/messir-spec/operations.../primarytypes-datatypes-dtAlertID.msr}{142}{section.C.35}
+\contentsline {section}{\numberline {C.36}File /src-gen/messir-spec/operations.../primarytypes-datatypes-dtComment.msr}{143}{section.C.36}
+\contentsline {section}{\numberline {C.37}File /src-gen/messir-spec.../primarytypes-datatypes-dtCoordinatorID.msr}{143}{section.C.37}
+\contentsline {section}{\numberline {C.38}File /src-gen/messir-spec/operations.../primarytypes-datatypes-dtCrisisID.msr}{144}{section.C.38}
+\contentsline {section}{\numberline {C.39}File /src-gen/messir-spec.../primarytypes-datatypes-dtExperiencePoints-is.msr}{144}{section.C.39}
+\contentsline {section}{\numberline {C.40}File /src-gen/messir-spec.../primarytypes-datatypes-dtGPSLocation.msr}{145}{section.C.40}
+\contentsline {section}{\numberline {C.41}File /src-gen/messir-spec/operations.../primarytypes-datatypes-dtLogin.msr}{146}{section.C.41}
+\contentsline {section}{\numberline {C.42}File /src-gen/messir-spec/operations.../primarytypes-datatypes-dtPassword.msr}{147}{section.C.42}
+\contentsline {section}{\numberline {C.43}File /src-gen/messir-spec.../primarytypes-datatypes-dtPhoneNumber.msr}{147}{section.C.43}
+\contentsline {section}{\numberline {C.44}File /src-gen/messir-spec.../primarytypes-datatypes-etAlertStatus.msr}{147}{section.C.44}
+\contentsline {section}{\numberline {C.45}File /src-gen/messir-spec.../primarytypes-datatypes-etCrisisStatus.msr}{148}{section.C.45}
+\contentsline {section}{\numberline {C.46}File /src-gen/messir-spec/operations.../primarytypes-datatypes-etCrisisType.msr}{148}{section.C.46}
+\contentsline {section}{\numberline {C.47}File /src-gen/messir-spec/operations.../primarytypes-datatypes-etHumanKind.msr}{149}{section.C.47}
+\contentsline {section}{\numberline {C.48}File /src-gen/messir-spec/concepts/primarytypes-datatypes.msr}{149}{section.C.48}
+\contentsline {section}{\numberline {C.49}File /src-gen/messir-spec/concepts/secondarytypes-associations.msr}{151}{section.C.49}
+\contentsline {section}{\numberline {C.50}File /src-gen/messir-spec/concepts/secondarytypes-classes.msr}{151}{section.C.50}
+\contentsline {section}{\numberline {C.51}File /src-gen/messir-spec/concepts/secondarytypes-datatypes.msr}{151}{section.C.51}
+\contentsline {section}{\numberline {C.52}File /src-gen/messir-spec/usecases/subfunctions-usecases.msr}{151}{section.C.52}
+\contentsline {section}{\numberline {C.53}File /src-gen/messir-spec/test/tc-testcase01.msr}{154}{section.C.53}
+\contentsline {section}{\numberline {C.54}File /src-gen/messir-spec/test/tci-testcase01-instance01.msr}{162}{section.C.54}
+\contentsline {section}{\numberline {C.55}File /src-gen/messir-spec/usecases/usecase-suDeployAndRun.msr}{171}{section.C.55}
+\contentsline {section}{\numberline {C.56}File /src-gen/messir-spec/usecases/usecase-suGlobalCrisisHandling.msr}{176}{section.C.56}
+\contentsline {section}{\numberline {C.57}File /src-gen/messir-spec/usecases/usecase-ugAdministrateTheSystem.msr}{176}{section.C.57}
+\contentsline {section}{\numberline {C.58}File /src-gen/messir-spec/usecases/usecase-ugManageCrisis.msr}{177}{section.C.58}
+\contentsline {section}{\numberline {C.59}File /src-gen/messir-spec/usecases/usecase-ugMonitor.msr}{177}{section.C.59}
+\contentsline {section}{\numberline {C.60}File /src-gen/messir-spec/usecases/usecase-ugNewCoordinator.msr}{178}{section.C.60}
+\contentsline {section}{\numberline {C.61}File /src-gen/messir-spec/usecases/usecase-ugSecurelyUseSystem.msr}{178}{section.C.61}
+\contentsline {section}{\numberline {C.62}File /src-gen.../usecaseinstance-oeAddCoordinator-ucioeAddCoordinator.msr}{179}{section.C.62}
+\contentsline {section}{\numberline {C.63}File /src-gen.../usecaseinstance-oeSendPoliceReport-ucioeSendPoliceReport.msr}{179}{section.C.63}
+\contentsline {section}{\numberline {C.64}File /src-gen.../usecaseinstance-ugSecurelyUseSystem-uciugSecurelyUseSystem.msr}{179}{section.C.64}
+\contentsline {chapter}{\numberline {D}Listing of the Prolog Files Referenced in the Operation Model Specification}{181}{appendix.D}
+\contentsline {section}{\numberline {D.1}File /src-gen/prolog-ref-spec/Operations.../outactActivator-oeSetClock.pl}{181}{section.D.1}
+\contentsline {section}{\numberline {D.2}File /src-gen/prolog-ref-spec.../outactActivator-oeSollicitateCrisisHandling.pl}{182}{section.D.2}
+\contentsline {section}{\numberline {D.3}File /src-gen/prolog-ref-spec.../outactAdministrator-oeAddCoordinator.pl}{184}{section.D.3}
+\contentsline {section}{\numberline {D.4}File /src-gen/prolog-ref-spec.../outactAdministrator-oeDeleteCoordinator.pl}{185}{section.D.4}
+\contentsline {section}{\numberline {D.5}File /src-gen/prolog-ref-spec/Operations.../outactAuthenticated-oeLogin.pl}{186}{section.D.5}
+\contentsline {section}{\numberline {D.6}File /src-gen/prolog-ref-spec/Operations.../outactAuthenticated-oeLogout.pl}{188}{section.D.6}
+\contentsline {section}{\numberline {D.7}File /src-gen/prolog-ref-spec/Operations.../outactComCompany-oeAlert.pl}{189}{section.D.7}
+\contentsline {section}{\numberline {D.8}File /src-gen/prolog-ref-spec/Operations.../outactCoordinator-oeCloseCrisis.pl}{193}{section.D.8}
+\contentsline {section}{\numberline {D.9}File /src-gen/prolog-ref-spec/Operations.../outactCoordinator-oeGetCrisisSet.pl}{194}{section.D.9}
+\contentsline {section}{\numberline {D.10}File /src-gen/prolog-ref-spec.../outactCoordinator-oeInvalidateAlert.pl}{195}{section.D.10}
+\contentsline {section}{\numberline {D.11}File /src-gen/prolog-ref-spec.../outactCoordinator-oeReportOnCrisis.pl}{197}{section.D.11}
+\contentsline {section}{\numberline {D.12}File /src-gen/prolog-ref-spec.../outactCoordinator-oeSetCrisisHandler.pl}{198}{section.D.12}
+\contentsline {section}{\numberline {D.13}File /src-gen/prolog-ref-spec.../outactCoordinator-oeSetCrisisStatus.pl}{200}{section.D.13}
+\contentsline {section}{\numberline {D.14}File /src-gen/prolog-ref-spec.../outactCoordinator-oeSetCrisisType.pl}{202}{section.D.14}
+\contentsline {section}{\numberline {D.15}File /src-gen/prolog-ref-spec.../outactCoordinator-oeValidateAlert.pl}{203}{section.D.15}
+\contentsline {section}{\numberline {D.16}File /src-gen.../outactMsrCreator-oeCreateSystemAndEnvironment.pl}{205}{section.D.16}
+\contentsline {section}{\numberline {D.17}File /src-gen/prolog-ref-spec.../PrimaryTypesClasses-ctAdministrator-init.pl}{207}{section.D.17}
+\contentsline {section}{\numberline {D.18}File /src-gen/prolog-ref-spec/Operations.../PrimaryTypesClasses-ctAlert-init.pl}{207}{section.D.18}
+\contentsline {section}{\numberline {D.19}File /src-gen.../PrimaryTypesClasses-ctAlert-isSentToCoordinator.pl}{208}{section.D.19}
+\contentsline {section}{\numberline {D.20}File /src-gen/prolog-ref-spec.../PrimaryTypesClasses-ctAuthenticated-init.pl}{208}{section.D.20}
+\contentsline {section}{\numberline {D.21}File /src-gen/prolog-ref-spec.../PrimaryTypesClasses-ctCoordinator-init.pl}{209}{section.D.21}
+\contentsline {section}{\numberline {D.22}File /src-gen.../PrimaryTypesClasses-ctCrisis-handlingDelayPassed.pl}{209}{section.D.22}
+\contentsline {section}{\numberline {D.23}File /src-gen/prolog-ref-spec.../PrimaryTypesClasses-ctCrisis-init.pl}{210}{section.D.23}
+\contentsline {section}{\numberline {D.24}File /src-gen.../PrimaryTypesClasses-ctCrisis-isAllocatedIfPossible.pl}{210}{section.D.24}
+\contentsline {section}{\numberline {D.25}File /src-gen.../PrimaryTypesClasses-ctCrisis-isSentToCoordinator.pl}{211}{section.D.25}
+\contentsline {section}{\numberline {D.26}File /src-gen.../PrimaryTypesClasses-ctCrisis-maxHandlingDelayPassed.pl}{212}{section.D.26}
+\contentsline {section}{\numberline {D.27}File /src-gen/prolog-ref-spec/Operations.../PrimaryTypesClasses-ctHuman-init.pl}{212}{section.D.27}
+\contentsline {section}{\numberline {D.28}File /src-gen/prolog-ref-spec.../PrimaryTypesClasses-ctHuman-isAcknowledged.pl}{213}{section.D.28}
+\contentsline {section}{\numberline {D.29}File /src-gen/prolog-ref-spec/Operations.../PrimaryTypesClasses-ctState-init.pl}{213}{section.D.29}
+\contentsline {section}{\numberline {D.30}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtAlertID-is.pl}{214}{section.D.30}
+\contentsline {section}{\numberline {D.31}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtComment-is.pl}{215}{section.D.31}
+\contentsline {section}{\numberline {D.32}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtCoordinatorID-is.pl}{215}{section.D.32}
+\contentsline {section}{\numberline {D.33}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtCrisisID-is.pl}{216}{section.D.33}
+\contentsline {section}{\numberline {D.34}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtGPSLocation-is.pl}{216}{section.D.34}
+\contentsline {section}{\numberline {D.35}File /src-gen.../PrimaryTypesDatatypes-dtGPSLocation-isNearTo.pl}{217}{section.D.35}
+\contentsline {section}{\numberline {D.36}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtLatitude-is.pl}{218}{section.D.36}
+\contentsline {section}{\numberline {D.37}File /src-gen/prolog-ref-spec/Operations.../PrimaryTypesDatatypes-dtLogin-is.pl}{218}{section.D.37}
+\contentsline {section}{\numberline {D.38}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtLongitude-is.pl}{219}{section.D.38}
+\contentsline {section}{\numberline {D.39}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtPassword-is.pl}{219}{section.D.39}
+\contentsline {section}{\numberline {D.40}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-dtPhoneNumber-is.pl}{220}{section.D.40}
+\contentsline {section}{\numberline {D.41}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-etAlertStatus-is.pl}{220}{section.D.41}
+\contentsline {section}{\numberline {D.42}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-etCrisisStatus-is.pl}{221}{section.D.42}
+\contentsline {section}{\numberline {D.43}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-etCrisisType-is.pl}{221}{section.D.43}
+\contentsline {section}{\numberline {D.44}File /src-gen/prolog-ref-spec.../PrimaryTypesDatatypes-etHumanKind-is.pl}{222}{section.D.44}
+\contentsline {section}{\numberline {D.45}File /src-gen/prolog-ref-spec/Operations.../SecondaryTypesDatatypes-dtSMS-is.pl}{222}{section.D.45}
+\contentsline {chapter}{Glossary}{223}{section*.2}

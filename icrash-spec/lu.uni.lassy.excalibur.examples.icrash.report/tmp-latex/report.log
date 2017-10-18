@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.9.5)  17 OCT 2017 21:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.9.5)  18 OCT 2017 09:49
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -2755,7 +2755,7 @@ LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.examples.icrash-EM' multiply d
 efined.
 
 
-LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.examples.icrash-CM' multiply d
+LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.examples.icrash-EM' multiply d
 efined.
 
 
@@ -2781,6 +2781,23 @@ efined.
 
 LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.examples.icrash-CM' multiply d
 efined.
+
+
+LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.examples.icrash-CM' multiply d
+efined.
+
+
+LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.examples.icrash-CM' multiply d
+efined.
+
+
+LaTeX Warning: Label `OM-init' multiply defined.
+
+
+LaTeX Warning: Label `OM-init' multiply defined.
+
+
+LaTeX Warning: Label `OM-init' multiply defined.
 
 
 LaTeX Warning: Label `OM-init' multiply defined.
@@ -2805,6 +2822,12 @@ LaTeX Warning: Label `OM-init' multiply defined.
 
 
 LaTeX Warning: Label `OM-init' multiply defined.
+
+
+LaTeX Warning: Label `OM-init' multiply defined.
+
+
+LaTeX Warning: Label `OM-is' multiply defined.
 
 
 LaTeX Warning: Label `OM-is' multiply defined.
@@ -3180,7 +3203,7 @@ Overfull \hbox (127.97823pt too wide) in paragraph at lines 39--39
 
 
 ] (./report.toc
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 41.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 44.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -3188,82 +3211,82 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2] [3] [4] [5] [6])
+ [2] [3] [4] [5] [6] [7])
 \tf@toc=\write13
 \openout13 = `report.toc'.
 
- [7] (./report.lof
-Overfull \hbox (100.63026pt too wide) in paragraph at lines 14--14
+ [8] (./report.lof
+Overfull \hbox (101.44685pt too wide) in paragraph at lines 16--16
  [][][] [] []  
  []
 
 
-Overfull \hbox (101.44685pt too wide) in paragraph at lines 15--15
+Overfull \hbox (101.33798pt too wide) in paragraph at lines 17--17
  [][][] [] []  
  []
 
 
-Overfull \hbox (10.62175pt too wide) in paragraph at lines 27--27
+Overfull \hbox (10.73062pt too wide) in paragraph at lines 31--31
  [][][] [] []  
  []
 
 
-Overfull \hbox (10.21834pt too wide) in paragraph at lines 28--28
+Overfull \hbox (9.40175pt too wide) in paragraph at lines 32--32
  [][][] [] []  
  []
 
 
-Overfull \hbox (9.91315pt too wide) in paragraph at lines 29--29
+Overfull \hbox (9.09656pt too wide) in paragraph at lines 33--33
  [][][] [] []  
  []
 
 
-Overfull \hbox (6.71248pt too wide) in paragraph at lines 30--30
+Overfull \hbox (6.71248pt too wide) in paragraph at lines 34--34
  [][][] [] []  
  []
 
 
-Overfull \hbox (12.72533pt too wide) in paragraph at lines 31--31
+Overfull \hbox (12.72533pt too wide) in paragraph at lines 36--36
  [][][] [] []  
  []
 
 
-Overfull \hbox (30.89677pt too wide) in paragraph at lines 33--33
+Overfull \hbox (31.16896pt too wide) in paragraph at lines 38--38
  [][][] [] []  
  []
 
 
-Overfull \hbox (40.30383pt too wide) in paragraph at lines 34--34
+Overfull \hbox (40.30383pt too wide) in paragraph at lines 39--39
  [][][] [] []  
  []
 
 
-Overfull \hbox (124.89091pt too wide) in paragraph at lines 37--37
+Overfull \hbox (124.78204pt too wide) in paragraph at lines 42--42
  [][][] [] []  
  []
 
 
-Overfull \hbox (66.6804pt too wide) in paragraph at lines 38--38
+Overfull \hbox (66.40822pt too wide) in paragraph at lines 43--43
  [][][] [] []  
  []
 
 
-Overfull \hbox (66.6804pt too wide) in paragraph at lines 39--39
+Overfull \hbox (66.6804pt too wide) in paragraph at lines 44--44
  [][][] [] []  
  []
 
 
-Overfull \hbox (165.54707pt too wide) in paragraph at lines 40--40
+Overfull \hbox (165.54707pt too wide) in paragraph at lines 45--45
  [][][] [] []  
  []
 
 
-Overfull \hbox (1.67882pt too wide) in paragraph at lines 43--43
+Overfull \hbox (1.78769pt too wide) in paragraph at lines 48--48
  [][][] [] []  
  []
 
 
-Overfull \hbox (1.78769pt too wide) in paragraph at lines 44--44
+Overfull \hbox (1.67882pt too wide) in paragraph at lines 49--49
  [][][] [] []  
  []
 
@@ -3271,14 +3294,14 @@ Overfull \hbox (1.78769pt too wide) in paragraph at lines 44--44
 \tf@lof=\write14
 \openout14 = `report.lof'.
 
- [8] (./report.lol [9
+ [9] [10
 
-] [10])
+] (./report.lol [11] [12])
 \tf@lol=\write15
 \openout15 = `report.lol'.
 
- [11] (./doc/introduction/introduction.tex
-[12
+ [13] (./doc/introduction/introduction.tex
+[14
 
 ]
 Chapter 1.
@@ -3316,37 +3339,28 @@ Package microtype Info: Character `AE ' is missing
 (microtype)             in font `OT1/uncl/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 
-LaTeX Warning: Citation `messirbook' on page 13 undefined on input line 17.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 16--19
 
  []
 
 
-LaTeX Warning: Citation `messirbook' on page 13 undefined on input line 49.
-
-
-LaTeX Warning: Reference `chap:additional_constraints' on page 13 undefined on 
+LaTeX Warning: Reference `chap:additional_constraints' on page 15 undefined on 
 input line 52.
 
-) [13] [14] (./doc/general-description/general-description.tex
+) [15] [16] (./doc/general-description/general-description.tex
 Chapter 2.
 (./doc/general-description/general-description-00-Hat.tex)
 (./doc/general-description/general-description-Stakeholders.tex)
 (./doc/general-description/general-description-Stakeholders-CommunicationCompan
 y.tex) (./doc/general-description/general-description-Stakeholders-Human.tex
-[15
+[17
 
 ])
 (./doc/general-description/general-description-Stakeholders-Coordinator.tex)
 (./doc/general-description/general-description-Stakeholders-Administrator.tex)
 (./doc/general-description/general-description-Stakeholders-Creator.tex
-[16]) (./doc/general-description/general-description-Stakeholders-Activator.tex
-) [17]
-
-LaTeX Warning: Citation `messirbook' on page 18 undefined on input line 39.
-
+[18]) (./doc/general-description/general-description-Stakeholders-Activator.tex
+) [19]
 Package microtype Info: Character `!' is missing
 (microtype)             in font `OT1/uncl/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3381,10 +3395,6 @@ Package microtype Info: Character `AE ' is missing
 (microtype)             in font `OT1/uncl/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
 ) (./doc-gen/doc-gen.tex (./doc-gen/usecase-model/usecase-model.tex
-
-LaTeX Warning: Citation `armour01usecase' on page 18 undefined on input line 5.
-
-
 (./doc-gen/usecase-model/summary/RE-use-case-suDeployAndRun.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
  [] [] 
@@ -3424,7 +3434,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 10--38
  [] [] 
  []
 
-[18]
+[20]
 Overfull \hbox (24.79997pt too wide) in alignment at lines 38--66
  [] [] 
  []
@@ -3463,7 +3473,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 10--41
  [] [] 
  []
 
-[19] [20]
+[21] [22]
 Overfull \hbox (24.79997pt too wide) in alignment at lines 41--49
  [] [] 
  []
@@ -3501,7 +3511,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 50--58
  [] [] 
  []
 
-[21]
+[23]
 File: ./images-report-gen/usecase-model/usergoal/uc-ugAdministrateTheSystem.eps
  Graphic file (type eps)
 
@@ -3536,7 +3546,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 49--61
  [] [] 
  []
 
-[22]
+[24]
 File: ./images-report-gen/usecase-model/usergoal/uc-ugManageCrisis.eps Graphic 
 file (type eps)
  <./images-report-gen/usecase-model/usergoal/uc-ugManageCrisis.eps>)
@@ -3593,7 +3603,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 11--49
  [] [] 
  []
 
-[23] [24] [25]
+[25] [26] [27]
 Overfull \hbox (24.79997pt too wide) in alignment at lines 49--53
  [] [] 
  []
@@ -3601,7 +3611,16 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 49--53
 File: ./images-report-gen/usecase-model/usergoal/uc-ugSecurelyUseSystem.eps Gra
 phic file (type eps)
 <./images-report-gen/usecase-model/usergoal/uc-ugSecurelyUseSystem.eps>)
-(./doc-gen/usecase-model/subfunction/RE-use-case-oeSendPoliceReport.tex
+(./doc-gen/usecase-model/subfunction/RE-use-case-oeAddCoordinator.tex
+File: ./images-report-gen/usecase-model/subfunction/oeAddCoordinator.eps Graphi
+c file (type eps)
+
+<./images-report-gen/usecase-model/subfunction/oeAddCoordinator.eps>
+Overfull \hbox (685.6719pt too wide) in paragraph at lines 12--15
+ [][] 
+ []
+
+) (./doc-gen/usecase-model/subfunction/RE-use-case-oeSendPoliceReport.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
  [] [] 
  []
@@ -3636,7 +3655,15 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 10--48
  [] [] 
  []
 
-[26]) (./doc-gen/usecase-model/subfunction/RE-use-case-oeSetCrisisHandler.tex
+[28]
+File: ./images-report-gen/usecase-model/subfunction/uc-oeSendPoliceReport.eps G
+raphic file (type eps)
+ <./images-report-gen/usecase-model/subfunction/uc-oeSendPoliceReport.eps>
+Overfull \hbox (152.68065pt too wide) in paragraph at lines 56--59
+ [][] 
+ []
+
+) (./doc-gen/usecase-model/subfunction/RE-use-case-oeSetCrisisHandler.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
  [] [] 
  []
@@ -3676,7 +3703,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 46--47
  [] [] 
  []
 
-[27]
+[29]
 File: ./images-report-gen/usecase-model/subfunction/uc-oeSetCrisisHandler.eps G
 raphic file (type eps)
  <./images-report-gen/usecase-model/subfunction/uc-oeSetCrisisHandler.eps>)
@@ -3706,7 +3733,6 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 11--52
  [] [] 
  []
 
-[28]
 File: ./images-report-gen/usecase-model/subfunction/uc-oeSollicitateCrisisHandl
 ing.eps Graphic file (type eps)
 
@@ -3714,7 +3740,8 @@ ing.eps Graphic file (type eps)
 ps>)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
+ [30]
+[31]
 (./doc-gen/usecase-model/summary/RE-use-case-instance-suDeployAndRun-uciSimpleA
 ndCompletePart01.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 5--6
@@ -3837,48 +3864,89 @@ Overfull \hbox (12.79999pt too wide) in alignment at lines 5--9
 Underfull \vbox (badness 10000) detected at line 9
  []
 
-[30] [31] [32]
+
+Overfull \vbox (238.0862pt too high) has occurred while \output is active []
+
+
+[32] [33] [34]
 File: ./images-report-gen/usecase-model/usergoal/uci-uciugSecurelyUseSystem.eps
  Graphic file (type eps)
 
 <./images-report-gen/usecase-model/usergoal/uci-uciugSecurelyUseSystem.eps>)
+(./doc-gen/usecase-model/subfunction/RE-use-case-instance-oeAddCoordinator-ucio
+eAddCoordinator.tex
+Overfull \hbox (12.79999pt too wide) in alignment at lines 4--5
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 5--5
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 5--5
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 5--5
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 5--9
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 9
+ []
+
+)
 (./doc-gen/usecase-model/subfunction/RE-use-case-instance-oeSendPoliceReport-uc
 ioeSendPoliceReport.tex
-Overfull \hbox (12.79999pt too wide) in alignment at lines 3--4
+Overfull \hbox (12.79999pt too wide) in alignment at lines 4--5
  [] [] 
  []
 
 
-Overfull \hbox (12.79999pt too wide) in alignment at lines 4--4
+Overfull \hbox (12.79999pt too wide) in alignment at lines 5--5
  [] [] 
  []
 
 
-Overfull \hbox (12.79999pt too wide) in alignment at lines 4--4
+Overfull \hbox (12.79999pt too wide) in alignment at lines 5--5
  [] [] 
  []
 
 
-Overfull \hbox (12.79999pt too wide) in alignment at lines 4--4
+Overfull \hbox (12.79999pt too wide) in alignment at lines 5--5
  [] [] 
  []
 
 
-Overfull \hbox (12.79999pt too wide) in alignment at lines 4--8
+Overfull \hbox (12.79999pt too wide) in alignment at lines 5--9
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 8
+Underfull \vbox (badness 10000) detected at line 9
  []
 
-)) (./doc-gen/environment-model/environment-model.tex [33] [34
+[35]
+File: ./images-report-gen/usecase-model/subfunction/uci-ucioeSendPoliceReport.e
+ps Graphic file (type eps)
+
+<./images-report-gen/usecase-model/subfunction/uci-ucioeSendPoliceReport.eps>
+Overfull \hbox (97.47441pt too wide) in paragraph at lines 16--19
+ [][] 
+ []
+
+)) (./doc-gen/environment-model/environment-model.tex [36] [37] [38
 
 ]
 Chapter 3.
-
-LaTeX Warning: Citation `messirbook' on page 35 undefined on input line 6.
-
 (./doc-gen/environment-model/local/01/EM-view-local-01.tex
 File: ./images-report-gen/environment-model/local/01/em-lv-01.eps Graphic file 
 (type eps)
@@ -3917,8 +3985,13 @@ File: ./images-report-gen/environment-model/local/05/em-lv-05-partc-authenticat
 ed.eps Graphic file (type eps)
 
 <./images-report-gen/environment-model/local/05/em-lv-05-partc-authenticated.ep
-s>) (./doc-gen/environment-model/global/01/EM-view-global-01.tex [35] [36]
-[37] [38]
+s>) (./doc-gen/environment-model/local/08/EM-view-local-08.tex
+File: ./images-report-gen/environment-model/local/08/em-view8.eps Graphic file 
+(type eps)
+
+<./images-report-gen/environment-model/local/08/em-view8.eps>)
+(./doc-gen/environment-model/global/01/EM-view-global-01.tex [39] [40] [41]
+[42] [43]
 File: ./images-report-gen/environment-model/global/01/em-gv-01.eps Graphic file
  (type eps)
  <./images-report-gen/environment-model/global/01/em-gv-01.eps>)
@@ -3966,7 +4039,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--22
 Underfull \vbox (badness 10000) detected at line 22
  []
 
-[39
+[44
 
 ])
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actAdministrat
@@ -4003,6 +4076,12 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
 []|[][][][][] \T1/pcr/b/n/10.95 oeAd-d-Co-or-di-na-tor(AdtCoordinatorID:dtCoord
 inatorID,
+ []
+
+
+Overfull \hbox (162.21658pt too wide) in paragraph at lines 19--19
+\T1/pcr/b/n/10.95 Adt-Lo-gin:dtLogin, Adt-Pass-word:dtPassword, Ad-t-Ex-pe-ri-e
+n-ce-Points:dtExperiencePoints):ptBoolean| 
  []
 
 
@@ -4106,7 +4185,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--22
 Underfull \vbox (badness 10000) detected at line 22
  []
 
-[40])
+[45])
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actCoordinator
 .tex
 
@@ -4215,7 +4294,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--19
 Underfull \vbox (badness 10000) detected at line 19
  []
 
-[41])
+[46])
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actPoliceHeadq
 uarter.tex
 
@@ -4255,7 +4334,9 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--18
 Underfull \vbox (badness 10000) detected at line 18
  []
 
-)) (./doc-gen/concept-model/concept-model.tex [42]
+)) (./doc-gen/concept-model/concept-model.tex [47] [48
+
+]
 Chapter 4.
 
 (./doc-gen/concept-model/local/PrimaryTypes-Classes/01/CM-view-local-PrimaryTyp
@@ -4286,6 +4367,26 @@ lv-04-partc-ctCrisis.eps Graphic file (type eps)
 
 <./images-report-gen/concept-model/local/PrimaryTypes-Classes/04/cm-pt-ct-lv-04
 -partc-ctCrisis.eps>)
+(./doc-gen/concept-model/local/PrimaryTypes-Classes/09/CM-view-local-PrimaryTyp
+es-Classes-09.tex
+
+! LaTeX Error: Cannot determine size of graphic in ./images-report-gen/concept-
+model/local/PrimaryTypes-Classes/09/cm-pt-ct-lv-01-new.eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...ryTypes-Classes/09/cm-pt-ct-lv-01-new.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: ./images-report-gen/concept-model/local/PrimaryTypes-Classes/09/cm-pt-ct-
+lv-01-new.eps Graphic file (type eps)
+
+<./images-report-gen/concept-model/local/PrimaryTypes-Classes/09/cm-pt-ct-lv-01
+-new.eps>)
 (./doc-gen/concept-model/global/PrimaryTypes-Classes/01/CM-view-global-PrimaryT
 ypes-Classes-01.tex
 File: ./images-report-gen/concept-model/global/PrimaryTypes-Classes/01/cm-pt-ct
@@ -4299,16 +4400,14 @@ File: ./images-report-gen/concept-model/local/PrimaryTypes-Datatypes/06/cm-pt-d
 t-lv-02-dtGPSLocation.eps Graphic file (type eps)
 
 <./images-report-gen/concept-model/local/PrimaryTypes-Datatypes/06/cm-pt-dt-lv-
-02-dtGPSLocation.eps>)
+02-dtGPSLocation.eps>) [49] [50] [51]
 (./doc-gen/concept-model/global/PrimaryTypes-Datatypes/01/CM-view-global-Primar
 yTypes-Datatypes-01.tex
 File: ./images-report-gen/concept-model/global/PrimaryTypes-Datatypes/01/cm-pt-
 dt-gv-01.eps Graphic file (type eps)
 
 <./images-report-gen/concept-model/global/PrimaryTypes-Datatypes/01/cm-pt-dt-gv
--01.eps>) [43
-
-] [44] [45] [46] [47]
+-01.eps>)
 (./doc-gen/concept-model/local/SecondaryTypes-Datatypes/01/CM-view-local-Second
 aryTypes-Datatypes-01.tex
 File: ./images-report-gen/concept-model/local/SecondaryTypes-Datatypes/01/cm-st
@@ -4358,7 +4457,8 @@ Underfull \vbox (badness 10000) detected at line 21
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]| \T1/pcr/b/n/10.95 init(Aid:dtCoordinatorID, Alo-gin:dtLogin,
+[]| \T1/pcr/b/n/10.95 init(Aid:dtCoordinatorID, Alo-gin:dtLogin, Apwd:dtPasswor
+d,
  []
 
 
@@ -4366,7 +4466,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 21--31
  [] [] 
  []
 
-[48]
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []| \T1/pcr/b/n/10.95 init(Aid:dtCrisisID, Atype:etCrisisType,
  []
@@ -4391,7 +4491,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 42--52
  [] [] 
  []
 
-[49]
+[53]
 Underfull \hbox (badness 1082) in paragraph at lines 57--58
 []|\T1/cmr/m/n/10.95 used to avoid re-act-ing to an ac-tor mes-sage if the sys-
 tem is not started (i.e.
@@ -4424,7 +4524,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 52--59
  [] [] 
  []
 
-[50])
+[54])
 (./doc-gen/concept-model/comments-tables/primaryTypesDatatypes-comments-table.t
 ex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 10--11
@@ -4460,17 +4560,17 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 25--36
  [] [] 
  []
 
-
+[55]
 Overfull \hbox (24.79997pt too wide) in alignment at lines 36--48
  [] [] 
  []
 
-[51]
+
 Overfull \hbox (24.79997pt too wide) in alignment at lines 48--55
  [] [] 
  []
 
-
+[56]
 Overfull \hbox (24.79997pt too wide) in alignment at lines 58--59
  [] [] 
  []
@@ -4504,7 +4604,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 79--79
  [] [] 
  []
 
-[52])
+)
 (./doc-gen/concept-model/comments-tables/primaryTypesAssociations-comments-tabl
 e.tex
 Overfull \hbox (12.79999pt too wide) in alignment at lines 8--9
@@ -4535,16 +4635,13 @@ Overfull \hbox (12.79999pt too wide) in alignment at lines 9--16
 Underfull \vbox (badness 10000) detected at line 16
  []
 
-)
+[57])
 (./doc-gen/concept-model/comments-tables/primaryTypesAggregations-comments-tabl
 e.tex)
 (./doc-gen/concept-model/comments-tables/primaryTypesCompositions-comments-tabl
 e.tex)
 (./doc-gen/concept-model/comments-tables/secondaryTypesClasses-comments-table.t
-ex
-Underfull \vbox (badness 7030) has occurred while \output is active []
-
- [53])
+ex)
 (./doc-gen/concept-model/comments-tables/secondaryTypesDatatypes-comments-table
 .tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
@@ -4581,7 +4678,7 @@ ble.tex)
 (./doc-gen/concept-model/comments-tables/secondaryTypesAggregations-comments-ta
 ble.tex)
 (./doc-gen/concept-model/comments-tables/secondaryTypesCompositions-comments-ta
-ble.tex)) (./doc-gen/operation-model/operation-model.tex [54]
+ble.tex)) (./doc-gen/operation-model/operation-model.tex [58] [59] [60]
 Chapter 5.
 
 (./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actActivator-oeSetClock.tex
@@ -4645,14 +4742,14 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--31
 Underfull \vbox (badness 10000) detected at line 31
  []
 
-[55
+[61
 
 ]
 File: ./images-report-gen/operation-model/operation-scope-outactActivator-oeSol
 licitateCrisisHandling.eps Graphic file (type eps)
 
 <./images-report-gen/operation-model/operation-scope-outactActivator-oeSollicit
-ateCrisisHandling.eps>) [56]
+ateCrisisHandling.eps>)
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
 []\T1/cmr/bx/n/14.4 Environment - Out In-ter-face Op-er-a-tion Scheme for
  []
@@ -4680,20 +4777,20 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
  []
 
 
-Overfull \hbox (24.79997pt too wide) in alignment at lines 9--31
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--29
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 31
+Underfull \vbox (badness 10000) detected at line 29
  []
 
 
-Overfull \hbox (24.79997pt too wide) in alignment at lines 31--36
+Overfull \hbox (24.79997pt too wide) in alignment at lines 29--38
  [] [] 
  []
 
-)
+[62])
 (./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actAdministrator-oeDeleteCo
 ordinator.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -4724,13 +4821,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--31
 Underfull \vbox (badness 10000) detected at line 31
  []
 
-
-Overfull \hbox (1.61177pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 5.2.  ENVIRONMENT - OUT INTERFACE OPERATION SCHEME FOR ACTAD
-MINISTRATOR \T1/cmr/m/n/10.95 57
- []
-
-[57])
+)
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
 []\T1/cmr/bx/n/14.4 Environment - Out In-ter-face Op-er-a-tion Scheme for
  []
@@ -4763,10 +4854,19 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--33
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (1.61177pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 5.2.  ENVIRONMENT - OUT INTERFACE OPERATION SCHEME FOR ACTAD
+MINISTRATOR \T1/cmr/m/n/10.95 63
+ []
+
+[63] [64]
 Underfull \vbox (badness 10000) detected at line 33
  []
 
-[58])
+)
 (./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actAuthenticated-oeLogout.t
 ex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -4797,7 +4897,13 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--28
 Underfull \vbox (badness 10000) detected at line 28
  []
 
-)
+
+Overfull \hbox (3.72745pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 5.3.  ENVIRONMENT - OUT INTERFACE OPERATION SCHEME FOR ACTAU
+THENTICATED \T1/cmr/m/n/10.95 65
+ []
+
+[65])
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []\T1/cmr/bx/n/14.4 Environment - Out In-ter-face Op-er-a-tion Scheme for
  []
@@ -4836,7 +4942,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 26--44
  [] [] 
  []
 
-[59]
+[66]
 File: ./images-report-gen/operation-model/operation-scope-outactComCompany-oeAl
 ertv2.eps Graphic file (type eps)
 
@@ -4879,10 +4985,14 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--33
  []
 
 
+Underfull \vbox (badness 6016) has occurred while \output is active []
+
+ [67]
+[68]
 Underfull \vbox (badness 10000) detected at line 33
  []
 
-[60])
+)
 (./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeGetAlertsS
 et.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -4913,7 +5023,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--30
 Underfull \vbox (badness 10000) detected at line 30
  []
 
-[61])
+[69])
 (./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeGetCrisisS
 et.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -4981,7 +5091,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--31
 Underfull \vbox (badness 10000) detected at line 31
  []
 
-[62])
+[70])
 (./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeReportOnCr
 isis.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5043,7 +5153,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--33
 Underfull \vbox (badness 10000) detected at line 33
  []
 
-[63])
+[71])
 (./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeSetCrisisH
 andler.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5074,7 +5184,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--33
 Underfull \vbox (badness 10000) detected at line 33
  []
 
-)
+[72])
 (./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeSetCrisisS
 tatus.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5102,13 +5212,10 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--31
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [64]
 Underfull \vbox (badness 10000) detected at line 31
  []
 
-[65])
+)
 (./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeSetCrisisT
 ype.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5139,7 +5246,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--31
 Underfull \vbox (badness 10000) detected at line 31
  []
 
-)
+[73])
 (./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeValidateAl
 ert.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5170,7 +5277,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--30
 Underfull \vbox (badness 10000) detected at line 30
  []
 
-[66])
+)
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
 []\T1/cmr/bx/n/14.4 Environment - Out In-ter-face Op-er-a-tion Scheme for
  []
@@ -5217,7 +5324,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 35--37
  [] [] 
  []
 
-[67]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 50--52
 [][]\T1/cmr/m/n/10.95 Figure [][][][][][] shows all the con-cept model el-e-men
 ts in the scope of the
@@ -5228,7 +5335,68 @@ eateSystemAndEnvironment.eps Graphic file (type eps)
 
 <./images-report-gen/operation-model/operation-scope-outactMsrCreator-oeCreateS
 ystemAndEnvironment.eps>)
-(./doc-gen/operation-model/OM-Environment/OM-Actors/OM-actMsrCreator-init.tex
+(./doc-gen/operation-model/OM-Environment/OM-Actors/OM-actActivator-init.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--22
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 22
+ []
+
+[75])
+(./doc-gen/operation-model/OM-Environment/OM-Actors/OM-actAdministrator-init.te
+x
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--22
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 22
+ []
+
+) (./doc-gen/operation-model/OM-Environment/OM-Actors/OM-actMsrCreator-init.tex
+
 Overfull \hbox (12.79999pt too wide) in alignment at lines 8--9
  [] [] 
  []
@@ -5258,6 +5426,42 @@ Underfull \vbox (badness 10000) detected at line 19
  []
 
 )
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+[]\T1/cmr/bx/n/14.4 Environment - Ac-tor Op-er-a-tion Scheme for
+ []
+
+
+(./doc-gen/operation-model/OM-Environment/OM-Actors/OM-actPoliceHeadquarter-ini
+t.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--22
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 22
+ []
+
+[76])
 (./doc-gen/operation-model/OM-PrimaryTypesClasses/OM-PrimaryTypeClass-ctAdminis
 trator-init.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5316,14 +5520,10 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--28
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [68]
-[69]
 Underfull \vbox (badness 10000) detected at line 28
  []
 
-[70])
+[77])
 (./doc-gen/operation-model/OM-PrimaryTypesClasses/OM-PrimaryTypeClass-ctAlert-i
 sSentToCoordinator.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5416,7 +5616,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--26
 Underfull \vbox (badness 10000) detected at line 26
  []
 
-[71])
+[78])
 (./doc-gen/operation-model/OM-PrimaryTypesClasses/OM-PrimaryTypeClass-ctCrisis-
 init.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5478,7 +5678,11 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--21
 Underfull \vbox (badness 10000) detected at line 21
  []
 
-[72])
+
+Overfull \vbox (323.30016pt too high) has occurred while \output is active []
+
+
+[79])
 (./doc-gen/operation-model/OM-PrimaryTypesClasses/OM-PrimaryTypeClass-ctCrisis-
 maxHandlingDelayPassed.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5571,7 +5775,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--24
 Underfull \vbox (badness 10000) detected at line 24
  []
 
-[73])
+[80])
 (./doc-gen/operation-model/OM-PrimaryTypesClasses/OM-PrimaryTypeClass-ctHuman-i
 nit.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5634,6 +5838,45 @@ Underfull \vbox (badness 10000) detected at line 23
  []
 
 )
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+[]\T1/cmr/bx/n/14.4 Primary Types - Op-er-a-tion Schemes for Class
+ []
+
+
+(./doc-gen/operation-model/OM-PrimaryTypesClasses/OM-PrimaryTypeClass-ctPoliceH
+eadquarter-init.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--27
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]
+Underfull \vbox (badness 10000) detected at line 27
+ []
+
+)
 (./doc-gen/operation-model/OM-PrimaryTypesClasses/OM-PrimaryTypeClass-ctState-i
 nit.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5661,9 +5904,6 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--26
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [74]
 Underfull \vbox (badness 10000) detected at line 26
  []
 
@@ -5672,7 +5912,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 26--31
  [] [] 
  []
 
-)
+[82])
 (./doc-gen/operation-model/OM-PrimaryTypesDatatypes/OM-PrimaryTypeDatatype-dtAl
 ertID-is.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5731,14 +5971,11 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--21
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [75]
 Underfull \vbox (badness 10000) detected at line 21
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
 []\T1/cmr/bx/n/14.4 Primary Types - Op-er-a-tion Schemes for Datatype
  []
 
@@ -5773,7 +6010,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--22
 Underfull \vbox (badness 10000) detected at line 22
  []
 
-)
+[83])
 (./doc-gen/operation-model/OM-PrimaryTypesDatatypes/OM-PrimaryTypeDatatype-dtCr
 isisID-is.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5805,7 +6042,43 @@ Underfull \vbox (badness 10000) detected at line 22
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]\T1/cmr/bx/n/14.4 Primary Types - Op-er-a-tion Schemes for Datatype
+ []
+
+
+(./doc-gen/operation-model/OM-PrimaryTypesDatatypes/OM-PrimaryTypeDatatype-dtEx
+periencePoints-is.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--21
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 21
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []\T1/cmr/bx/n/14.4 Primary Types - Op-er-a-tion Schemes for Datatype
  []
 
@@ -5837,13 +6110,10 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--21
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [76]
 Underfull \vbox (badness 10000) detected at line 21
  []
 
-)
+[84])
 (./doc-gen/operation-model/OM-PrimaryTypesDatatypes/OM-PrimaryTypeDatatype-dtGP
 SLocation-isNearTo.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -5939,13 +6209,10 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--21
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [77]
 Underfull \vbox (badness 10000) detected at line 21
  []
 
-)
+[85])
 (./doc-gen/operation-model/OM-PrimaryTypesDatatypes/OM-PrimaryTypeDatatype-dtLo
 ngitude-is.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -6008,7 +6275,7 @@ Underfull \vbox (badness 10000) detected at line 21
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 []\T1/cmr/bx/n/14.4 Primary Types - Op-er-a-tion Schemes for Datatype
  []
 
@@ -6043,8 +6310,8 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--21
 Underfull \vbox (badness 10000) detected at line 21
  []
 
-[78])
-Underfull \hbox (badness 7504) in paragraph at lines 139--139
+[86])
+Underfull \hbox (badness 7504) in paragraph at lines 154--154
 []\T1/cmr/bx/n/14.4 Primary Types - Op-er-a-tion Schemes for Enu-mer-a-tion
  []
 
@@ -6080,7 +6347,7 @@ Underfull \vbox (badness 10000) detected at line 21
  []
 
 )
-Underfull \hbox (badness 7504) in paragraph at lines 142--142
+Underfull \hbox (badness 7504) in paragraph at lines 157--157
 []\T1/cmr/bx/n/14.4 Primary Types - Op-er-a-tion Schemes for Enu-mer-a-tion
  []
 
@@ -6116,7 +6383,7 @@ Underfull \vbox (badness 10000) detected at line 21
  []
 
 )
-Underfull \hbox (badness 7504) in paragraph at lines 145--145
+Underfull \hbox (badness 7504) in paragraph at lines 160--160
 []\T1/cmr/bx/n/14.4 Primary Types - Op-er-a-tion Schemes for Enu-mer-a-tion
  []
 
@@ -6151,8 +6418,8 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--21
 Underfull \vbox (badness 10000) detected at line 21
  []
 
-[79])
-Underfull \hbox (badness 7504) in paragraph at lines 148--148
+[87])
+Underfull \hbox (badness 7504) in paragraph at lines 163--163
 []\T1/cmr/bx/n/14.4 Primary Types - Op-er-a-tion Schemes for Enu-mer-a-tion
  []
 
@@ -6218,7 +6485,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--21
 Underfull \vbox (badness 10000) detected at line 21
  []
 
-)) (./doc-gen/test-model/test-model.tex [80]
+)) (./doc-gen/test-model/test-model.tex [88]
 Chapter 6.
 (./doc-gen/test-model/test-forms/TM-testcase01/TM-testcase01.tex
 (./doc-gen/test-model/test-forms/TM-testcase01/TM-testcase01-ts01oeCreateSystem
@@ -6304,7 +6571,7 @@ Overfull \hbox (25.19997pt too wide) in alignment at lines 7--33
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81
+ [89
 
 ]
 Underfull \vbox (badness 10000) detected at line 33
@@ -6339,7 +6606,7 @@ Overfull \hbox (25.19997pt too wide) in alignment at lines 7--35
 Underfull \vbox (badness 10000) detected at line 35
  []
 
-[82])
+[90])
 (./doc-gen/test-model/test-forms/TM-testcase01/TM-testcase01-ts04oeAddCoordinat
 or.tex
 Overfull \hbox (67.17793pt too wide) in paragraph at lines 1--1
@@ -6412,7 +6679,7 @@ Overfull \hbox (25.19997pt too wide) in alignment at lines 7--33
 Underfull \vbox (badness 10000) detected at line 33
  []
 
-[83])
+[91])
 (./doc-gen/test-model/test-forms/TM-testcase01/TM-testcase01-ts06oeSetClock02.t
 ex
 Overfull \hbox (25.19997pt too wide) in alignment at lines 6--7
@@ -6477,7 +6744,7 @@ Overfull \hbox (25.19997pt too wide) in alignment at lines 7--39
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84]
+ [92]
 Underfull \vbox (badness 10000) detected at line 39
  []
 
@@ -6512,7 +6779,7 @@ Overfull \hbox (25.19997pt too wide) in alignment at lines 7--33
 Underfull \vbox (badness 10000) detected at line 33
  []
 
-[85])
+[93])
 (./doc-gen/test-model/test-forms/TM-testcase01/TM-testcase01-ts09oeSollicitateC
 risisHandling.tex
 Overfull \hbox (105.40851pt too wide) in paragraph at lines 1--1
@@ -6595,7 +6862,7 @@ Overfull \hbox (25.19997pt too wide) in alignment at lines 7--34
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86]
+ [94]
 Underfull \vbox (badness 10000) detected at line 34
  []
 
@@ -6642,7 +6909,7 @@ Overfull \hbox (25.19997pt too wide) in alignment at lines 7--37
 Underfull \vbox (badness 10000) detected at line 37
  []
 
-[87])
+[95])
 (./doc-gen/test-model/test-forms/TM-testcase01/TM-testcase01-ts12oeSetCrisisHan
 dler.tex
 Overfull \hbox (57.38205pt too wide) in paragraph at lines 1--1
@@ -6696,7 +6963,7 @@ Overfull \hbox (25.19997pt too wide) in alignment at lines 38--53
  [] [] 
  []
 
-[88])
+[96])
 (./doc-gen/test-model/test-forms/TM-testcase01/TM-testcase01-ts13oeSetClock04.t
 ex
 Overfull \hbox (25.19997pt too wide) in alignment at lines 6--7
@@ -6770,7 +7037,7 @@ Overfull \hbox (25.19997pt too wide) in alignment at lines 7--38
 Underfull \vbox (badness 10000) detected at line 38
  []
 
-[89])
+[97])
 (./doc-gen/test-model/test-forms/TM-testcase01/TM-testcase01-ts15oeAlert2.tex
 Overfull \hbox (25.19997pt too wide) in alignment at lines 6--7
  [] [] 
@@ -6810,7 +7077,7 @@ Overfull \hbox (25.19997pt too wide) in alignment at lines 38--53
  [] [] 
  []
 
-[90])
+[98])
 (./doc-gen/test-model/test-forms/TM-testcase01/TM-testcase01-ts16oeSetClock05.t
 ex
 Overfull \hbox (25.19997pt too wide) in alignment at lines 6--7
@@ -6894,7 +7161,7 @@ Overfull \hbox (25.19997pt too wide) in alignment at lines 41--41
  [] [] 
  []
 
-[91])
+[99])
 (./doc-gen/test-model/test-forms/TM-testcase01/TM-testcase01-ts18oeReportOnCris
 is.tex
 Overfull \hbox (44.30821pt too wide) in paragraph at lines 1--1
@@ -6947,7 +7214,7 @@ Overfull \hbox (25.19997pt too wide) in alignment at lines 41--41
  [] [] 
  []
 
-[92])
+[100])
 (./doc-gen/test-model/test-forms/TM-testcase01/TM-testcase01-ts19oeCloseCrisis.
 tex
 Overfull \hbox (32.2535pt too wide) in paragraph at lines 4--5
@@ -6991,7 +7258,7 @@ File: ./images-report-gen/testcase-model/tci-testcase01-instance01-Part01.eps G
 raphic file (type eps)
  <./images-report-gen/testcase-model/tci-testcase01-instance01-Part01.eps>)
 (./doc-gen/test-model/test-forms/TM-testcase01/instances/TCI-instance01Part02.t
-ex [93] [94]
+ex [101] [102]
 File: ./images-report-gen/testcase-model/tci-testcase01-instance01-Part02.eps G
 raphic file (type eps)
 
@@ -7003,37 +7270,28 @@ Overfull \hbox (27.78833pt too wide) in paragraph at lines 15--18
 
 LaTeX Warning: Float too large for page by 38.72377pt on input line 22.
 
-)))) [95] [96] (./doc/additional-constraints/additional-constraints.tex
+)))) [103] [104] (./doc/additional-constraints/additional-constraints.tex
 Chapter 7.
+[105
 
-LaTeX Warning: Citation `iso-square-25010-2011' on page 97 undefined on input l
-ine 9.
-
-[97
-
-] [98] [99] [100] [101]) [102] (./doc/appendix/appendix.tex)
+] [106] [107] [108] [109]) [110] (./doc/appendix/appendix.tex)
 (./doc-gen/appendix/appendix-gen.tex
 (./doc-gen/appendix/appendix-undocumentedMsrSpecElements.tex
 Appendix A.
-[103
-
-])
+)
 (./doc-gen/appendix/lu.uni.lassy.excalibur.examples.icrash/lu.uni.lassy.excalib
-ur.examples.icrash.tex [104]
+ur.examples.icrash.tex [111
+
+] [112
+
+]
 Appendix B.
 
 (./doc-gen/appendix/lu.uni.lassy.excalibur.examples.icrash/usecase-model/usecas
 e-model.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105
-
-]
-
-LaTeX Warning: Citation `armour01usecase' on page 106 undefined on input line 6
-.
-
-
+ [113]
 (./doc-gen/appendix/lu.uni.lassy.excalibur.examples.icrash/usecase-model/subfun
 ction/RE-use-case-oeCloseCrisis.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 10--11
@@ -7067,11 +7325,11 @@ se-model/subfunction/uc-oeCloseCrisis.eps Graphic file (type eps)
 del/subfunction/uc-oeCloseCrisis.eps>)))
 (./doc-gen/appendix/appendix-msrSpecFilesListings.tex
 Overfull \hbox (8.96442pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 106 \T1/cmr/m/sl/10.95 APPENDIX B.  SPECIFICATION PROJECT LU.
+\T1/cmr/m/n/10.95 114 \T1/cmr/m/sl/10.95 APPENDIX B.  SPECIFICATION PROJECT LU.
 UNI.LASSY.EXCALIBUR.EXAMPLES.ICRASH
  []
 
-[106]
+[114]
 Appendix C.
 (./src-gen/messir-spec/.views.msr
 LaTeX Font Info:    Try loading font information for TS1+pcr on input line 2.
@@ -7092,94 +7350,120 @@ Overfull \hbox (4.57928pt too wide) in paragraph at lines 13--13
 nt-
  []
 
-[107
+[115
 
 ]
-(./src-gen/messir-spec/operations/environment/environment-actActivator-oeSetClo
-ck.msr)
+(./src-gen/messir-spec/operations/environment/environment-actActivator-init.msr
+)
 Overfull \hbox (4.57928pt too wide) in paragraph at lines 18--18
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
 
 
-(./src-gen/messir-spec/operations/environment/environment-actActivator-oeSollic
-itateCrisisHandling.msr [108])
+(./src-gen/messir-spec/operations/environment/environment-actActivator-oeSetClo
+ck.msr)
 Overfull \hbox (4.57928pt too wide) in paragraph at lines 23--23
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
 
-
-(./src-gen/messir-spec/operations/environment/environment-actAdministrator-oeAd
-dCoordinator.msr
-Overfull \hbox (98.9053pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.5.  FILE /SRC-GEN/MESSIR-SPEC.../ENVIRONMENT-ACTADMINISTRA
-TOR-OEADDCOORDINATOR.MSR \T1/cmr/m/n/10.95 109
+[116]
+(./src-gen/messir-spec/operations/environment/environment-actActivator-oeSollic
+itateCrisisHandling.msr
+Overfull \hbox (49.54793pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 C.5.  FILE /SRC-GEN.../ENVIRONMENT-ACTACTIVATOR-OESOLLICITAT
+ECRISISHANDLING.MSR \T1/cmr/m/n/10.95 117
  []
 
-[109])
+[117])
 Overfull \hbox (4.57928pt too wide) in paragraph at lines 28--28
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
 
 
-(./src-gen/messir-spec/operations/environment/environment-actAdministrator-oeDe
-leteCoordinator.msr [110])
+(./src-gen/messir-spec/operations/environment/environment-actAdministrator-init
+.msr)
 Overfull \hbox (4.57928pt too wide) in paragraph at lines 33--33
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
 
-(./src-gen/messir-spec/operations/environment/environment-actAuthenticated.msr
-Overfull \hbox (50.3821pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.7.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS.../ENVIRONMENT-AC
-TAUTHENTICATED.MSR \T1/cmr/m/n/10.95 111
- []
 
-[111]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [112])
+(./src-gen/messir-spec/operations/environment/environment-actAdministrator-oeAd
+dCoordinator.msr [118])
 Overfull \hbox (4.57928pt too wide) in paragraph at lines 38--38
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
 
-(./src-gen/messir-spec/operations/environment/environment-actComCompany.msr
-Overfull \hbox (118.54143pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.8.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS/ENVIRONMENT/ENVIR
-ONMENT-ACTCOMCOMPANY.MSR \T1/cmr/m/n/10.95 113
+
+(./src-gen/messir-spec/operations/environment/environment-actAdministrator-oeDe
+leteCoordinator.msr
+Overfull \hbox (40.09784pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 C.8.  FILE /SRC-GEN.../ENVIRONMENT-ACTADMINISTRATOR-OEDELETE
+COORDINATOR.MSR \T1/cmr/m/n/10.95 119
  []
 
-[113]
+[119])
+Overfull \hbox (4.57928pt too wide) in paragraph at lines 43--43
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
+nt-
+ []
+
+(./src-gen/messir-spec/operations/environment/environment-actAuthenticated.msr
+[120]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114])
-Overfull \hbox (4.57928pt too wide) in paragraph at lines 43--43
+
+Overfull \hbox (50.3821pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 C.9.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS.../ENVIRONMENT-AC
+TAUTHENTICATED.MSR \T1/cmr/m/n/10.95 121
+ []
+
+[121])
+Overfull \hbox (12.49739pt too wide) in paragraph at lines 48--48
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
+nt-
+ []
+
+(./src-gen/messir-spec/operations/environment/environment-actComCompany.msr
+[122]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (123.98537pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 C.10.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS/ENVIRONMENT/ENVI
+RONMENT-ACTCOMCOMPANY.MSR \T1/cmr/m/n/10.95 123
+ []
+
+[123])
+Overfull \hbox (12.49739pt too wide) in paragraph at lines 53--53
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
 
 
 (./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeClos
-eCrisis.msr
-Overfull \hbox (51.45396pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.9.  FILE /SRC-GEN/MESSIR-SPEC.../ENVIRONMENT-ACTCOORDINATO
-R-OECLOSECRISIS.MSR \T1/cmr/m/n/10.95 115
- []
-
-[115])
-Overfull \hbox (12.49739pt too wide) in paragraph at lines 48--48
+eCrisis.msr)
+Overfull \hbox (12.49739pt too wide) in paragraph at lines 58--58
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
 
 
 (./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeGetA
-lertsSet.msr)
-Overfull \hbox (12.49739pt too wide) in paragraph at lines 53--53
+lertsSet.msr [124])
+Overfull \hbox (12.49739pt too wide) in paragraph at lines 63--63
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
+nt-
+ []
+
+
+(./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeGetC
+risisSet.msr)
+Overfull \hbox (12.49739pt too wide) in paragraph at lines 68--68
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
@@ -7187,18 +7471,16 @@ nt-
 
 Underfull \vbox (badness 3068) has occurred while \output is active []
 
- [116]
-(./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeGetC
-risisSet.msr)
-Overfull \hbox (12.49739pt too wide) in paragraph at lines 58--58
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
-nt-
+
+Overfull \hbox (65.43898pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 C.13.  FILE /SRC-GEN/MESSIR-SPEC.../ENVIRONMENT-ACTCOORDINAT
+OR-OEGETCRISISSET.MSR \T1/cmr/m/n/10.95 125
  []
 
-
+[125]
 (./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeInva
 lidateAlert.msr)
-Overfull \hbox (12.49739pt too wide) in paragraph at lines 63--63
+Overfull \hbox (12.49739pt too wide) in paragraph at lines 73--73
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
@@ -7206,36 +7488,14 @@ nt-
 
 (./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeRepo
 rtOnCrisis.msr)
-Overfull \hbox (65.43898pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.11.  FILE /SRC-GEN/MESSIR-SPEC.../ENVIRONMENT-ACTCOORDINAT
-OR-OEGETCRISISSET.MSR \T1/cmr/m/n/10.95 117
- []
-
-[117]
-Overfull \hbox (12.49739pt too wide) in paragraph at lines 68--68
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
-nt-
- []
-
-
-(./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeSend
-PoliceReport.msr [118])
-Overfull \hbox (12.49739pt too wide) in paragraph at lines 73--73
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
-nt-
- []
-
-
-(./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeSetC
-risisHandler.msr)
 Overfull \hbox (12.49739pt too wide) in paragraph at lines 78--78
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
 
 
-(./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeSetC
-risisStatus.msr)
+(./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeSend
+PoliceReport.msr [126])
 Overfull \hbox (12.49739pt too wide) in paragraph at lines 83--83
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
@@ -7243,81 +7503,87 @@ nt-
 
 
 (./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeSetC
-risisType.msr
+risisHandler.msr
 Overfull \hbox (96.64679pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.15.  FILE /SRC-GEN/MESSIR-SPEC.../ENVIRONMENT-ACTCOORDINAT
-OR-OESETCRISISHANDLER.MSR \T1/cmr/m/n/10.95 119
+\T1/cmr/m/sl/10.95 C.17.  FILE /SRC-GEN/MESSIR-SPEC.../ENVIRONMENT-ACTCOORDINAT
+OR-OESETCRISISHANDLER.MSR \T1/cmr/m/n/10.95 127
  []
 
-[119])
+[127])
 Overfull \hbox (12.49739pt too wide) in paragraph at lines 88--88
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
 
 
-(./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeVali
-dateAlert.msr [120])
+(./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeSetC
+risisStatus.msr)
 Overfull \hbox (12.49739pt too wide) in paragraph at lines 93--93
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
 
 
-(./src-gen/messir-spec/operations/environment/environment-actMsrCreator-init.ms
-r)
+(./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeSetC
+risisType.msr)
 Overfull \hbox (12.49739pt too wide) in paragraph at lines 98--98
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
 
 
-(./src-gen/messir-spec/operations/environment/environment-actMsrCreator-oeCreat
-eSystemAndEnvironment.msr
-Overfull \hbox (64.7508pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.19.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS.../ENVIRONMENT-A
-CTMSRCREATOR-INIT.MSR \T1/cmr/m/n/10.95 121
+(./src-gen/messir-spec/operations/environment/environment-actCoordinator-oeVali
+dateAlert.msr [128])
+Overfull \hbox (12.49739pt too wide) in paragraph at lines 103--103
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
+nt-
  []
 
-[121]) (./src-gen/messir-spec/environment/environment.msr [122]
+
+(./src-gen/messir-spec/operations/environment/environment-actMsrCreator-init.ms
+r
+Overfull \hbox (64.7508pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 C.21.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS.../ENVIRONMENT-A
+CTMSRCREATOR-INIT.MSR \T1/cmr/m/n/10.95 129
+ []
+
+[129])
+Overfull \hbox (12.49739pt too wide) in paragraph at lines 108--108
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
+nt-
+ []
+
+
+(./src-gen/messir-spec/operations/environment/environment-actMsrCreator-oeCreat
+eSystemAndEnvironment.msr [130])
+Overfull \hbox (12.49739pt too wide) in paragraph at lines 113--113
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
+nt-
+ []
+
+
+(./src-gen/messir-spec/operations/environment/environment-actPoliceHeadquarter-
+init.msr) (./src-gen/messir-spec/environment/environment.msr
+Overfull \hbox (36.7779pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 C.23.  FILE /SRC-GEN/MESSIR-SPEC.../ENVIRONMENT-ACTPOLICEHEA
+DQUARTER-INIT.MSR \T1/cmr/m/n/10.95 131
+ []
+
+[131]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [123])
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+ [132])
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/primarytypes-
  []
 
-(./src-gen/messir-spec/concepts/primarytypes-associations.msr [124])
-Underfull \hbox (badness 1867) in paragraph at lines 113--113
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
--
+(./src-gen/messir-spec/concepts/primarytypes-associations.msr
+Overfull \hbox (0.50536pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 C.25.  FILE /SRC-GEN/MESSIR-SPEC/CONCEPTS/PRIMARYTYPES-ASSOC
+IATIONS.MSR \T1/cmr/m/n/10.95 133
  []
 
-
-(./src-gen/messir-spec/operations/concepts/primarytypes-classes/primarytypes-cl
-asses-ctAdministrator.msr
-Overfull \hbox (23.63747pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.23.  FILE /SRC-GEN/MESSIR-SPEC.../PRIMARYTYPES-CLASSES-CTA
-DMINISTRATOR.MSR \T1/cmr/m/n/10.95 125
- []
-
-[125])
-Underfull \hbox (badness 1867) in paragraph at lines 118--118
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
--
- []
-
-
-(./src-gen/messir-spec/operations/concepts/primarytypes-classes/primarytypes-cl
-asses-ctAlert.msr) [126]
-Underfull \hbox (badness 1867) in paragraph at lines 123--123
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
--
- []
-
-
-(./src-gen/messir-spec/operations/concepts/primarytypes-classes/primarytypes-cl
-asses-ctAuthenticated.msr)
+[133])
 Underfull \hbox (badness 1867) in paragraph at lines 128--128
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
 -
@@ -7325,7 +7591,7 @@ Underfull \hbox (badness 1867) in paragraph at lines 128--128
 
 
 (./src-gen/messir-spec/operations/concepts/primarytypes-classes/primarytypes-cl
-asses-ctCoordinator.msr)
+asses-ctAdministrator.msr [134])
 Underfull \hbox (badness 1867) in paragraph at lines 133--133
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
 -
@@ -7333,25 +7599,13 @@ Underfull \hbox (badness 1867) in paragraph at lines 133--133
 
 
 (./src-gen/messir-spec/operations/concepts/primarytypes-classes/primarytypes-cl
-asses-ctCrisis.msr
-Overfull \hbox (25.75314pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.25.  FILE /SRC-GEN/MESSIR-SPEC.../PRIMARYTYPES-CLASSES-CTA
-UTHENTICATED.MSR \T1/cmr/m/n/10.95 127
- []
-
-[127]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [128])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (42.84569pt too wide) has occurred while \output is active
+asses-ctAlert.msr
+Overfull \hbox (43.44641pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 C.27.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS.../PRIMARYTYPES-
-CLASSES-CTCRISIS.MSR \T1/cmr/m/n/10.95 129
+CLASSES-CTALERT.MSR \T1/cmr/m/n/10.95 135
  []
 
-[129]
+[135])
 Underfull \hbox (badness 1867) in paragraph at lines 138--138
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
 -
@@ -7359,7 +7613,7 @@ Underfull \hbox (badness 1867) in paragraph at lines 138--138
 
 
 (./src-gen/messir-spec/operations/concepts/primarytypes-classes/primarytypes-cl
-asses-ctHuman.msr)
+asses-ctAuthenticated.msr)
 Underfull \hbox (badness 1867) in paragraph at lines 143--143
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
 -
@@ -7367,50 +7621,105 @@ Underfull \hbox (badness 1867) in paragraph at lines 143--143
 
 
 (./src-gen/messir-spec/operations/concepts/primarytypes-classes/primarytypes-cl
-asses-ctState.msr [130])
-(./src-gen/messir-spec/concepts/primarytypes-classes.msr [131]
+asses-ctCoordinator.msr)
+Underfull \hbox (badness 1867) in paragraph at lines 148--148
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
+-
+ []
+
+[136]
+(./src-gen/messir-spec/operations/concepts/primarytypes-classes/primarytypes-cl
+asses-ctCrisis.msr
+Overfull \hbox (42.84569pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 C.30.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS.../PRIMARYTYPES-
+CLASSES-CTCRISIS.MSR \T1/cmr/m/n/10.95 137
+ []
+
+[137]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [132])
+ [138])
 Underfull \hbox (badness 1867) in paragraph at lines 153--153
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
 -
  []
 
 
-(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
-datatypes-dtAlertID.msr)
+(./src-gen/messir-spec/operations/concepts/primarytypes-classes/primarytypes-cl
+asses-ctHuman.msr)
 Underfull \hbox (badness 1867) in paragraph at lines 158--158
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
 -
  []
 
 
-(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
-datatypes-dtComment.msr
-Overfull \hbox (74.1246pt too wide) has occurred while \output is active
+(./src-gen/messir-spec/operations/concepts/primarytypes-classes/primarytypes-cl
+asses-ctPoliceHeadquarter-init.msr)
+Overfull \hbox (49.63474pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 C.31.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS.../PRIMARYTYPES-
-DATATYPES-DTALERTID.MSR \T1/cmr/m/n/10.95 133
+CLASSES-CTHUMAN.MSR \T1/cmr/m/n/10.95 139
  []
 
-[133])
+[139]
 Underfull \hbox (badness 1867) in paragraph at lines 163--163
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
 -
  []
 
 
-(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
-datatypes-dtCoordinatorID.msr)
-Underfull \hbox (badness 1867) in paragraph at lines 168--168
+(./src-gen/messir-spec/operations/concepts/primarytypes-classes/primarytypes-cl
+asses-ctState.msr) (./src-gen/messir-spec/concepts/primarytypes-classes.msr
+[140]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [141])
+Underfull \hbox (badness 1867) in paragraph at lines 173--173
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
 -
  []
 
 
 (./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
-datatypes-dtCrisisID.msr [134])
-Underfull \hbox (badness 1867) in paragraph at lines 173--173
+datatypes-dtAlertID.msr [142])
+Underfull \hbox (badness 1867) in paragraph at lines 178--178
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
+-
+ []
+
+
+(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
+datatypes-dtComment.msr)
+Underfull \hbox (badness 1867) in paragraph at lines 183--183
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
+-
+ []
+
+
+(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
+datatypes-dtCoordinatorID.msr
+Overfull \hbox (85.15755pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 C.36.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS.../PRIMARYTYPES-
+DATATYPES-DTCOMMENT.MSR \T1/cmr/m/n/10.95 143
+ []
+
+[143])
+Underfull \hbox (badness 1867) in paragraph at lines 188--188
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
+-
+ []
+
+
+(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
+datatypes-dtCrisisID.msr)
+Underfull \hbox (badness 1867) in paragraph at lines 193--193
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
+-
+ []
+
+
+(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
+datatypes-dtExperiencePoints-is.msr [144])
+Underfull \hbox (badness 1867) in paragraph at lines 198--198
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
 -
  []
@@ -7419,57 +7728,11 @@ Underfull \hbox (badness 1867) in paragraph at lines 173--173
 (./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
 datatypes-dtGPSLocation.msr
 Overfull \hbox (27.79391pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.35.  FILE /SRC-GEN/MESSIR-SPEC.../PRIMARYTYPES-DATATYPES-D
-TGPSLOCATION.MSR \T1/cmr/m/n/10.95 135
+\T1/cmr/m/sl/10.95 C.40.  FILE /SRC-GEN/MESSIR-SPEC.../PRIMARYTYPES-DATATYPES-D
+TGPSLOCATION.MSR \T1/cmr/m/n/10.95 145
  []
 
-[135])
-Underfull \hbox (badness 1867) in paragraph at lines 178--178
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
--
- []
-
-
-(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
-datatypes-dtLogin.msr [136])
-Underfull \hbox (badness 1867) in paragraph at lines 183--183
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
--
- []
-
-
-(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
-datatypes-dtPassword.msr)
-Underfull \hbox (badness 1867) in paragraph at lines 188--188
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
--
- []
-
-
-(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
-datatypes-dtPhoneNumber.msr)
-Underfull \hbox (badness 1867) in paragraph at lines 193--193
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
--
- []
-
-
-Overfull \hbox (87.88135pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.37.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS.../PRIMARYTYPES-
-DATATYPES-DTPASSWORD.MSR \T1/cmr/m/n/10.95 137
- []
-
-[137]
-(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
-datatypes-etAlertStatus.msr)
-Underfull \hbox (badness 1867) in paragraph at lines 198--198
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
--
- []
-
-
-(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
-datatypes-etCrisisStatus.msr)
+[145])
 Underfull \hbox (badness 1867) in paragraph at lines 203--203
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
 -
@@ -7477,8 +7740,54 @@ Underfull \hbox (badness 1867) in paragraph at lines 203--203
 
 
 (./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
-datatypes-etCrisisType.msr [138])
+datatypes-dtLogin.msr)
 Underfull \hbox (badness 1867) in paragraph at lines 208--208
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
+-
+ []
+
+[146]
+(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
+datatypes-dtPassword.msr)
+Underfull \hbox (badness 1867) in paragraph at lines 213--213
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
+-
+ []
+
+
+(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
+datatypes-dtPhoneNumber.msr)
+Underfull \hbox (badness 1867) in paragraph at lines 218--218
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
+-
+ []
+
+
+(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
+datatypes-etAlertStatus.msr
+Overfull \hbox (87.88135pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 C.42.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS.../PRIMARYTYPES-
+DATATYPES-DTPASSWORD.MSR \T1/cmr/m/n/10.95 147
+ []
+
+[147])
+Underfull \hbox (badness 1867) in paragraph at lines 223--223
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
+-
+ []
+
+
+(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
+datatypes-etCrisisStatus.msr)
+Underfull \hbox (badness 1867) in paragraph at lines 228--228
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
+-
+ []
+
+
+(./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
+datatypes-etCrisisType.msr [148])
+Underfull \hbox (badness 1867) in paragraph at lines 233--233
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/concepts/primarytypes
 -
  []
@@ -7486,73 +7795,49 @@ Underfull \hbox (badness 1867) in paragraph at lines 208--208
 
 (./src-gen/messir-spec/operations/concepts/primarytypes-datatypes/primarytypes-
 datatypes-etHumanKind.msr)
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/primarytypes-
  []
 
 (./src-gen/messir-spec/concepts/primarytypes-datatypes.msr
 Overfull \hbox (96.03053pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.42.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS.../PRIMARYTYPES-
-DATATYPES-ETHUMANKIND.MSR \T1/cmr/m/n/10.95 139
+\T1/cmr/m/sl/10.95 C.47.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS.../PRIMARYTYPES-
+DATATYPES-ETHUMANKIND.MSR \T1/cmr/m/n/10.95 149
  []
 
-[139]
+[149])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [140])
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
+ [150]
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/secondarytypes-
  []
 
 (./src-gen/messir-spec/concepts/secondarytypes-associations.msr)
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/secondarytypes-
  []
 
 (./src-gen/messir-spec/concepts/secondarytypes-classes.msr)
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/secondarytypes-
  []
 
 (./src-gen/messir-spec/concepts/secondarytypes-datatypes.msr)
+(./src-gen/messir-spec/usecases/subfunctions-usecases.msr
 Overfull \hbox (17.13858pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.44.  FILE /SRC-GEN/MESSIR-SPEC/CONCEPTS/SECONDARYTYPES-ASS
-OCIATIONS.MSR \T1/cmr/m/n/10.95 141
+\T1/cmr/m/sl/10.95 C.49.  FILE /SRC-GEN/MESSIR-SPEC/CONCEPTS/SECONDARYTYPES-ASS
+OCIATIONS.MSR \T1/cmr/m/n/10.95 151
  []
 
-[141] (./src-gen/messir-spec/usecases/subfunctions-usecases.msr [142]
+[151]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [143])
-(./src-gen/messir-spec/test/tc-testcase01.msr [144]
+ [152]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [145]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [146]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [147]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [148]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [149]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [150]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [151])
-(./src-gen/messir-spec/test/tci-testcase01-instance01.msr [152]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [153]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [154]
+ [153])
+(./src-gen/messir-spec/test/tc-testcase01.msr [154]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [155]
@@ -7570,15 +7855,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [159]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [160])
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecase-
- []
-
-(./src-gen/messir-spec/usecases/usecase-suDeployAndRun.msr [161]
+ [160]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [162]
+ [161])
+(./src-gen/messir-spec/test/tci-testcase01-instance01.msr [162]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [163]
@@ -7587,50 +7868,92 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [164]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [165])
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecase-
- []
+ [165]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(./src-gen/messir-spec/usecases/usecase-suGlobalCrisisHandling.msr)
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecase-
- []
+ [166]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(./src-gen/messir-spec/usecases/usecase-ugAdministrateTheSystem.msr [166])
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecase-
- []
+ [167]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(./src-gen/messir-spec/usecases/usecase-ugManageCrisis.msr) [167]
-(./src-gen/messir-spec/usecases/usecase-ugMonitor.msr)
+ [168]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [169]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [170])
 Underfull \hbox (badness 10000) in paragraph at lines 273--273
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecase-
  []
 
-(./src-gen/messir-spec/usecases/usecase-ugSecurelyUseSystem.msr)
+(./src-gen/messir-spec/usecases/usecase-suDeployAndRun.msr [171]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [172]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [173]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [174]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [175])
 Underfull \hbox (badness 10000) in paragraph at lines 278--278
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecase-
+ []
+
+(./src-gen/messir-spec/usecases/usecase-suGlobalCrisisHandling.msr)
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecase-
+ []
+
+(./src-gen/messir-spec/usecases/usecase-ugAdministrateTheSystem.msr [176])
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecase-
+ []
+
+(./src-gen/messir-spec/usecases/usecase-ugManageCrisis.msr)
+(./src-gen/messir-spec/usecases/usecase-ugMonitor.msr [177])
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecase-
+ []
+
+(./src-gen/messir-spec/usecases/usecase-ugNewCoordinator.msr)
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecase-
+ []
+
+(./src-gen/messir-spec/usecases/usecase-ugSecurelyUseSystem.msr [178])
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecaseinstance-
+ []
+
+
+(./src-gen/messir-spec/usecases/usecaseinstance-oeAddCoordinator-ucioeAddCoordi
+nator.msr)
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecaseinstance-
  []
 
 
 (./src-gen/messir-spec/usecases/usecaseinstance-oeSendPoliceReport-ucioeSendPol
-iceReport.msr [168])
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
+iceReport.msr)
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecaseinstance-
  []
 
 
 (./src-gen/messir-spec/usecases/usecaseinstance-ugSecurelyUseSystem-uciugSecure
-lyUseSystem.msr)) (./doc-gen/appendix/appendix-prologFilesListings.tex
-Overfull \hbox (108.88359pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 C.57.  FILE /SRC-GEN.../USECASEINSTANCE-UGSECURELYUSESYSTEM-
-UCIUGSECURELYUSESYSTEM.MSR \T1/cmr/m/n/10.95 169
+lyUseSystem.msr
+Overfull \hbox (74.26884pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 C.62.  FILE /SRC-GEN.../USECASEINSTANCE-OEADDCOORDINATOR-UCI
+OEADDCOORDINATOR.MSR \T1/cmr/m/n/10.95 179
  []
 
-[169] [170
-
-]
+[179])) (./doc-gen/appendix/appendix-prologFilesListings.tex [180]
 Appendix D.
 
 Overfull \hbox (101.46625pt too wide) in paragraph at lines 3--3
@@ -7640,7 +7963,9 @@ utactActivator-
 
 
 (./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactActivator-oeSetCloc
-k.pl [171])
+k.pl [181
+
+])
 Overfull \hbox (101.46625pt too wide) in paragraph at lines 8--8
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
 utactActivator-
@@ -7650,11 +7975,11 @@ utactActivator-
 (./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactActivator-oeSollici
 tateCrisisHandling.pl
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 172 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 182 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[172])
+[182])
 Overfull \hbox (134.8152pt too wide) in paragraph at lines 13--13
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
 utactAdministrator-
@@ -7666,18 +7991,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \hbox (86.07162pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.2.  FILE /SRC-GEN/PROLOG-REF-SPEC.../OUTACTACTIVATOR-OESOL
-LICITATECRISISHANDLING.PL \T1/cmr/m/n/10.95 173
+LICITATECRISISHANDLING.PL \T1/cmr/m/n/10.95 183
  []
 
-[173]
+[183]
 (./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactAdministrator-oeAdd
 Coordinator.pl
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 174 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 184 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[174])
+[184])
 Overfull \hbox (134.8152pt too wide) in paragraph at lines 18--18
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
 utactAdministrator-
@@ -7688,10 +8013,10 @@ utactAdministrator-
 eteCoordinator.pl
 Overfull \hbox (76.62154pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.4.  FILE /SRC-GEN/PROLOG-REF-SPEC.../OUTACTADMINISTRATOR-O
-EDELETECOORDINATOR.PL \T1/cmr/m/n/10.95 175
+EDELETECOORDINATOR.PL \T1/cmr/m/n/10.95 185
  []
 
-[175])
+[185])
 Overfull \hbox (135.39378pt too wide) in paragraph at lines 23--23
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
 utactAuthenticated-
@@ -7701,20 +8026,20 @@ utactAuthenticated-
 (./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactAuthenticated-oeLog
 in.pl
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 176 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 186 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[176]
+[186]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (63.09221pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.5.  FILE /SRC-GEN/PROLOG-REF-SPEC/OPERATIONS.../OUTACTAUTH
-ENTICATED-OELOGIN.PL \T1/cmr/m/n/10.95 177
+ENTICATED-OELOGIN.PL \T1/cmr/m/n/10.95 187
  []
 
-[177])
+[187])
 Overfull \hbox (135.39378pt too wide) in paragraph at lines 28--28
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
 utactAuthenticated-
@@ -7724,11 +8049,11 @@ utactAuthenticated-
 (./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactAuthenticated-oeLog
 out.pl
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 178 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 188 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[178])
+[188])
 Overfull \hbox (134.9916pt too wide) in paragraph at lines 33--33
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
 utactComCompany-
@@ -7739,37 +8064,37 @@ utactComCompany-
 pl
 Overfull \hbox (50.92279pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.7.  FILE /SRC-GEN/PROLOG-REF-SPEC/OPERATIONS.../OUTACTCOMC
-OMPANY-OEALERT.PL \T1/cmr/m/n/10.95 179
+OMPANY-OEALERT.PL \T1/cmr/m/n/10.95 189
  []
 
-[179]
+[189]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 180 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 190 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[180]
+[190]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (50.92279pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.7.  FILE /SRC-GEN/PROLOG-REF-SPEC/OPERATIONS.../OUTACTCOMC
-OMPANY-OEALERT.PL \T1/cmr/m/n/10.95 181
+OMPANY-OEALERT.PL \T1/cmr/m/n/10.95 191
  []
 
-[181])
+[191])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 182 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 192 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[182]
+[192]
 Overfull \hbox (121.01266pt too wide) in paragraph at lines 38--38
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
 utactCoordinator-
@@ -7780,10 +8105,10 @@ utactCoordinator-
 Crisis.pl
 Overfull \hbox (87.21683pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.8.  FILE /SRC-GEN/PROLOG-REF-SPEC/OPERATIONS.../OUTACTCOOR
-DINATOR-OECLOSECRISIS.PL \T1/cmr/m/n/10.95 183
+DINATOR-OECLOSECRISIS.PL \T1/cmr/m/n/10.95 193
  []
 
-[183])
+[193])
 Overfull \hbox (121.01266pt too wide) in paragraph at lines 43--43
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
 utactCoordinator-
@@ -7793,11 +8118,11 @@ utactCoordinator-
 (./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactCoordinator-oeGetCr
 isisSet.pl
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 184 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 194 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[184])
+[194])
 Overfull \hbox (128.93077pt too wide) in paragraph at lines 48--48
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
 utactCoordinator-
@@ -7808,127 +8133,7 @@ utactCoordinator-
 idateAlert.pl
 Overfull \hbox (47.59602pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.10.  FILE /SRC-GEN/PROLOG-REF-SPEC.../OUTACTCOORDINATOR-OE
-INVALIDATEALERT.PL \T1/cmr/m/n/10.95 185
- []
-
-[185]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 186 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
-ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
- []
-
-[186])
-Overfull \hbox (128.93077pt too wide) in paragraph at lines 53--53
-[]\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
-utactCoordinator-
- []
-
-
-(./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactCoordinator-oeRepor
-tOnCrisis.pl
-Overfull \hbox (40.50317pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 D.11.  FILE /SRC-GEN/PROLOG-REF-SPEC.../OUTACTCOORDINATOR-OE
-REPORTONCRISIS.PL \T1/cmr/m/n/10.95 187
- []
-
-[187])
-Overfull \hbox (128.93077pt too wide) in paragraph at lines 58--58
-[]\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
-utactCoordinator-
- []
-
-
-(./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactCoordinator-oeSetCr
-isisHandler.pl
-Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 188 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
-ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
- []
-
-[188]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (53.95259pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 D.12.  FILE /SRC-GEN/PROLOG-REF-SPEC.../OUTACTCOORDINATOR-OE
-SETCRISISHANDLER.PL \T1/cmr/m/n/10.95 189
- []
-
-[189])
-Overfull \hbox (128.93077pt too wide) in paragraph at lines 63--63
-[]\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
-utactCoordinator-
- []
-
-
-(./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactCoordinator-oeSetCr
-isisStatus.pl
-Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 190 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
-ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
- []
-
-[190]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (41.26404pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 D.13.  FILE /SRC-GEN/PROLOG-REF-SPEC.../OUTACTCOORDINATOR-OE
-SETCRISISSTATUS.PL \T1/cmr/m/n/10.95 191
- []
-
-[191])
-Overfull \hbox (128.93077pt too wide) in paragraph at lines 68--68
-[]\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
-utactCoordinator-
- []
-
-
-(./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactCoordinator-oeSetCr
-isisType.pl
-Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 192 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
-ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
- []
-
-[192])
-Overfull \hbox (128.93077pt too wide) in paragraph at lines 73--73
-[]\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
-utactCoordinator-
- []
-
-
-(./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactCoordinator-oeValid
-ateAlert.pl
-Overfull \hbox (35.50519pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 D.15.  FILE /SRC-GEN/PROLOG-REF-SPEC.../OUTACTCOORDINATOR-OE
-VALIDATEALERT.PL \T1/cmr/m/n/10.95 193
- []
-
-[193]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 194 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
-ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
- []
-
-[194])
-Overfull \hbox (125.55408pt too wide) in paragraph at lines 78--78
-[]\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
-utactMsrCreator-
- []
-
-
-(./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactMsrCreator-oeCreate
-SystemAndEnvironment.pl
-Overfull \hbox (25.58543pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 D.16.  FILE /SRC-GEN.../OUTACTMSRCREATOR-OECREATESYSTEMANDEN
-VIRONMENT.PL \T1/cmr/m/n/10.95 195
+INVALIDATEALERT.PL \T1/cmr/m/n/10.95 195
  []
 
 [195]
@@ -7941,6 +8146,126 @@ ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
 [196])
+Overfull \hbox (128.93077pt too wide) in paragraph at lines 53--53
+[]\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
+utactCoordinator-
+ []
+
+
+(./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactCoordinator-oeRepor
+tOnCrisis.pl
+Overfull \hbox (40.50317pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 D.11.  FILE /SRC-GEN/PROLOG-REF-SPEC.../OUTACTCOORDINATOR-OE
+REPORTONCRISIS.PL \T1/cmr/m/n/10.95 197
+ []
+
+[197])
+Overfull \hbox (128.93077pt too wide) in paragraph at lines 58--58
+[]\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
+utactCoordinator-
+ []
+
+
+(./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactCoordinator-oeSetCr
+isisHandler.pl
+Overfull \hbox (105.1148pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10.95 198 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
+ []
+
+[198]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (53.95259pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 D.12.  FILE /SRC-GEN/PROLOG-REF-SPEC.../OUTACTCOORDINATOR-OE
+SETCRISISHANDLER.PL \T1/cmr/m/n/10.95 199
+ []
+
+[199])
+Overfull \hbox (128.93077pt too wide) in paragraph at lines 63--63
+[]\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
+utactCoordinator-
+ []
+
+
+(./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactCoordinator-oeSetCr
+isisStatus.pl
+Overfull \hbox (105.1148pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10.95 200 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
+ []
+
+[200]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (41.26404pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 D.13.  FILE /SRC-GEN/PROLOG-REF-SPEC.../OUTACTCOORDINATOR-OE
+SETCRISISSTATUS.PL \T1/cmr/m/n/10.95 201
+ []
+
+[201])
+Overfull \hbox (128.93077pt too wide) in paragraph at lines 68--68
+[]\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
+utactCoordinator-
+ []
+
+
+(./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactCoordinator-oeSetCr
+isisType.pl
+Overfull \hbox (105.1148pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10.95 202 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
+ []
+
+[202])
+Overfull \hbox (128.93077pt too wide) in paragraph at lines 73--73
+[]\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
+utactCoordinator-
+ []
+
+
+(./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactCoordinator-oeValid
+ateAlert.pl
+Overfull \hbox (35.50519pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 D.15.  FILE /SRC-GEN/PROLOG-REF-SPEC.../OUTACTCOORDINATOR-OE
+VALIDATEALERT.PL \T1/cmr/m/n/10.95 203
+ []
+
+[203]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (105.1148pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10.95 204 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
+ []
+
+[204])
+Overfull \hbox (125.55408pt too wide) in paragraph at lines 78--78
+[]\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Environment/OUT/o
+utactMsrCreator-
+ []
+
+
+(./src-gen/prolog-ref-spec/Operations/Environment/OUT/outactMsrCreator-oeCreate
+SystemAndEnvironment.pl
+Overfull \hbox (25.58543pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 D.16.  FILE /SRC-GEN.../OUTACTMSRCREATOR-OECREATESYSTEMANDEN
+VIRONMENT.PL \T1/cmr/m/n/10.95 205
+ []
+
+[205]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (105.1148pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10.95 206 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
+ []
+
+[206])
 Overfull \hbox (237.04872pt too wide) in paragraph at lines 83--83
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesClasses/PrimaryTypesClasses-
@@ -7959,10 +8284,10 @@ ypesClasses/PrimaryTypesClasses-
 Classes-ctAlert-init.pl
 Overfull \hbox (70.27332pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.17.  FILE /SRC-GEN/PROLOG-REF-SPEC.../PRIMARYTYPESCLASSES-
-CTADMINISTRATOR-INIT.PL \T1/cmr/m/n/10.95 197
+CTADMINISTRATOR-INIT.PL \T1/cmr/m/n/10.95 207
  []
 
-[197])
+[207])
 Overfull \hbox (237.04872pt too wide) in paragraph at lines 93--93
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesClasses/PrimaryTypesClasses-
@@ -7986,11 +8311,11 @@ ypesClasses/PrimaryTypesClasses-
 
 
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 198 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 208 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[198]
+[208]
 (./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryTypesClasses/PrimaryTypes
 Classes-ctCoordinator-init.pl)
 Overfull \hbox (237.04872pt too wide) in paragraph at lines 108--108
@@ -8003,10 +8328,10 @@ ypesClasses/PrimaryTypesClasses-
 Classes-ctCrisis-handlingDelayPassed.pl
 Overfull \hbox (59.99883pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.21.  FILE /SRC-GEN/PROLOG-REF-SPEC.../PRIMARYTYPESCLASSES-
-CTCOORDINATOR-INIT.PL \T1/cmr/m/n/10.95 199
+CTCOORDINATOR-INIT.PL \T1/cmr/m/n/10.95 209
  []
 
-[199])
+[209])
 Overfull \hbox (237.04872pt too wide) in paragraph at lines 113--113
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesClasses/PrimaryTypesClasses-
@@ -8024,11 +8349,11 @@ ypesClasses/PrimaryTypesClasses-
 (./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryTypesClasses/PrimaryTypes
 Classes-ctCrisis-isAllocatedIfPossible.pl
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 200 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 210 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[200])
+[210])
 Overfull \hbox (237.04872pt too wide) in paragraph at lines 123--123
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesClasses/PrimaryTypesClasses-
@@ -8039,10 +8364,10 @@ ypesClasses/PrimaryTypesClasses-
 Classes-ctCrisis-isSentToCoordinator.pl
 Overfull \hbox (16.38606pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.25.  FILE /SRC-GEN.../PRIMARYTYPESCLASSES-CTCRISIS-ISSENTT
-OCOORDINATOR.PL \T1/cmr/m/n/10.95 201
+OCOORDINATOR.PL \T1/cmr/m/n/10.95 211
  []
 
-[201])
+[211])
 Overfull \hbox (237.04872pt too wide) in paragraph at lines 128--128
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesClasses/PrimaryTypesClasses-
@@ -8060,11 +8385,11 @@ ypesClasses/PrimaryTypesClasses-
 (./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryTypesClasses/PrimaryTypes
 Classes-ctHuman-init.pl
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 202 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 212 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[202])
+[212])
 Overfull \hbox (237.04872pt too wide) in paragraph at lines 138--138
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesClasses/PrimaryTypesClasses-
@@ -8083,10 +8408,10 @@ ypesClasses/PrimaryTypesClasses-
 Classes-ctState-init.pl
 Overfull \hbox (102.38622pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.28.  FILE /SRC-GEN/PROLOG-REF-SPEC.../PRIMARYTYPESCLASSES-
-CTHUMAN-ISACKNOWLEDGED.PL \T1/cmr/m/n/10.95 203
+CTHUMAN-ISACKNOWLEDGED.PL \T1/cmr/m/n/10.95 213
  []
 
-[203])
+[213])
 Overfull \hbox (279.44432pt too wide) in paragraph at lines 148--148
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesDatatypes/PrimaryTypesDatatypes-
@@ -8096,11 +8421,11 @@ ypesDatatypes/PrimaryTypesDatatypes-
 (./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryTypesDatatypes/PrimaryTyp
 esDatatypes-dtAlertID-is.pl)
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 204 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 214 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[204]
+[214]
 Overfull \hbox (279.44432pt too wide) in paragraph at lines 153--153
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesDatatypes/PrimaryTypesDatatypes-
@@ -8119,10 +8444,10 @@ ypesDatatypes/PrimaryTypesDatatypes-
 esDatatypes-dtCoordinatorID-is.pl
 Overfull \hbox (39.4321pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.31.  FILE /SRC-GEN/PROLOG-REF-SPEC.../PRIMARYTYPESDATATYPE
-S-DTCOMMENT-IS.PL \T1/cmr/m/n/10.95 205
+S-DTCOMMENT-IS.PL \T1/cmr/m/n/10.95 215
  []
 
-[205])
+[215])
 Overfull \hbox (279.44432pt too wide) in paragraph at lines 163--163
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesDatatypes/PrimaryTypesDatatypes-
@@ -8140,11 +8465,11 @@ ypesDatatypes/PrimaryTypesDatatypes-
 (./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryTypesDatatypes/PrimaryTyp
 esDatatypes-dtGPSLocation-is.pl
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 206 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 216 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[206])
+[216])
 Overfull \hbox (279.44432pt too wide) in paragraph at lines 173--173
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesDatatypes/PrimaryTypesDatatypes-
@@ -8152,7 +8477,7 @@ ypesDatatypes/PrimaryTypesDatatypes-
 
 
 (./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryTypesDatatypes/PrimaryTyp
-esDatatypes-dtGPSLocation-isNearTo.pl [207])
+esDatatypes-dtGPSLocation-isNearTo.pl [217])
 Overfull \hbox (279.44432pt too wide) in paragraph at lines 178--178
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesDatatypes/PrimaryTypesDatatypes-
@@ -8170,11 +8495,11 @@ ypesDatatypes/PrimaryTypesDatatypes-
 (./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryTypesDatatypes/PrimaryTyp
 esDatatypes-dtLogin-is.pl
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 208 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 218 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[208])
+[218])
 Overfull \hbox (279.44432pt too wide) in paragraph at lines 188--188
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesDatatypes/PrimaryTypesDatatypes-
@@ -8193,10 +8518,10 @@ ypesDatatypes/PrimaryTypesDatatypes-
 esDatatypes-dtPassword-is.pl
 Overfull \hbox (47.36946pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.38.  FILE /SRC-GEN/PROLOG-REF-SPEC.../PRIMARYTYPESDATATYPE
-S-DTLONGITUDE-IS.PL \T1/cmr/m/n/10.95 209
+S-DTLONGITUDE-IS.PL \T1/cmr/m/n/10.95 219
  []
 
-[209])
+[219])
 Overfull \hbox (279.44432pt too wide) in paragraph at lines 198--198
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesDatatypes/PrimaryTypesDatatypes-
@@ -8214,11 +8539,11 @@ ypesClasses/PrimaryTypesDatatypes-
 (./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryTypesClasses/PrimaryTypes
 Datatypes-etAlertStatus-is.pl
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 210 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 220 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[210])
+[220])
 Overfull \hbox (258.24652pt too wide) in paragraph at lines 208--208
 []\T1/cmr/bx/n/14.4 File ./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryT
 ypesClasses/PrimaryTypesDatatypes-
@@ -8243,10 +8568,10 @@ ypesClasses/PrimaryTypesDatatypes-
 
 Overfull \hbox (56.97734pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 D.42.  FILE /SRC-GEN/PROLOG-REF-SPEC.../PRIMARYTYPESDATATYPE
-S-ETCRISISSTATUS-IS.PL \T1/cmr/m/n/10.95 211
+S-ETCRISISSTATUS-IS.PL \T1/cmr/m/n/10.95 221
  []
 
-[211]
+[221]
 (./src-gen/prolog-ref-spec/Operations/Concepts/PrimaryTypesClasses/PrimaryTypes
 Datatypes-etHumanKind-is.pl)
 Overfull \hbox (306.86678pt too wide) in paragraph at lines 223--223
@@ -8258,17 +8583,16 @@ yTypesDatatypes/SecondaryTypesDatatypes-
 (./src-gen/prolog-ref-spec/Operations/Concepts/SecondaryTypesDatatypes/Secondar
 yTypesDatatypes-dtSMS-is.pl)))
 Overfull \hbox (105.1148pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 212 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
+\T1/cmr/m/n/10.95 222 \T1/cmr/m/sl/10.95 APPENDIX D.  LISTING OF THE PROLOG FIL
 ES REFERENCED IN THE OPERATION MODEL SPECIFICATION
  []
 
-[212] (./report.gls) [213
+[222] (./report.gls) [223
 
 
-] [214
+] [224
 
-]
-No file report.bbl.
+] (./report.bbl)
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the report.maf file.
@@ -8280,18 +8604,21 @@ Package minitoc(hints) Info: I0053
 (minitoc(hints))             facilities can not be used for new types 
 (minitoc(hints))             of floats defined by the float package.
 
+
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the report.log file.
 
-[215]
+[225
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
  (./report.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 83.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 7B814A25346C50B7DDFC3CA5EB3BD7F1;27832.
+(rerunfilecheck)             Checksum: 81A2209EDE408ECA9248AB652DF73B3C;29490.
 
 
 LaTeX Warning: There were undefined references.
@@ -8301,12 +8628,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 61496 strings out of 492991
- 1362050 string characters out of 6132648
- 1980880 words of memory out of 5000000
- 62777 multiletter control sequences out of 15000+600000
+ 61609 strings out of 492991
+ 1367553 string characters out of 6132648
+ 1980838 words of memory out of 5000000
+ 62831 multiletter control sequences out of 15000+600000
  577407 words of font info for 150 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  69i,16n,98p,10568b,2085s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.dvi (215 pages, 3179048 bytes).
+Output written on report.dvi (225 pages, 3277008 bytes).

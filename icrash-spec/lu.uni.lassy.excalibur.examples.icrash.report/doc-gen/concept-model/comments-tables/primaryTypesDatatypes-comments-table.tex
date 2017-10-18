@@ -22,8 +22,8 @@ The table below is providing comments on the graphical views given for the datat
 \adddoublerow{dtCrisisID}{ A string used to identify crisis.}
 \addsingletwocolumnrow{extends}{dtString}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid crisis identifiers.}
-\adddoublerow{dtExperiencePoints}{}
-\addsingletwocolumnrow{extends}{dtReal}
+\adddoublerow{dtExperiencePoints}{ integer that represent coordinator's experience to handle crisis }
+\addsingletwocolumnrow{extends}{dtInteger}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{}
 \adddoublerow{dtGPSLocation}{used to define coordinates of geograpical positions on earth. It is defined a couple made of a latitude and a longitude.}
 \adddoubletwocolumnrow{attribute}{\msrcode{latitude: dtLatitude}}{for the latitude part of the coordinate.}
@@ -62,7 +62,7 @@ The table below is providing comments on the graphical views given for the datat
 this type is used to indicate the different validation status of an alert.
 }
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which litteral belongs to the enumeration.}
-\adddoublerow{etCrisisCriticity}{}
+\adddoublerow{etCrisisCriticity}{ crisis category assigned according its alerts received }
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{}
 \adddoublerow{etCrisisStatus}{
 this type is used to indicate the different handling status of a crisis.

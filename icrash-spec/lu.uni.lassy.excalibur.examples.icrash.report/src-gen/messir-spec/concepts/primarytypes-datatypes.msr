@@ -40,7 +40,7 @@ import lu.uni.lassy.messir.libraries.calendar
 				operation is():ptBoolean			
 			}
 			
-			datatype dtExperiencePoints extends dtReal {
+			datatype dtExperiencePoints extends dtInteger {
 				operation is():ptBoolean
 			}
 						

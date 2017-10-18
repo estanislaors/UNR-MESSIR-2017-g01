@@ -1,0 +1,15 @@
+package usecases.ucioeAddCoordinator {
+	import icrash.usecases.subfunctions
+	import icrash.environment
+
+	Use Case Model {
+
+		use case instance ucioeAddCoordinator : subfunction oeAddCoordinator{
+			actors {
+				alfredo : actAdministrator
+			}
+			
+			ieCoordinatorAdded() returned to alfredo
+		}
+	}
+}
