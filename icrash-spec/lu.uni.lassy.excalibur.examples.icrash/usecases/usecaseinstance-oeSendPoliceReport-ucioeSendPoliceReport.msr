@@ -9,6 +9,8 @@ package usecases.ucioeSendPoliceReport {
 				estani : actCoordinator
 				seccional2 : actPoliceHeadquarter
 			}
+		
+			ieSendReport("1;-32.959286,-60.639937;intermediate") returned to seccional2
 		}
 	}
 }

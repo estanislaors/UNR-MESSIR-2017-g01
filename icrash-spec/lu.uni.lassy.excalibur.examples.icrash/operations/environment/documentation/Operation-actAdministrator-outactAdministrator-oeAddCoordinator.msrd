@@ -7,6 +7,8 @@ icrash.environment.actAdministrator.outactAdministrator.oeAddCoordinator
 "used to initialize the login field"
 @parameter icrash.environment.actAdministrator.outactAdministrator.oeAddCoordinator.AdtPassword
 "used to initialize the password field"
+@parameter icrash.environment.actAdministrator.outactAdministrator.oeAddCoordinator.AdtExperiencePoints
+"used to initialized the experience points value"
 @endParameters
 @description
 "sent to add a new coordinator in the system's post state and environment's post state."
@@ -21,6 +23,8 @@ icrash.environment.actAdministrator.outactAdministrator.oeAddCoordinator
 //preFunctional descriptions
 @preF
 " it is supposed that there cannot exist a ctCoordinator instance with the same \msrcode{id} attribute as the one the administrator wants to delete."
+@preF
+" experience points must be a natural number"
 @endPreF
 
 //postFunctional descriptions

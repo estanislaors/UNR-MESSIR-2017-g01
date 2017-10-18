@@ -14,7 +14,7 @@ import icrash.environment
   Use Case Model {
     
 //----------------------------------------------------
-  use case system subfunction oeAddCoordinator(AdtCoordinatorID:dtCoordinatorID, AdtLogin:dtLogin, AdtPassword:dtPassword){
+  use case system subfunction oeAddCoordinator(AdtCoordinatorID:dtCoordinatorID, AdtLogin:dtLogin, AdtPassword:dtPassword, AdtExperiencePoints:dtExperiencePoints){
     actor actAdministrator[primary,active]
     returned messages {
       ieCoordinatorAdded() returned to actAdministrator
@@ -46,7 +46,8 @@ import icrash.environment
     actor actCoordinator[primary,active]
     returned messages {
       ieMessage(AMessage) returned to actCoordinator
-    }    }
+    }
+}
 //----------------------------------------------------
   use case system subfunction oeCreateSystemAndEnvironment(AqtyComCompanies:ptInteger) {
     actor actMsrCreator[primary,active]
@@ -140,7 +141,7 @@ import icrash.environment
 	  	actor actCoordinator[primary,active]
 	  	actor actPoliceHeadquarter[secondary,passive,multiple]
 	  	returned messages {
-	  		actPoliceHeadquarter.inactPoliceHeadquarter.ieSendReport(AdtReport) returned to actPoliceHeadquarter
+	  		ieSendReport(AdtReport) returned to actPoliceHeadquarter
 	  	}
 	 }
   }

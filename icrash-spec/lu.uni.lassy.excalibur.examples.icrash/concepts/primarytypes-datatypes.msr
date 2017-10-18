@@ -39,6 +39,10 @@ import lu.uni.lassy.messir.libraries.calendar
 			datatype dtLongitude extends dtReal {
 				operation is():ptBoolean			
 			}
+			
+			datatype dtExperiencePoints extends dtReal {
+				operation is():ptBoolean
+			}
 						
 		    datatype dtReport {
 		    	attribute crisisId:dtCrisisID
@@ -55,7 +59,7 @@ import lu.uni.lassy.messir.libraries.calendar
 			}
 			
 			enum etCrisisCriticity {
-				constants["low", "medium", "high","catastrophe"]
+				constants["simple", "intermediate", "complex"]
 				operation is():ptBoolean
 			}
 			

@@ -1,0 +1,12 @@
+/*
+@author estani
+@date Tue Oct 17 20:16:51 ART 2017
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtExperiencePoints
+@description ""
+@operation
+icrash.concepts.primarytypes.datatypes.dtExperiencePoints.is
+""
+@endOperations

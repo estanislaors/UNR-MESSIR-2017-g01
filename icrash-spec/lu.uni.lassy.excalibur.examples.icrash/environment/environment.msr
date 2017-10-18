@@ -32,7 +32,8 @@ import lu.uni.lassy.messir.libraries.calendar
 				operation oeAddCoordinator(
 											AdtCoordinatorID:dtCoordinatorID ,
 											AdtLogin:dtLogin , 
-											AdtPassword:dtPassword ):ptBoolean
+											AdtPassword:dtPassword,
+											AdtExperiencePoints:dtExperiencePoints ):ptBoolean
 											
 				operation oeDeleteCoordinator(
 											AdtCoordinatorID:dtCoordinatorID ):ptBoolean
@@ -136,6 +137,5 @@ import lu.uni.lassy.messir.libraries.calendar
 				output interface outactPoliceHeadquarter {
 				}
 		}
-
 	}
 }

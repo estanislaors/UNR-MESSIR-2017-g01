@@ -1,0 +1,10 @@
+/*
+@author estani
+@date Tue Oct 17 23:00:16 ART 2017
+*/
+
+
+@@view uc-oeSendPoliceReport
+@model Use-Case icrash.usecases.subfunctions.oeSendPoliceReport 
+@description ""
+@caption ""

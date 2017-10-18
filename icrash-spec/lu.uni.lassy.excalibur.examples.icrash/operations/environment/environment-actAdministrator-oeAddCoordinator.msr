@@ -8,32 +8,33 @@ import icrash.environment
 
 Operation Model {
 
-operation: actAdministrator.outactAdministrator.oeAddCoordinator(AdtCoordinatorID:dtCoordinatorID, AdtLogin:dtLogin, AdtPassword:dtPassword):ptBoolean
+operation: actAdministrator.outactAdministrator.oeAddCoordinator(AdtCoordinatorID:dtCoordinatorID, AdtLogin:dtLogin, AdtPassword:dtPassword, AdtExperiencePoints: dtExperiencePoints):ptBoolean
 {
 preP{
-  let TheSystem: ctState in
-  let TheActor:actAdministrator in
+  let TheSystem : ctState in
+  let TheActor : actAdministrator in
   
-  self.rnActor.rnSystem = TheSystem
-  and self.rnActor = TheActor
+  TheSystem = self.rnActor.rnSystem 
+  TheActor = self.rnActor
   
-/* PreP01 */
-  and TheSystem.vpStarted = true
-/* PreP02 */
-  and TheActor.rnctAuthenticated.vpIsLogged = true
+  /* PreP01 */
+  TheSystem.vpStarted = true
+  /* PreP02 */
+  TheActor.rnctAuthenticated.vpIsLogged = true
   }
 preF{ 
-  let TheSystem: ctState in
-  let TheActor:actAdministrator in
-  let ColctCoordinators:Bag(ctCoordinator) in
+  let TheSystem : ctState in
+  let TheActor : actAdministrator in
+  let ColctCoordinators : Bag(ctCoordinator) in
   
-  self.rnActor.rnSystem = TheSystem
-  and self.rnActor = TheActor
-/* PreF01 */
-  and TheSystem.rnctCoordinator->select(id.eq(AdtCoordinatorID))
-      = ColctCoordinators
-  and ColctCoordinators->isEmpty() = true
-   }
+  TheSystem = self.rnActor.rnSystem
+  TheActor = and self.rnActor
+  /* PreF01 */
+  ColctCoordinators = TheSystem.rnctCoordinator->select(id.eq(AdtCoordinatorID))
+  ColctCoordinators->isEmpty() = true
+  /* PreF02 */
+  AdtExperiencePoints >= 0
+}
 postF{
   let TheSystem: ctState in
   let TheactCoordinator:actCoordinator in
