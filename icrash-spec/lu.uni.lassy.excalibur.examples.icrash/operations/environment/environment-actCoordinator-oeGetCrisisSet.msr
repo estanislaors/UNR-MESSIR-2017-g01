@@ -5,11 +5,48 @@ import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.messir.libraries.calendar
 import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
 import icrash.environment
 
 Operation Model {
 
 operation: actCoordinator.outactCoordinator.oeGetCrisisSet(AetCrisisStatus:etCrisisStatus):ptBoolean{
+preP {
+  let
+  	TheSystem : ctState,
+  	TheActor : actAuthenticated
+  in
+  	TheSystem = self.rnActor.rnSystem
+  	TheActor = self.rnActor 
+  
+    /* PreP01 */
+    TheSystem.vpStarted = true
+	/* PreP02 */
+	TheActor.rnctAuthenticated.vpIsLogged = true 
+}
+preF {
+	/* PreF01 */
+	true
+}
+postF {
+    let 
+    	TheSystem : ctState,
+    	TheCrises : Set(ctCrisis),
+    	TheCoordinator : actCoordinator
+	in
+		TheSystem = self.rnActor.rnSystem 
+		TheCoordinator = self.rnActor
+		TheCrises = TheSystem.rnctCrisis
+		/* PostF01 */
+		TheCrises->forAll(c : ctCrisis | c.status = AetCrisisStatus
+										and c.rnTheCrisis.rnHandled = TheCoordinator
+										and c.isSentToCoordinator(TheCoordinator)
+										and TheCoordinator.rnInterfaceINieSendACrisis(c))
+}
+postP {
+	/* PostP01 */
+	true
+}
 prolog{"src/Operations/Environment/OUT/outactCoordinator-oeGetCrisisSet.pl"}
 }
 }
