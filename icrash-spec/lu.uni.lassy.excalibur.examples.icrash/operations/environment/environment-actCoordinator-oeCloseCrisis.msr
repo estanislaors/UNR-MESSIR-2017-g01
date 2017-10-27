@@ -5,11 +5,65 @@ import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.messir.libraries.calendar
 import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
 import icrash.environment
 
 Operation Model {
 
 operation: actCoordinator.outactCoordinator.oeCloseCrisis(AdtCrisisID:dtCrisisID):ptBoolean{
+preP {
+  let
+  	TheSystem : ctState,
+  	TheActor : actAuthenticated
+  in
+  	TheSystem = self.rnActor.rnSystem
+  	TheActor = self.rnActor 
+  
+    /* PreP01 */
+    TheSystem.vpStarted = true
+	/* PreP02 */
+	TheActor.rnctAuthenticated.vpIsLogged = true 
+}
+preF {
+	let 
+    	TheSystem : ctState,
+		TheCoordinator : ctCoordinator,
+		TheCrises : Set(ctCrisis),
+		TheTargetCrisis : Set(ctCrisis)
+	in
+		TheSystem = self.rnActor.rnSystem 
+		TheCoordinator = self.rnActor
+		TheCrises = TheSystem.rnctCrisis
+		/* PreF01 */
+		TheTargetCrisis = TheCrises->select(c : ctCrisis | c.id = AdtCrisisID
+														   and c.isSentToCoordinator(TheCoordinator))
+		TheTargetCrisis->size = 1
+}
+postF {
+    let 
+    	TheSystem : ctState,
+		TheCoordinator : ctCoordinator,
+		TheTargetCrisis : Set(ctCrisis),
+		TheCrisisAlerts : Set(ctAlert)
+	in
+		TheSystem = self.rnActor.rnSystem 
+		TheCoordinator = self.rnActor 
+		TheTargetCrisis = TheSystem.rnctCrisis->select(c : ctCrisis | c.id = AdtCrisisID)
+		/* PostF01 */
+		TheTargetCrisis->first@post.status = "closed"
+		/* PostF02 */
+		TheSystem.rnctCoordinator->forAll(coord : ctCoordinator | not(TheTargetCrisis->first@post.isSentToCoordinator(coord)))
+		/* PostF03 */
+		TheCrisisAlerts = TheSystem.rnctAlert@post->select(a : ctAlert | a.rnTheCrisis = TargetCrisis->first)
+		TheCrisisAlerts.isEmpty()
+		/* PostF04 */
+		TheMessage = 'You are closed the crisis having ID: '.ptStringConcat(TargetCrisis->first.id)
+		TheCoordinator.rnInterfaceIN^ieMessage(TheMessage)
+}
+postP {
+	/* PostP01 */
+	true
+} 
 prolog{"src/Operations/Environment/OUT/outactCoordinator-oeCloseCrisis.pl"}
 }
 }
