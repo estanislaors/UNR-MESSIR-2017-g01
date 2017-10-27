@@ -37,6 +37,7 @@ postF {
 		TheSystem = self.rnActor.rnSystem 
 		TheCoordinator = self.rnActor
 		TheAlerts = TheSystem.rnctAlert
+		
 		/* PostF01 */
 		TheAlerts->forAll(a : ctAlert | a.status = AetAlertStatus
 										and a.rnTheCrisis.rnHandled = TheCoordinator

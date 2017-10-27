@@ -34,6 +34,7 @@ preF {
 		TheSystem = self.rnActor.rnSystem 
 		TheCoordinator = self.rnActor
 		TheCrises = TheSystem.rnctCrisis
+		
 		/* PreF01 */
 		TheTargetCrisis = TheCrises->select(c : ctCrisis | c.id = AdtCrisisID
 														   and c.isSentToCoordinator(TheCoordinator))
@@ -49,6 +50,7 @@ postF {
 		TheSystem = self.rnActor.rnSystem 
 		TheCoordinator = self.rnActor 
 		TheTargetCrisis = TheSystem.rnctCrisis->select(c : ctCrisis | c.id = AdtCrisisID)
+		
 		/* PostF01 */
 		TheTargetCrisis->first@post.status = "closed"
 		/* PostF02 */
