@@ -13,6 +13,71 @@ import icrash.environment
 Operation Model {
 
 operation: actCoordinator.outactCoordinator.oeSetCrisisHandler(AdtCrisisID:dtCrisisID):ptBoolean{
+preP {
+  let
+  	TheSystem : ctState,
+  	TheActor : actAuthenticated
+  in
+  	TheSystem = self.rnActor.rnSystem
+  	TheActor = self.rnActor 
+  
+    /* PreP01 */
+    TheSystem.vpStarted = true
+	/* PreP02 */
+	TheActor.rnctAuthenticated.vpIsLogged = true 
+}
+preF {
+	let 
+    	TheSystem : ctState,
+		TheCoordinator : ctCoordinator,
+		TheCrises : Set(ctCrisis),
+		TheTargetCrisis : Set(ctCrisis)
+	in
+		TheSystem = self.rnActor.rnSystem 
+		TheCoordinator = self.rnActor
+		TheCrises = TheSystem.rnctCrisis
+		/* PreF01 */
+		TheTargetCrisis = TheCrises->select(c : ctCrisis | c.id = AdtCrisisID
+														   and c.isSentToCoordinator(TheCoordinator))
+		TheTargetCrisis->size = 1
+}
+postF {
+    let 
+    	TheSystem : ctState,
+		TheCoordinator : ctCoordinator,
+		ThePrevCoordinator : Set(ctCoordinator),
+		TheTargetCrisis : Set(ctCrisis),
+		TheAlerts : Set(ctAlert),
+		TheMessage : ptString,
+		TheMessage2: ptString
+	in
+		TheSystem = self.rnActor.rnSystem 
+		TheCoordinator = self.rnActor
+		TheAlerts = TheSystem.rnctAlert		
+		TheTargetCrisis = TheSystem.rnctCrisis->select(c : ctCrisis | c.id = AdtCrisisID
+																   	  and c.isSentToCoordinator(TheCoordinator))
+		/* PostF01 */
+		TheTargetCrisis->first@post.status = "handled"
+		TheMessage = 'The crisis with ID: '.ptStringConcat(TargetCrisis->first.id).'is handled by you.'
+		TheCoordinator.rnInterfaceIN^ieMessage(TheMessage)
+		/* PostF02 */
+		TheAlerts->forAll(a : ctAlert | a.rnTheCrisis = TheTargetCrisis->first
+								and a.rnTheCrisis.rnHandler = TheCoordinator
+								and TheCoordinator.rnInterfaceIN^isSendAnAlert(a))
+		/* PostF03 */
+		ThePrevCoordinator = TheTargetCrisis->first.rnHandler
+		if not(ThePrevCoordinator.isEmpty())
+		then
+			TheMessage2 = 'The crisis having ID: '.ptStringConcat(TheTargetCrisis->first.id).' changed handler coordinator.'
+			ThePrevCoordinator->first.rnInterfaceIN^ieMessage(TheMessage2)
+		/* PostF04 */
+		TheAlerts->forAll(a : ctAlert | a.rnTheCrisis = TheTargetCrisis->first
+						and a.rnSignaler->forAll(h : ctHuman |  ))// send a message to each human 
+}
+postP {
+	/* PostP01 */
+	true
+}
 prolog{"src/Operations/Environment/OUT/outactCoordinator-oeSetCrisisHandler.pl"}
 }
 
