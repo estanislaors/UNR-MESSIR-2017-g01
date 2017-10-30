@@ -27,14 +27,13 @@ preP {
 preF {
 	let
 		TheSystem: ctState,
-		TheCoordinator: actCoordinator,
-   		TheAlerts: Set(ctAlert)
+   		TheAlerts: Set(ctAlert),
+   		TheTargetAlert : Set(ctAlert)
     in
   		TheSystem = self.rnActor.rnSystem
-  		TheCoordinator = self.rnActor
   		TheAlerts = TheSystem.rnctAlert
-  		TheAlerts -> exists(a:ctAlert | a.id = AdtAlertID
-  										and a.isSentToCoordinator(TheCoordinator))
+  		TheTargetAlert = TheAlerts->select(a:ctAlert | a.id = AdtAlertID)
+  		TheTargetAlerts->size = 1
 }
 
 postF {
