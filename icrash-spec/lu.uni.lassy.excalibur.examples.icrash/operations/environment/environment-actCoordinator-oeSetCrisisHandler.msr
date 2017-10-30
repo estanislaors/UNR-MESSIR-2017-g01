@@ -66,13 +66,15 @@ postF {
 								and TheCoordinator.rnInterfaceIN^isSendAnAlert(a))
 		/* PostF03 */
 		ThePrevCoordinator = TheTargetCrisis->first.rnHandler
-		if not(ThePrevCoordinator.isEmpty())
-		then
-			TheMessage2 = 'The crisis having ID: '.ptStringConcat(TheTargetCrisis->first.id).' changed handler coordinator.'
-			ThePrevCoordinator->first.rnInterfaceIN^ieMessage(TheMessage2)
+		if (ThePrevCoordinator.isEmpty())
+		then (true)
+		else (TheMessage2 = 'The crisis having ID: '.ptStringConcat(TheTargetCrisis->first.id).' changed handler coordinator.'
+			 and ThePrevCoordinator->first.rnInterfaceIN^ieMessage(TheMessage2))
+		endif
 		/* PostF04 */
 		TheAlerts->forAll(a : ctAlert | a.rnTheCrisis = TheTargetCrisis->first
-						and a.rnSignaler->forAll(h : ctHuman |  ))// send a message to each human 
+						and a.rnSignaler->forAll(h : ctHuman | 
+							h.rnactComCompany.rnInterfaceIN^ieSmsSend(h.id, ('The alert with id '.ptStringConcat(a.id).' is being handled.'))))
 }
 postP {
 	/* PostP01 */
