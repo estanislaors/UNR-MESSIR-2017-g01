@@ -52,7 +52,7 @@ postF {
 		TheCoordinator = self.rnActor
 		TheAlerts = TheSystem.rnctAlert		
 		TheTargetCrisis = TheSystem.rnctCrisis->select(c : ctCrisis | c.id = AdtCrisisID
-																   	  and c.isSentToCoordinator(TheCoordinator))
+																   	  and c.isSentToCoordinator(TheCoordinator)) //check
 		/* PostF01 */
 		TheTargetCrisis->first@post.status = "handled"
 		TheMessage = 'The crisis with ID: '.ptStringConcat(TargetCrisis->first.id).'is handled by you.'
