@@ -32,6 +32,8 @@ preF {
     in
   		TheSystem = self.rnActor.rnSystem
   		TheAlerts = TheSystem.rnctAlert
+
+		/* PreF01 */
   		TheTargetAlert = TheAlerts->select(a:ctAlert | a.id = AdtAlertID)
   		TheTargetAlerts->size = 1
 }
@@ -45,9 +47,11 @@ postF {
 	in
 		TheSystem = self.rnActor.rnSystem
 		TheCoordinator = self.rnActor
+		
+		/* PostF01 */		
 		TheAlerts = TheSystem.rnctAlert@post->select(a:ctAlert | a.id = AdtAlertID and a.status = "valid")
 		if (not(TheAlerts->isEmpty()))
-		then (AptStringMessageForTheCoordinator.eq('The alert was validate!'))
+		then (AptStringMessageForTheCoordinator.eq('The alert has been validated!'))
 		else (AptStringMessageForTheCoordinator.eq('The alert could not be validated...'))
 		endif
 		TheCoordinator.rnInterfaceIN^ieMessage(AMessageForCrisisHandlers)

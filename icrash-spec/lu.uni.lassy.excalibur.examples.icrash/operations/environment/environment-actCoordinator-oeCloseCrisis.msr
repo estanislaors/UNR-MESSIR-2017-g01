@@ -31,7 +31,6 @@ preF {
 		TheTargetCrisis : Set(ctCrisis)
 	in
 		TheSystem = self.rnActor.rnSystem 
-		TheCoordinator = self.rnActor
 		TheCrises = TheSystem.rnctCrisis
 		
 		/* PreF01 */
@@ -54,10 +53,10 @@ postF {
 		/* PostF02 */
 		TheSystem.rnctCoordinator->forAll(coord : ctCoordinator | not(TheTargetCrisis->first@post.isSentToCoordinator(coord)))
 		/* PostF03 */
-		TheCrisisAlerts = TheSystem.rnctAlert@post->select(a : ctAlert | a.rnTheCrisis = TargetCrisis->first)
+		TheCrisisAlerts = TheSystem.rnctAlert@post->select(a : ctAlert | a.rnTheCrisis = TheTargetCrisis->first)
 		TheCrisisAlerts.isEmpty()
 		/* PostF04 */
-		TheMessage = 'You are closed the crisis having ID: '.ptStringConcat(TargetCrisis->first.id)
+		TheMessage = 'You are closed the crisis having ID: '.ptStringConcat(TheTargetCrisis->first.id)
 		TheCoordinator.rnInterfaceIN^ieMessage(TheMessage)
 }
 postP {

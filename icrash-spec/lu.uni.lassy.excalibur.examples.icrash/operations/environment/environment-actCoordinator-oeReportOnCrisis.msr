@@ -5,11 +5,56 @@ import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.messir.libraries.calendar
 import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
 import icrash.environment
 
 Operation Model {
 
 operation: actCoordinator.outactCoordinator.oeReportOnCrisis(AdtCrisisID:dtCrisisID, AdtComment:dtComment):ptBoolean{
+preP {
+	let
+  		TheSystem: ctState,
+  		TheActor: actAuthenticated
+  	in
+  		TheSystem = self.rnActor.rnSystem
+  		TheActor = self.rnActor 
+  
+    	/* PreP01 */
+    	TheSystem.vpStarted = true
+		/* PreP02 */
+		TheActor.rnctAuthenticated.vpIsLogged = true 
+}
+preF {
+	let
+		TheSystem: ctState,
+   		TheCrises: Set(ctCrisis),
+   		TheTargetCrisis : Set(ctCrisis)
+    in
+  		TheSystem = self.rnActor.rnSystem
+  		TheCrises = TheSystem.rnctAlert
+  		TheTargetCrisis = TheCrises->select(c:ctCrisis | c.id = AdtCrisisID)
+  		TheTargetCrisis->size = 1
+}
+postF {
+    let 
+    	TheSystem : ctState,
+		TheCoordinator : ctCoordinator,
+		TheTargetCrisis : Set(ctCrisis),
+		TheCrisisAlerts : Set(ctAlert)
+	in
+		TheSystem = self.rnActor.rnSystem 
+		TheCoordinator = self.rnActor 
+		TheTargetCrisis = TheSystem.rnctCrisis->select(c : ctCrisis | c.id = AdtCrisisID)
+		
+		/* PostF01 */
+		TheTargetCrisis->first@post.comment = AdtComment
+		TheMessage = 'Your report was successful for crisis with ID: '.ptStringConcat(TheTargetCrisis->first.id)
+		TheCoordinator.rnInterfaceIN^ieMessage(TheMessage)
+}
+postP {
+	/* PostP01 */
+	true
+}
 prolog{"src/Operations/Environment/OUT/outactCoordinator-oeReportOnCrisis.pl"}
 }
 
