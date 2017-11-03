@@ -42,7 +42,8 @@ postF {
     	TheSystem : ctState,
 		TheCoordinator : ctCoordinator,
 		TheTargetCrisis : Set(ctCrisis),
-		TheCrisisAlerts : Set(ctAlert)
+		TheCrisisAlerts : Set(ctAlert),
+		TheMessage : ptString
 	in
 		TheSystem = self.rnActor.rnSystem 
 		TheCoordinator = self.rnActor 

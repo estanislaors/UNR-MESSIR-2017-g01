@@ -55,7 +55,10 @@ import icrash.environment
 					NearPoliceHeadquarters -> forAll (p : ctPoliceHeadquarter | p.rnInterfaceIN^ieSendReport(AdtReport))
 			}
 			
-			postP {true}
+			postP {
+				/* PostP01 */
+				true
+			}
 			
 		}
 	}

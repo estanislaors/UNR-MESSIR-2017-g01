@@ -31,7 +31,7 @@ preF {
    		TheTargetCrisis : Set(ctCrisis)
     in
   		TheSystem = self.rnActor.rnSystem
-  		TheCrises = TheSystem.rnctAlert
+  		TheCrises = TheSystem.rnctCrisis
   		TheTargetCrisis = TheCrises->select(c:ctCrisis | c.id = AdtCrisisID)
   		TheTargetCrisis->size = 1
 }
@@ -40,7 +40,8 @@ postF {
     	TheSystem : ctState,
 		TheCoordinator : ctCoordinator,
 		TheTargetCrisis : Set(ctCrisis),
-		TheCrisisAlerts : Set(ctAlert)
+		TheCrisisAlerts : Set(ctAlert),
+		TheMessage : ptString
 	in
 		TheSystem = self.rnActor.rnSystem 
 		TheCoordinator = self.rnActor 

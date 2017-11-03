@@ -41,7 +41,7 @@ postF {
 		TheCrises->forAll(c : ctCrisis | c.status = AetCrisisStatus
 										and c.rnTheCrisis.rnHandled = TheCoordinator
 										and c.isSentToCoordinator(TheCoordinator)
-										and TheCoordinator.rnInterfaceINieSendACrisis(c))
+										and TheCoordinator.rnInterfaceIN^ieSendACrisis(c))
 }
 postP {
 	/* PostP01 */

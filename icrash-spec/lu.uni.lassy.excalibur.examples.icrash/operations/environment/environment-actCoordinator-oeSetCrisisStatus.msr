@@ -40,7 +40,8 @@ postF {
     let 
     	TheSystem : ctState,
 		TheCoordinator : ctCoordinator,
-		TheTargetCrisis : Set(ctCrisis)
+		TheTargetCrisis : Set(ctCrisis),
+		TheMessage : ptString
 	in
 		TheSystem = self.rnActor.rnSystem 
 		TheCoordinator = self.rnActor 
