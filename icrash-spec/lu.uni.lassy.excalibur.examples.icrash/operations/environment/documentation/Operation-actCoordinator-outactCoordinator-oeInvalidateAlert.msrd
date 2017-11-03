@@ -21,7 +21,7 @@ icrash.environment.actCoordinator.outactCoordinator.oeInvalidateAlert
 
 //postFunctional descriptions
 @postF 
-"the ctAlert class instance having the provided id is considered closed in the post state."
+"the ctAlert class instance having the provided id is considered invalid in the post state."
 @postF
 "the coordinator actor is informed about the satisfaction of its request."
 

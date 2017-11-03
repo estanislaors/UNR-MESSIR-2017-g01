@@ -5,11 +5,60 @@ import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.messir.libraries.calendar
 import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
 import icrash.environment
 
 Operation Model {
 
 operation: actCoordinator.outactCoordinator.oeInvalidateAlert(AdtAlertID:dtAlertID):ptBoolean{
+preP {
+	let
+  		TheSystem: ctState,
+  		TheActor: actAuthenticated
+  	in
+  		TheSystem = self.rnActor.rnSystem
+  		TheActor = self.rnActor 
+  
+    	/* PreP01 */
+    	TheSystem.vpStarted = true
+		/* PreP02 */
+		TheActor.rnctAuthenticated.vpIsLogged = true 
+}
+preF {
+	let
+		TheSystem: ctState,
+   		TheAlerts: Set(ctAlert),
+   		TheTargetAlert: Set(ctAlert)
+    in
+  		TheSystem = self.rnActor.rnSystem
+  		TheAlert = TheSystem.rnctAlert
+  		TheTargetAlert = TheAlerts->select(a:ctAlert | a.id = AdtAlertID)
+  		TheTargetAlert->size = 1
+}
+
+postF {
+	let
+		TheSystem: ctState,
+		TheCoordinator: actCoordinator,
+		TheAlerts : Set(ctAlert),
+		TheMessage: ptString
+	in
+		TheSystem = self.rnActor.rnSystem
+		TheCoordinator = self.rnActor
+		
+		/* PostF01 */		
+		TheAlerts = TheSystem.rnctAlert@post->select(a:ctAlert | a.id = AdtAlertID and a.status = "invalid")
+		if (not(TheAlerts->isEmpty()))
+		then (TheMessage.eq('The alert has been invalidated!'))
+		else (TheMessage.eq('The alert could not be invalidated...'))
+		endif
+		TheCoordinator.rnInterfaceIN^ieMessage(TheMessage)
+}
+postP {
+	/* PostP01 */
+	true
+}
+
 prolog{"src/Operations/Environment/OUT/outactCoordinator-oeInvalidateAlert.pl"}
 }
 }
