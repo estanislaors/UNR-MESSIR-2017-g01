@@ -9,7 +9,7 @@
 
 * Cada crisis será puntuada y sólo los coordinadores con cierto nivel de experiencia podrán atenderla. Si no existe coordinador con nivel de experiencia necesario para atender una crisis, se le asignará el coordinador con mayor puntos de experiencia del nivel inmediatamente anterior.
 
-* r1: La crisis será categorizada como: compleja, intermedia o simple. El sistema determinará su puntaje de acuerdo a la cantidad de alertas que se reciban para esa crisis, sumando 10 puntos por cada alerta recibida de la crisis, la pertenecia de una alerta a una crisis se determinará de acuerdo a su ubicación.
+* La crisis será categorizada como: compleja, intermedia o simple. El sistema determinará su puntaje de acuerdo a la cantidad de alertas que se reciban para esa crisis, sumando 10 puntos por cada alerta recibida de la crisis, la pertenecia de una alerta a una crisis se determinará de acuerdo a su ubicación.
 
 Entonces la categorización de una crisis será la siguiente:
 
@@ -43,10 +43,10 @@ Simple | C
 
 * Añadir un reporte asociado a cada crisis para realizar la difusión pública de los hechos.
 
-* El coordinador que maneje la crisis será el encargado de realizar el reporte y así evitar que se publique información privada o sensible que pueda afectar a los involucrados del hecho. Luego cada reporte generado podrá ser remitido via email a la seccional de policía más cercana a la ubicación del evento.
+* Los coordinadores serán encargados de crear el reporte y así evitar que se publique información privada o sensible que pueda afectar a los involucrados del hecho. El reporte generado podrá ser remitido via email a la seccional de policía más cercana a la ubicación del evento.
 
-* La información del reporte será generada a partir de los datos recibidos en las alertas de esa crisis.
+* Cada crisis tendrá asociado a lo sumo un reporte y el estado de envío. Un coordinador podrá crear un nuevo reporte para la crisis si y sólo si el reporte anterior fue enviado. Caso contrario deberá modificar el reporte ya existente.
 
-* Puede advertirse al usuario de no ingresar datos personales en los campos que se utilizarían para difundir la información a distintas instituciones.
+* La información del reporte será extraída a partir de los datos recibidos en las alertas de esa crisis.
 
-* Las seccionales de policía se ingresan al sistema desde el panel del administrador, quien por su parte será el encargado de realizar ésta tarea, y para la cual deberán proporcionarse entre otros datos el nombre de la seccional, la ubicación (coordenadas), email, etc.
+* Los administradores de iCrash serán los encargados de registar las seccionales en el sistema. Para realizar esta tarea deberán contar con datos como el nombre de la seccional, email y la ubicación (coordenadas).
