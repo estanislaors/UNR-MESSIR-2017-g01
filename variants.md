@@ -5,7 +5,7 @@
 
 * Se define el nivel de experiencia de cada coordinador. El administrador del sistema determinará el nivel inicial de cada coordinador que se cree en el sistema.
 
-* Cada crisis tendrá asignado un puntaje (q1- cómo es este puntaje asignado: i.e. politica de puntuaje de una crisis; quién se encarga de asignar dicho puntaje?). Luego cuando una crisis sea atendida por un coordinador, éste aumenta la valoración de su experiencia de acuerdo al puntaje de la crisis atendida, de esta forma podemos generar una relación entre la cantidad de puntos de experiencia y el nivel de experiencia alcanzado.
+* Cada crisis tendrá asignado un puntaje. Cuando una crisis sea atendida por un coordinador, éste aumenta la valoración de su experiencia de acuerdo al puntaje de la crisis atendida, de esta forma podemos generar una relación entre la cantidad de puntos de experiencia y el nivel de experiencia alcanzado.
 
 * Cada crisis será puntuada y sólo los coordinadores con cierto nivel de experiencia podrán atenderla. Si no existe coordinador con nivel de experiencia necesario para atender una crisis, se le asignará el coordinador con mayor puntos de experiencia del nivel inmediatamente anterior.
 
@@ -41,12 +41,12 @@ Simple | C
 
 ---
 
-* Añadir un campo de texto en la gestión de la crisis para realizar una difusión pública de los hechos.
+* Añadir un reporte asociado a cada crisis para realizar la difusión pública de los hechos.
 
-* La información de ese campo podrá ser validada con un conjunto de palabras críticas (q2: cómo se determina ese conjunto de palabras críticas?) para evitar que se publique información privada o sensible que pueda afectar a los involucrados del hecho. Luego de esa verificiación, el contenido será remitido via email a la seccional de policía correspondiente (q3- cómo son las seccionales añadidas al sistema?) de acuerdo a la ubicación del evento.
+* El coordinador que maneje la crisis será el encargado de realizar el reporte y así evitar que se publique información privada o sensible que pueda afectar a los involucrados del hecho. Luego cada reporte generado podrá ser remitido via email a la seccional de policía más cercana a la ubicación del evento.
 
-* El conjunto de palabras críticas podrá ser extraído a partir de la información recibida en las alertas de la crisis.
+* La información del reporte será generada a partir de los datos recibidos en las alertas de esa crisis.
 
-* r2: Los campos de datos personales en la entrada de usuario para crear una alerta determinarán el conjunto de palabras críticas que contiene la información que debe evitar ser difundida. Además, puede advertirse al usuario de no ingresar datos personales en los campos que se utilizarían para difundir la información a distintas instituciones.
+* Puede advertirse al usuario de no ingresar datos personales en los campos que se utilizarían para difundir la información a distintas instituciones.
 
-* r3: Las seccionales de policía se ingresan al sistema desde el panel del administrador, quien por su parte será el encargado de esta tarea, y donde deberán proporcionarse entre otros datos el nombre de la seccional, la ubicación (coordenadas), email, etc.
+* Las seccionales de policía se ingresan al sistema desde el panel del administrador, quien por su parte será el encargado de realizar ésta tarea, y para la cual deberán proporcionarse entre otros datos el nombre de la seccional, la ubicación (coordenadas), email, etc.
