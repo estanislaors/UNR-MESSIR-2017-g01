@@ -23,7 +23,7 @@ icrash.environment.actCoordinator.outactCoordinator.oeSendPoliceReport.AdtReport
 @endPreP
 //preFunctional descriptions
 @preF
-" the actCoordinator is handling the crisis whose information he want to share "
+"it is supposed that there exist one crisis in the pre state having the given report associated."
 @endPreF
 //postFunctional descriptions
 @postF 

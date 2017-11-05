@@ -24,15 +24,12 @@ import icrash.environment
 				/* PreF01 */
 				let
 					TheSystem : ctState,
-					TheActCoordinator : actCoordinator,
-					TheHandledCrises : Set(ctCrisis)
+					TheCrises : Set(ctCrisis)
 				in
 					TheSystem = self.rnActor.rnSystem 
-					TheActCoordinator = self.rnActor 
-					TheHandledCrises =  TheActCoordinator.rnHandled 
-					TheHandledCrises -> exists (c : ctCrisis | c.id = AdtReport.crisisId)
+					TheCrises = TheSystem.rnctCrisis
+					TheCrises -> exists (c : ctCrisis | c.id = AdtReport.crisisId)
 			}
-			
 			
 			postF {
 				let
