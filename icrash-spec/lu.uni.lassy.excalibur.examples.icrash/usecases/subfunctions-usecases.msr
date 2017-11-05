@@ -34,14 +34,6 @@ import icrash.environment
  		}
   }
 //----------------------------------------------------
-  use case system subfunction oeInvalidateAlert(AdtAlertID:dtAlertID) {
-    actor actCoordinator[primary,active]
-    actor actComCompany[secondary,passive]
-    returned messages {
-      ieMessage(AMessage) returned to actCoordinator
-		}
-  }
-//----------------------------------------------------
   use case system subfunction oeCloseCrisis(AdtCrisisID:dtCrisisID) {
     actor actCoordinator[primary,active]
     returned messages {
@@ -74,18 +66,12 @@ import icrash.environment
     }
   }
 //----------------------------------------------------
-  use case system subfunction oeSetCrisisHandler(AdtCrisisID:dtCrisisID) {
+  use case system subfunction oeInvalidateAlert(AdtAlertID:dtAlertID) {
     actor actCoordinator[primary,active]
-    actor actCoordinator[secondary,passive]
-    actor actComCompany[secondary,passive,multiple]
+    actor actComCompany[secondary,passive]
     returned messages {
-      ieMessage(AMessage) 
-        returned to actCoordinator
-      ieSendAnAlert(ActAlert)
-        returned to actCoordinator
-      ieSmsSend(AdtPhoneNumber,AdtSMS)
-        returned to actComCompany
-    }
+      ieMessage(AMessage) returned to actCoordinator
+		}
   }    
 //----------------------------------------------------
   use case system subfunction oeLogin(AdtLogin:dtLogin , AdtPassword:dtPassword) {
@@ -109,8 +95,30 @@ import icrash.environment
     }
   }
 //----------------------------------------------------
+	use case system subfunction oeSendPoliceReport(AdtReport:dtReport) {
+	  	actor actCoordinator[primary,active]
+	  	actor actPoliceHeadquarter[secondary,passive,multiple]
+	  	returned messages {
+	  		ieSendReport(AdtReport) returned to actPoliceHeadquarter
+	  	}
+	 }
+//----------------------------------------------------
   use case system subfunction oeSetClock(AcurrentClock:dtDateAndTime) {
     actor actActivator[primary,proactive]
+  }
+//----------------------------------------------------
+  use case system subfunction oeSetCrisisHandler(AdtCrisisID:dtCrisisID) {
+    actor actCoordinator[primary,active]
+    actor actCoordinator[secondary,passive]
+    actor actComCompany[secondary,passive,multiple]
+    returned messages {
+      ieMessage(AMessage) 
+        returned to actCoordinator
+      ieSendAnAlert(ActAlert)
+        returned to actCoordinator
+      ieSmsSend(AdtPhoneNumber,AdtSMS)
+        returned to actComCompany
+    }
   }    
 //----------------------------------------------------
   use case system subfunction oeSetCrisisStatus(AdtCrisisID:dtCrisisID ,AetCrisisStatus:etCrisisStatus) {
@@ -136,14 +144,6 @@ import icrash.environment
       ieMessage(AMessage) returned to actCoordinator
     }
   }
-//----------------------------------------------------
-    use case system subfunction oeSendPoliceReport(AdtReport:dtReport) {
-	  	actor actCoordinator[primary,active]
-	  	actor actPoliceHeadquarter[secondary,passive,multiple]
-	  	returned messages {
-	  		ieSendReport(AdtReport) returned to actPoliceHeadquarter
-	  	}
-	 }
   }
 }
 

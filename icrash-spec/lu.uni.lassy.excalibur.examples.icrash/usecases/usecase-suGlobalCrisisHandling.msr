@@ -22,10 +22,11 @@ package icrash.usecases.suGlobalCrisisHandling {
 			step c: actCoordinator
 			        executes ugManageCrisis
 
-      ordering constraint 
-        "steps (a) (b) and (c) executions are interleaved 
-        (steps (b) and (c) have their protocol constrained by steps of (a))."
-      ordering constraint 
-          "steps (a) (b) and (c) can be executed multiple times."
+	      ordering constraint 
+	        "steps (a) (b) and (c) executions are interleaved 
+	        (steps (b) and (c) have their protocol constrained by steps of (a))."
+	      ordering constraint 
+	          "steps (a) (b) and (c) can be executed multiple times."
+		}
+	}
 }
-}}
