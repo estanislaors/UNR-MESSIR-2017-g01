@@ -46,7 +46,7 @@ import lu.uni.lassy.messir.libraries.calendar
 	 		}
 		}
 		
-		actor actCoordinator 
+		actor actCoordinator
 						role rnactCoordinator 
 						cardinality [0..*] 
 						extends actAuthenticated{
@@ -73,11 +73,14 @@ import lu.uni.lassy.messir.libraries.calendar
                                           ):ptBoolean
 				operation oeValidateAlert(AdtAlertID:dtAlertID ):ptBoolean
 				operation oeSendPoliceReport(AdtReport:dtReport):ptBoolean
+				operation oeSetReport(AdtReport:dtReport):ptBoolean
+				operation oeGetReport(AdtCrisisID:dtCrisisID):ptBoolean
 			}
 			
 			input interface inactCoordinator{
 				operation ieSendAnAlert(ActAlert:ctAlert ):ptBoolean
 				operation ieSendACrisis(ActCrisis:ctCrisis ):ptBoolean
+				operation ieSendReport(AdtReport:dtReport):ptBoolean
 	 		}
 		}
 		

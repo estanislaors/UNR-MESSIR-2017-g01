@@ -1,0 +1,47 @@
+package icrash.environment.operations.actCoordinator.outactCoordinator.oeSetReport {
+
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.messir.libraries.calendar
+import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
+import icrash.environment
+
+	Operation Model {
+
+		operation: icrash.environment.actCoordinator.outactCoordinator.oeSetReport(AdtReport:dtReport):ptBoolean{
+			preP {
+			  let
+			  	TheSystem : ctState,
+			  	TheActor : actAuthenticated
+			  in
+			  	TheSystem = self.rnActor.rnSystem
+			  	TheActor = self.rnActor 
+			  
+			    /* PreP01 */
+			    TheSystem.vpStarted = true
+				/* PreP02 */
+				TheActor.rnctAuthenticated.vpIsLogged = true 
+			}
+			preF {
+				let 
+			    	TheSystem : ctState,
+					TheCrises : Set(ctCrisis),
+					TheTargetCrisis : Set(ctCrisis)
+				in
+					TheSystem = self.rnActor.rnSystem 
+					TheCrises = TheSystem.rnctCrisis
+					
+					/* PreF01 */
+					TheTargetCrisis = TheCrises->select(c : ctCrisis | c.id = AdtReport.crisisId)
+					TheTargetCrisis->size = 1
+					/* PreF02 */
+					if (TheTargetCrisis->first().report.is())
+					then (TheTargetCrisis->first().vpReported = true)
+					else (TheTargetCrisis->first().vpReported = false)
+					endif
+			}
+		}
+	}
+}

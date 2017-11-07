@@ -54,6 +54,7 @@ import lu.uni.lassy.messir.libraries.calendar
 				attribute location:dtGPSLocation
 				attribute instant:dtDateAndTime
 				attribute comment:dtComment
+				attribute report:dtReport
 				attribute vpReported: ptBoolean
 				
 				operation init(
@@ -62,7 +63,9 @@ import lu.uni.lassy.messir.libraries.calendar
 										Astatus:etCrisisStatus ,
 										Alocation:dtGPSLocation ,
 										Ainstant:dtDateAndTime ,
-										Acomment:dtComment ):ptBoolean
+										Acomment:dtComment,
+										Areport:dtReport,
+										AvpReported:ptBoolean ):ptBoolean
 										
 				operation handlingDelayPassed():ptBoolean
         		operation maxHandlingDelayPassed():ptBoolean

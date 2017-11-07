@@ -1,0 +1,41 @@
+/*
+@author estani
+@date Mon Nov 06 22:13:04 ART 2017
+*/
+
+
+@@Operation
+icrash.environment.actCoordinator.outactCoordinator.oeSetReport
+//parameters
+@parameter
+icrash.environment.actCoordinator.outactCoordinator.oeSetReport.AdtReport
+"the report to associate with a crisis"
+@endParameters
+
+@description " "
+//preProtocol descriptions
+@preP
+"the system is started"
+@preP
+"the actor logged previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)"
+@endPreP
+//preFunctional descriptions
+@preF
+"it is supposed that there exist one ctCrisis instance with the same \msrcode{id} attribute value as the crisisId attribute in the report."
+@preF
+"if already exists a report then it must be sent before to create the new one"
+@endPreF
+//postFunctional descriptions
+@postF
+"the report is assigned into the ctCrisis class instance which having the same id value"
+@postF
+"vpReported attribute is setted to false for the ctCrisis instance which having the same id value"
+@postF
+"the coordinator actor is informed about the satisfaction of its request."
+@endPostF
+//postProtocol descriptions
+@postP 
+"none"
+@endPostP
+//example
+@example" "
