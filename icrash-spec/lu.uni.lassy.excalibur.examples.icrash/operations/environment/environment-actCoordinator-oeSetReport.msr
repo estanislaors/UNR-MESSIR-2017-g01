@@ -42,6 +42,31 @@ import icrash.environment
 					else (TheTargetCrisis->first().vpReported = false)
 					endif
 			}
+			postF {
+			    let 
+			    	TheSystem : ctState,
+					TheCoordinator : ctCoordinator,
+					TheTargetCrisisSet : Set(ctCrisis),
+					TheCrisis : ctCrisis,
+					TheMessage : ptString
+				in
+					TheSystem = self.rnActor.rnSystem 
+					TheCoordinator = self.rnActor 
+					TheTargetCrisisSet = TheSystem.rnctCrisis->select(c : ctCrisis | c.id = AdtReport.crisisId)
+					TheCrisis = TheTargetCrisisSet->first()
+					
+					/* PostF01 */
+					TheCrisis@post.report = AdtReport
+					/* PostF02 */
+					TheCrisis@post.vpReported = false
+					/* PostF03 */
+					TheMessage = 'The report was created for crisis with ID: '.ptStringConcat(TheCrisis.id)
+					TheCoordinator.rnInterfaceIN^ieMessage(TheMessage)
+			}
+			postP {
+				/* PostP01 */
+				true
+			} 
 		}
 	}
 }

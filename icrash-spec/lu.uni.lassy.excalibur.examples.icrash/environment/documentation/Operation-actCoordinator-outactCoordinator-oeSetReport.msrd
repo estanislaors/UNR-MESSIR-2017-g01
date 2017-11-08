@@ -21,7 +21,7 @@ icrash.environment.actCoordinator.outactCoordinator.oeSetReport.AdtReport
 @endPreP
 //preFunctional descriptions
 @preF
-"it is supposed that there exist one ctCrisis instance with the same \msrcode{id} attribute value as the crisisId attribute in the report."
+"it is supposed that there exist one ctCrisis instance with the same \msrcode{id} attribute value to the crisisId attribute in the report."
 @preF
 "if already exists a report then it must be sent before to create the new one"
 @endPreF
