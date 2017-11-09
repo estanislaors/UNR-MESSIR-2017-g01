@@ -12,7 +12,7 @@ icrash.environment.actCoordinator.outactCoordinator.oeSetReport.AdtReport
 "the report to associate with a crisis"
 @endParameters
 
-@description " "
+@description "sent a report for specific crisis."
 //preProtocol descriptions
 @preP
 "the system is started"

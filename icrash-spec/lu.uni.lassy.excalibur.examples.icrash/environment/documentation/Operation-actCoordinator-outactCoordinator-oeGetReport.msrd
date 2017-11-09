@@ -1,0 +1,38 @@
+/*
+@author estani
+@date Wed Nov 08 19:53:50 ART 2017
+*/
+
+
+@@Operation
+icrash.environment.actCoordinator.outactCoordinator.oeGetReport
+//parameters
+@parameter
+icrash.environment.actCoordinator.outactCoordinator.oeGetReport.AdtCrisisID
+""
+@endParameters
+
+@description "sent to request a report from specific crisis."
+
+//preProtocol descriptions
+@preP
+"the system is started"
+@preP
+"the actor logged previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)"
+@endPreP
+
+//preFunctional descriptions
+@preF
+"none"
+@endPreF
+
+//postFunctional descriptions
+@postF 
+"if exist one ctCrisis instance with the \msrcode{id} attribute value then send the report to the coordinator."
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "

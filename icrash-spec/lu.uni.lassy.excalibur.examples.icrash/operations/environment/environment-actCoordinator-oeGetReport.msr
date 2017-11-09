@@ -11,8 +11,41 @@ import icrash.environment
 	Operation Model {
 
 		operation: icrash.environment.actCoordinator.outactCoordinator.oeGetReport(AdtCrisisID:dtCrisisID):ptBoolean{
-		// include below the specification information (pre,post or ocl or prolog)
-
+		preP {
+			  let
+			  	TheSystem : ctState,
+			  	TheActor : actAuthenticated
+			  in
+			  	TheSystem = self.rnActor.rnSystem
+			  	TheActor = self.rnActor 
+			  
+			    /* PreP01 */
+			    TheSystem.vpStarted = true
+				/* PreP02 */
+				TheActor.rnctAuthenticated.vpIsLogged = true 
+		}
+		preF {
+			/* PreF01 */
+			true
+		}
+		postF {
+		    let 
+		    	TheSystem : ctState,
+		    	TheCrises : Set(ctCrisis),
+		    	TheCoordinator : actCoordinator
+			in
+				TheSystem = self.rnActor.rnSystem 
+				TheCoordinator = self.rnActor
+				TheCrises = TheSystem.rnctCrisis
+				
+				/* PostF01 */
+				TheCrises->forAll(c : ctCrisis | c.id = AdtCrisisID
+												and TheCoordinator.rnInterfaceIN^ieSendReport(c.report))
+		}
+		postP {
+			/* PostP01 */
+			true
+		}
 		}
 	}
 }
