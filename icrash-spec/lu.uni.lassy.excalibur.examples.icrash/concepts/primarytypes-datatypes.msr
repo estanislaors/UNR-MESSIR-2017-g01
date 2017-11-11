@@ -43,6 +43,15 @@ import lu.uni.lassy.messir.libraries.calendar
 			datatype dtExperiencePoints extends dtInteger {
 				operation is():ptBoolean
 			}
+			
+			datatype dtEmailAddress extends dtString {
+				operation is():ptBoolean
+			}
+			
+			datatype dtEmailMessage {
+				attribute subject: dtString
+				attribute body: dtString
+			}
 						
 		    datatype dtReport {
 		    	attribute crisisId:dtCrisisID

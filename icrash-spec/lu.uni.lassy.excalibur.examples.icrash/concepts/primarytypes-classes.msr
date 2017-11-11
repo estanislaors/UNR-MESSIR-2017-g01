@@ -124,17 +124,20 @@ import lu.uni.lassy.messir.libraries.calendar
 										Apwd:dtPassword ):ptBoolean
 			}
 			
-			class ctPoliceHeadquarter role rnctPoliceHeadquarter cardinality [0..*]{
-				attribute id:dtPoliceHeadquarterID
-				attribute name : dtString
-				attribute location : dtGPSLocation
-				attribute phoneNumber : dtPhoneNumber
+			class ctPoliceHeadquarter
+				role rnctPoliceHeadquarter
+				cardinality [0..*] {
+					attribute id:dtPoliceHeadquarterID
+					attribute name : dtString
+					attribute location : dtGPSLocation
+					attribute phoneNumber : dtPhoneNumber
 				
-				operation init(
+					operation init(
 									Aid : dtPoliceHeadquarterID ,
 									Aname : dtString ,
-									Alocation : dtGPSLocation ,
-									AphoneNumber : dtPhoneNumber) : ptBoolean
+									Alocation : dtGPSLocation,
+									AphoneNumber : dtPhoneNumber,
+									AemailAddress : dtEmailAddress) : ptBoolean
 			}
 		}
 	}
