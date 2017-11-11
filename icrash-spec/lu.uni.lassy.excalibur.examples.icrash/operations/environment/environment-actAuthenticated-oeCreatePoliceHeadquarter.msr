@@ -1,0 +1,66 @@
+package icrash.environment.operations.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter {
+
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.messir.libraries.calendar
+import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
+import icrash.environment
+
+	Operation Model {
+
+		operation: icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter(Aid:dtPoliceHeadquarterID,
+																									 Aname:dtString,
+																									 Alocation:dtGPSLocation,
+																									 AphoneNumber:dtPhoneNumber,
+																									 AemailAddress:dtEmailAddress):ptBoolean{
+			preP {
+			  let 
+			  	TheSystem: ctState,
+			  	TheActor:actAuthenticated
+		  	in
+		  		self.rnActor.rnSystem = TheSystem
+			  	and self.rnActor = TheActor
+				/* PreP01 */
+			  	and TheSystem.vpStarted = true
+				/* PreP02 */
+			  	and TheActor.rnctAuthenticated.vpIsLogged = false
+			}
+			
+			preF {
+			  let TheSystem : ctState,
+			  	  ThePoliceHeadquarters : Set(ctPoliceHeadquarter)
+			  in
+				  TheSystem = self.rnActor.rnSystem
+				  /* PreF01 */
+				  ThePoliceHeadquarters = TheSystem.rnctPoliceHeadquarter->select(id.eq(Aid))
+				  ThePoliceHeadquarters->isEmpty() = true
+			}
+			
+			postF {
+				let
+				  	TheSystem: ctState,
+				  	TheactPoliceHeadquarter:actPoliceHeadquarter,
+				  	ThectPoliceHeadquarter:ctPoliceHeadquarter
+			  	in
+					TheSystem = self.rnActor.rnSystem
+				  
+					/* PostF01 */
+					TheactPoliceHeadquarter.init()
+					/* PostF02 */
+					ThectPoliceHeadquarter.init(Aid,Aname,Alocation,AphoneNumber,AemailAddress)
+					/* PostF03 */  
+				 	self.rnActor.rnInterfaceIN^iePoliceHeadquarterCreated()
+					/* PostF04 */
+					ThectPoliceHeadquarter = TheactPoliceHeadquarter@post.rnctCoordinator
+					/* PostF05 */  
+				  	TheactPoliceHeadquarter = ThectPoliceHeadquarter@post.rnactAuthenticated
+			}
+			postP{
+				/* PostP01 */
+				true
+			}
+		}
+	}
+}

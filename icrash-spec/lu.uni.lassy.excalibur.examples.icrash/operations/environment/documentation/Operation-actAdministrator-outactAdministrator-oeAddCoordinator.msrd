@@ -22,7 +22,7 @@ icrash.environment.actAdministrator.outactAdministrator.oeAddCoordinator
 
 //preFunctional descriptions
 @preF
-" it is supposed that there cannot exist a ctCoordinator instance with the same \msrcode{id} attribute as the one the administrator wants to delete."
+" it is supposed that there not exist a ctCoordinator instance with the same \msrcode{id} attribute as the one the administrator wants to delete."
 @preF
 " experience points must be a natural number"
 @endPreF

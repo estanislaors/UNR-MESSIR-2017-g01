@@ -28,7 +28,7 @@ import icrash.environment
 				in
 					TheSystem = self.rnActor.rnSystem 
 					TheCrises = TheSystem.rnctCrisis
-					TheCrises -> exists (c : ctCrisis | c.id = AdtReport.crisisId)
+					TheCrises->exists(c : ctCrisis | c.id = AdtReport.crisisId)
 			}
 			
 			postF {
@@ -43,13 +43,13 @@ import icrash.environment
 					TheActCoordinator = self.rnActor
 					ThePoliceHeadquarters = self.rnActor.rnSystem.rnctPoliceHeadquarter
 					TheHandledCrises =  TheActCoordinator@post.rnHandled 
-					ReportedCrises = TheHandledCrises -> select (c : ctCrisis | c.id = AdtReport.crisisId)
+					ReportedCrises = TheHandledCrises->select(c : ctCrisis | c.id = AdtReport.crisisId)
 					TheReportedCrisis = RepotedCrises.first()
 					/* PostF01 */
 					TheReportedCrisis.vpReported = true
 					/* PostF02 */ 
-					NearPoliceHeadquarters = ThePoliceHeadquarters -> select (p : ctPoliceHeadquarter | (TheReportedCrisis.location).isNearTo(p.location))
-					NearPoliceHeadquarters -> forAll (p : ctPoliceHeadquarter | p.rnInterfaceIN^ieSendReport(AdtReport))
+					NearPoliceHeadquarters = ThePoliceHeadquarters->select(p : ctPoliceHeadquarter | (TheReportedCrisis.location).isNearTo(p.location))
+					NearPoliceHeadquarters->forAll(p : ctPoliceHeadquarter | p.rnInterfaceIN^ieSendReport(AdtReport))
 			}
 			
 			postP {

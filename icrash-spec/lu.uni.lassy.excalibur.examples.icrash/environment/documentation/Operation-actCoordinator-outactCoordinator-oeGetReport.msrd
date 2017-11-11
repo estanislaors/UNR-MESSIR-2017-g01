@@ -32,7 +32,7 @@ icrash.environment.actCoordinator.outactCoordinator.oeGetReport.AdtCrisisID
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+"none"
 @endPostP
 //example
 @example" "

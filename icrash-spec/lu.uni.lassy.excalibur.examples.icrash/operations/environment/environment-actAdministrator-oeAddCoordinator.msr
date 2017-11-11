@@ -39,6 +39,7 @@ postF{
   let TheSystem: ctState in
   let TheactCoordinator:actCoordinator in
   let ThectCoordinator:ctCoordinator in
+  let TheActor:actAdministrator in
   self.rnActor.rnSystem = TheSystem
   and self.rnActor = TheActor
 /* PostF01 */

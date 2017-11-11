@@ -6,6 +6,7 @@ import icrash.concepts.secondarytypes.datatypes
 import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.calendar
+import lu.uni.lassy.messir.libraries.string
 
 	Environment Model { 
 
@@ -89,20 +90,20 @@ import lu.uni.lassy.messir.libraries.calendar
 			operation init():ptBoolean
 
 			output interface outactComCompany{
-				operation oeAlert(
-										AetHumanKind:etHumanKind , 
-										AdtDate:dtDate , 
-										AdtTime:dtTime , 
-										AdtPhoneNumber:dtPhoneNumber ,
-										AdtGPSLocation:dtGPSLocation , 
-										AdtComment:dtComment 
-										):ptBoolean
+				operation oeAlert(AetHumanKind:etHumanKind, 
+								  AdtDate:dtDate,
+								  AdtTime:dtTime,
+								  AdtPhoneNumber:dtPhoneNumber,
+								  AdtGPSLocation:dtGPSLocation, 
+								  AdtComment:dtComment):ptBoolean
 			}
 			
 			input interface inactComCompany{
 				operation ieSmsSend(AdtPhoneNumber:dtPhoneNumber , 
 														AdtSMS:dtSMS 
 														):ptBoolean
+				operation ieEmailSend(AdtEmailAddress:dtEmailAddress, 
+									AdtEmailMessage:dtEmailMessage):ptBoolean
 	 		}
 		}
 
@@ -113,10 +114,17 @@ import lu.uni.lassy.messir.libraries.calendar
 			output interface outactAuthenticated{
 				operation oeLogin(AdtLogin:dtLogin , AdtPassword:dtPassword ):ptBoolean
 				operation oeLogout():ptBoolean
+				operation oeCreatePoliceHeadquarter(AdtPoliceHeadquarterID:dtPoliceHeadquarterID,
+													AdtName:dtString,
+													AdtLocation:dtGPSLocation,
+													AdtPhoneNumber:dtPhoneNumber,
+													AdtEmailAddress:dtEmailAddress
+													):ptBoolean
 			}
-			
 			input interface inactAuthenticated{
 				operation ieMessage(AMessage:ptString):ptBoolean
+				operation iePoliceHeadquarterCreated():ptBoolean
+				operation iePoliceHeadquarterDeleted():ptBoolean
 	 		}
 		}
 

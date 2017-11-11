@@ -13,18 +13,21 @@ icrash.environment.actCoordinator.outactCoordinator.oeSetReport.AdtReport
 @endParameters
 
 @description "sent a report for specific crisis."
+
 //preProtocol descriptions
 @preP
 "the system is started"
 @preP
 "the actor logged previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)"
 @endPreP
+
 //preFunctional descriptions
 @preF
 "it is supposed that there exist one ctCrisis instance with the same \msrcode{id} attribute value to the crisisId attribute in the report."
 @preF
 "if already exists a report then it must be sent before to create the new one"
 @endPreF
+
 //postFunctional descriptions
 @postF
 "the report is assigned into the ctCrisis class instance which having the same id value"
@@ -33,9 +36,11 @@ icrash.environment.actCoordinator.outactCoordinator.oeSetReport.AdtReport
 @postF
 "the coordinator actor is informed about the satisfaction of its request."
 @endPostF
+
 //postProtocol descriptions
 @postP 
 "none"
 @endPostP
+
 //example
 @example" "

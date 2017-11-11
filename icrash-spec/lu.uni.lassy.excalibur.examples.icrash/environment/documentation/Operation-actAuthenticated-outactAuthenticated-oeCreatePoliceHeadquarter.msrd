@@ -1,0 +1,60 @@
+/*
+@author estani
+@date Thu Nov 09 09:18:28 ART 2017
+*/
+
+
+@@Operation
+icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter
+//parameters
+@parameter
+icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.AdtPoliceHeadquarterID
+""
+@parameter
+icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.AdtName
+""
+@parameter
+icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.AdtLocation
+""
+@parameter
+icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.AdtPhoneNumber
+""
+@parameter
+icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.AdtEmailAddress
+""
+@endParameters
+
+@description "create ctPoliceHeadQuarter instance in the system."
+
+//preProtocol descriptions
+@preP
+"the system is started"
+@preP
+"the actor logged in previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)"
+@endPreP
+
+//preFunctional descriptions
+@preF
+"it is supposed that there not exist a ctPoliceHeadquarter instance with the same \msrcode{id} attribute as the one which wants to create."
+@endPreF
+
+//postFunctional descriptions
+@postF
+"the environment has a new instance of Police Headquarter actor allowing for input message communication with the system."
+@postF
+"the system's state has a new instance of ctPoliceHeadquarter initialized with the given values."
+@postF
+"the actor is informed about the satisfaction of its request."
+@postF
+"the new actor instance and ctPoliceHeadquarter instance are related."
+@postF
+"the new actor instance and ctPoliceHeadquarter instance are related according to the appropriate association."
+@endPostF
+
+//postProtocol descriptions
+@postP 
+" none"
+@endPostP
+
+//example
+@example" "
