@@ -36,6 +36,10 @@ association assctCrisisctCoordinator
  		association assctAuthenticatedactAuthenticated 
  					ctAuthenticated(rnctAuthenticated)[1..1]
  					actAuthenticated(rnactAuthenticated)[1..1]
+ 					
+		association assctPoliceHeadquarteractPoliceHeadquarter
+					ctPoliceHeadquarter(rnctPoliceHeadquarter)[0..*]
+					actPoliceHeadquarter(rnactAuthenticated)[0..*]
 			
 		}
 	}
