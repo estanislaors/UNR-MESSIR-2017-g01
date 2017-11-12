@@ -16,16 +16,16 @@ import icrash.environment
 																									 AphoneNumber:dtPhoneNumber,
 																									 AemailAddress:dtEmailAddress):ptBoolean{
 			preP {
-			  let 
-			  	TheSystem: ctState,
-			  	TheActor:actAuthenticated
-		  	in
-		  		self.rnActor.rnSystem = TheSystem
-			  	and self.rnActor = TheActor
-				/* PreP01 */
-			  	and TheSystem.vpStarted = true
-				/* PreP02 */
-			  	and TheActor.rnctAuthenticated.vpIsLogged = false
+				  let 
+				  	TheSystem: ctState,
+				  	TheActor:actAuthenticated
+			  	in
+			  		TheSystem = self.rnActor.rnSystem
+				  	TheActor = self.rnActor
+					/* PreP01 */
+				  	TheSystem.vpStarted = true
+					/* PreP02 */
+				  	TheActor.rnctAuthenticated.vpIsLogged = true
 			}
 			
 			preF {

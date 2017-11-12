@@ -8,19 +8,19 @@
 icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter
 //parameters
 @parameter
-icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.AdtPoliceHeadquarterID
+icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.Aid
 ""
 @parameter
-icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.AdtName
+icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.Aname
 ""
 @parameter
-icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.AdtLocation
+icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.Alocation
 ""
 @parameter
-icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.AdtPhoneNumber
+icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.AphoneNumber
 ""
 @parameter
-icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.AdtEmailAddress
+icrash.environment.actAuthenticated.outactAuthenticated.oeCreatePoliceHeadquarter.AemailAddress
 ""
 @endParameters
 
