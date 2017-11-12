@@ -1,0 +1,42 @@
+/*
+@author estani
+@date Sun Nov 12 12:25:14 ART 2017
+*/
+
+
+@@Operation
+icrash.environment.actAuthenticated.outactAuthenticated.oeDeletePoliceHeadquarter
+//parameters
+@parameter
+icrash.environment.actAuthenticated.outactAuthenticated.oeDeletePoliceHeadquarter.Aid
+" PoliceHeadquarter's id to want destroy."
+@endParameters
+
+@description "destroy ctPoliceHeadQuarter instance in the system."
+
+//preProtocol descriptions
+@preP
+"the system is started"
+@preP
+"the actor logged in previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)"
+@endPreP
+
+//preFunctional descriptions
+@preF
+" it is supposed that there exist one ctPoliceHeadQuarter instance with the same \msrcode{id} attribute than the one wants to detroy."
+@endPreF
+
+//postFunctional descriptions
+@postF 
+" the ctPoliceHeadQuarter class instance having the required id do not belong anymore to the post state as well as is related actPoliceHeadquarter actor instance."
+@postF
+"the actor is informed about the satisfaction of its request."
+@endPostF
+
+//postProtocol descriptions
+@postP 
+" none "
+@endPostP
+
+//example
+@example" "

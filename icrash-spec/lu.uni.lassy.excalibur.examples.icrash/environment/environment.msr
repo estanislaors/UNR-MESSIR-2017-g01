@@ -114,12 +114,12 @@ import lu.uni.lassy.messir.libraries.string
 			output interface outactAuthenticated{
 				operation oeLogin(AdtLogin:dtLogin , AdtPassword:dtPassword ):ptBoolean
 				operation oeLogout():ptBoolean
-				operation oeCreatePoliceHeadquarter(AdtPoliceHeadquarterID:dtPoliceHeadquarterID,
-													AdtName:dtString,
-													AdtLocation:dtGPSLocation,
-													AdtPhoneNumber:dtPhoneNumber,
-													AdtEmailAddress:dtEmailAddress
-													):ptBoolean
+				operation oeCreatePoliceHeadquarter(Aid:dtPoliceHeadquarterID,
+													Aname:dtString,
+													Alocation:dtGPSLocation,
+													AphoneNumber:dtPhoneNumber,
+													AemailAddress:dtEmailAddress):ptBoolean
+				operation oeDeletePoliceHeadquarter(Aid:dtPoliceHeadquarterID):ptBoolean
 			}
 			input interface inactAuthenticated{
 				operation ieMessage(AMessage:ptString):ptBoolean

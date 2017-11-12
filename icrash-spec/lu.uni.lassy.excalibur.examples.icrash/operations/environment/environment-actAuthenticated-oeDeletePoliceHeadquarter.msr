@@ -1,0 +1,57 @@
+package icrash.environment.operations.actAuthenticated.outactAuthenticated.oeDeletePoliceHeadquarter {
+
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.messir.libraries.calendar
+import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
+import icrash.environment
+
+	Operation Model {
+
+		operation: icrash.environment.actAuthenticated.outactAuthenticated.oeDeletePoliceHeadquarter(Aid:dtPoliceHeadquarterID):ptBoolean{
+			preP {
+				  let 
+				  	TheSystem: ctState,
+				  	TheActor:actAuthenticated
+			  	in
+			  		TheSystem = self.rnActor.rnSystem
+				  	TheActor = self.rnActor
+					/* PreP01 */
+				  	TheSystem.vpStarted = true
+					/* PreP02 */
+				  	TheActor.rnctAuthenticated.vpIsLogged = true
+			}
+			
+			preF {
+				let
+					TheSystem: ctState,
+					ThePoliceHeadquarters : Set(ctPoliceHeadquarter)
+				in
+					TheSystem = self.rnActor.rnSystem
+ 				  	/* PreF01 */
+				  	ThePoliceHeadquarters = TheSystem.rnctPoliceHeadquarter->select(id.eq(Aid))
+				  	ThePoliceHeadquarters->size() = 1
+			}
+			
+			postF {
+	  		let
+	  			TheSystem: ctState,
+	  			ThePoliceHeadquarter:ctPoliceHeadquarter
+  			in
+			  TheSystem = self.rnActor.rnSystem
+			  /* PostF01 */
+			  ThePoliceHeadquarter = TheSystem.rnctPoliceHeadquarter->select(id.eq(Aid))
+			  ThePoliceHeadquarter.rnactPoliceHeadquarter->forAll(msrIsKilled)
+			  ThePoliceHeadquarter.msrIsKilled
+			  /* PostF02 */
+			  self.rnActor.rnInterfaceIN^ieCoordinatorDeleted()
+			}
+			
+			postP {
+				true
+			}
+		}
+	}
+}
