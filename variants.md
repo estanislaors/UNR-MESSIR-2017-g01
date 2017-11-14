@@ -19,7 +19,7 @@ Compleja | p >= 250
 Intermedia | 50 < p < 250
 Simple | 0 < p <= 50
 
-El nivel de experiencia se determinan de acuerdo a la cantidad de puntos alcanzados por el coordinador, que es un dato numérico asociado a cada coordinador y define una relacion de orden entre ellos: A > B > C
+El nivel de experiencia se determina de acuerdo a la cantidad de puntos alcanzados por el coordinador, que es un número entero asociado a cada coordinador y, por lo tanto, define una relacion de orden entre ellos: A > B > C
 
 Nivel de experiencia | Puntos de EXP
 --|--
@@ -43,7 +43,7 @@ Simple | C
 
 * Añadir un reporte asociado a cada crisis para realizar la difusión pública de los hechos.
 
-* Los coordinadores serán encargados de crear el reporte y así evitar que se publique información privada o sensible que pueda afectar a los involucrados del hecho. El reporte generado podrá ser remitido via email a la seccional de policía más cercana a la ubicación del evento.
+* Los coordinadores serán encargados de crear el reporte para evitar que se publique información privada o sensible que pueda afectar a los involucrados del hecho. El reporte generado podrá ser remitido via email a la seccional de policía más cercana a la ubicación del evento.
 
 * Cada crisis tendrá asociado a lo sumo un reporte y el estado de envío. Un coordinador podrá crear un nuevo reporte para la crisis si y sólo si el reporte anterior fue enviado. Caso contrario deberá modificar el reporte ya existente.
 
