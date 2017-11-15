@@ -1,0 +1,12 @@
+/*
+@author estani
+@date Tue Nov 14 19:16:03 ART 2017
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtEmailAddress
+@description ""
+@operation
+icrash.concepts.primarytypes.datatypes.dtEmailAddress.is
+""
+@endOperations
