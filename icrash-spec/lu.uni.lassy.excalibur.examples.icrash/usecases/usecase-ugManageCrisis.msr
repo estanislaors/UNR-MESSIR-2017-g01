@@ -14,15 +14,18 @@ package icrash.usecases.ugManageCrisis {
 			reuse oeReportOnCrisis[0..*]
 			reuse oeCloseCrisis[0..*]
 			reuse oeInvalidateAlert[0..*]
+			reuse oeSetReport[0..*]
 
 			step a: actCoordinator executes oeValidateAlert
 			step b: actCoordinator executes oeSetCrisisStatus
 			step c: actCoordinator executes oeSetCrisisHandler
 			step d: actCoordinator executes oeReportOnCrisis
+			step e: actCoordinator executes oeSetReport
 			step f: actCoordinator executes oeCloseCrisis
 			step g: actCoordinator executes oeInvalidateAlert
 			
 			ordering constraint "managing a crisis is doing one of the indicated use cases."
+			ordering constraint "step (d) must be always first to step (e)."
 			
 			
 		}

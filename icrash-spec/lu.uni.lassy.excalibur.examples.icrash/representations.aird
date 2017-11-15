@@ -932,6 +932,19 @@
     <semanticResources>usecases/usecase-ugNewCoordinator.msr</semanticResources>
     <semanticResources>operations/environment/environment-actCoordinator-oeSetReport.msr</semanticResources>
     <semanticResources>operations/environment/environment-actCoordinator-oeGetReport.msr</semanticResources>
+    <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtPoliceHeadquarterID-is.msr</semanticResources>
+    <semanticResources>operations/environment/environment-actAuthenticated-oeCreatePoliceHeadquarter.msr</semanticResources>
+    <semanticResources>operations/environment/environment-actAuthenticated-oeDeletePoliceHeadquarter.msr</semanticResources>
+    <semanticResources>concepts/documentation/Operation-dtEmailAddress-is.msrd</semanticResources>
+    <semanticResources>concepts/documentation/PrimaryType-Association-assctPoliceHeadquarteractPoliceHeadquarter.msrd</semanticResources>
+    <semanticResources>concepts/documentation/PrimaryType-Datatype-dtEmailAddress.msrd</semanticResources>
+    <semanticResources>concepts/documentation/PrimaryType-Datatype-dtEmailMessage.msrd</semanticResources>
+    <semanticResources>environment/documentation/Operation-actAuthenticated-outactAuthenticated-oeCreatePoliceHeadquarter.msrd</semanticResources>
+    <semanticResources>environment/documentation/Operation-actAuthenticated-outactAuthenticated-oeDeletePoliceHeadquarter.msrd</semanticResources>
+    <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeGetReport.msrd</semanticResources>
+    <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeSetReport.msrd</semanticResources>
+    <semanticResources>usecases/usecase-ugReportCrisis.msr</semanticResources>
+    <semanticResources>usecases/usecaseinstance-ugReportCrisis-uciugReportCrisis.msr</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_Aguk8EY3EeOwoLagakxXNQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_8IZyuNKSEeadaP6YRq5p0w" name="cm-pt-ct-gv-01" repPath="#_frDQIFBBEeOoKst3jxjvgA">

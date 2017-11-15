@@ -1,0 +1,28 @@
+package usecases.uciugReportCrisis {
+    import icrash.environment
+	import icrash.usecases.ugReportCrisis
+    import icrash.usecases.subfunctions
+
+	Use Case Model {
+
+		use case instance uciugReportCrisis : ugReportCrisis{
+			actors {
+				john:actCoordinator
+				peter:actAdministrator
+			}
+			use case steps {
+				peter executed instanceof subfunction
+					oeCreatePoliceHeadquarter("3","seccional 2","-32.959356,-60.639990","0341155458249","sec2ros@santafe.gob.ar")
+					
+				john executed instanceof subfunction
+					oeSetCrisisHandler("4")
+					
+				john executed instanceof subfunction
+					oeSetReport("4;-32.954356,-60.639944;low;accidente de transito;el hecho se prudujo en colon y pellegrini a las 07:50, no hay heridos")
+				
+				john executed instanceof subfunction
+					oeSendPoliceReport("4;-32.954356,-60.639944;low;accidente de transito;el hecho se prudujo en colon y pellegrini a las 07:50, no hay heridos")
+			}
+		}
+	}
+}
