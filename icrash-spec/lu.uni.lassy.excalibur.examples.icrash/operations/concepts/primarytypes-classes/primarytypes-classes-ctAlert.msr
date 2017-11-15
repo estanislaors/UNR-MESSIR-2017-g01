@@ -2,7 +2,7 @@ package icrash.operations.concepts.primarytypes.classes.ctAlert{
 	
 import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.calendar
-
+import lu.uni.lassy.messir.libraries.math
 import icrash.concepts.primarytypes.datatypes
 import icrash.concepts.primarytypes.classes
 
@@ -10,14 +10,14 @@ import icrash.environment
 
 Operation Model {
 	
-operation: icrash.concepts.primarytypes.classes.ctAlert.init(Aid:dtAlertID , Astatus:etAlertStatus , Alocation:dtGPSLocation , Ainstant:dtDateAndTime , Acomment:dtComment 
-):ptBoolean{
+operation: icrash.concepts.primarytypes.classes.ctAlert.init(Aid:dtAlertID, Apoints:dtInteger, Astatus:etAlertStatus, Alocation:dtGPSLocation, Ainstant:dtDateAndTime, Acomment:dtComment):ptBoolean {
 postF{
 if
 (
 /* Post F01 */
 let Self:ctAlert in
 Self.id = Aid
+and Self.points = Apoints
 and Self.status = Astatus
 and Self.location = Alocation
 and Self.instant = Ainstant

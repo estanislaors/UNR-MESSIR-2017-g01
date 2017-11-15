@@ -76,12 +76,16 @@ import lu.uni.lassy.messir.libraries.string
 				operation oeSendPoliceReport(AdtReport:dtReport):ptBoolean
 				operation oeSetReport(AdtReport:dtReport):ptBoolean
 				operation oeGetReport(AdtCrisisID:dtCrisisID):ptBoolean
+				operation oeGetScore(AdtCrisisID:dtCrisisID):ptBoolean
+				operation oeSetScore(AdtCrisisID:dtCrisisID, Apoints:dtInteger):ptBoolean
+				operation oeGetCrisisType(Atype:etCrisisType):ptBoolean
 			}
 			
 			input interface inactCoordinator{
 				operation ieSendAnAlert(ActAlert:ctAlert ):ptBoolean
 				operation ieSendACrisis(ActCrisis:ctCrisis ):ptBoolean
 				operation ieSendReport(AdtReport:dtReport):ptBoolean
+				operation ieSendScore(Apoints:dtInteger):ptBoolean
 	 		}
 		}
 		
@@ -151,7 +155,6 @@ import lu.uni.lassy.messir.libraries.string
 			input interface inactPoliceHeadquarter {
 				operation ieSendReport(AdtReport:dtReport):ptBoolean
 			}
-		
 		}
 	}
 }

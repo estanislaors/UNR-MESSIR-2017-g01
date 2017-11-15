@@ -33,23 +33,25 @@ import lu.uni.lassy.messir.libraries.calendar
 	
 			class ctAlert role rnctAlert cardinality [0..*]{
 				attribute id:dtAlertID
-				attribute status: etAlertStatus
+				attribute points:dtInteger
+				attribute status:etAlertStatus
 				attribute location:dtGPSLocation
 				attribute instant:dtDateAndTime
 				attribute comment:dtComment
 				
-				operation init(     	Aid:dtAlertID ,
-										Astatus:etAlertStatus ,
-										Alocation:dtGPSLocation ,
-										Ainstant:dtDateAndTime ,
-										Acomment:dtComment ):ptBoolean
+			operation init(Aid:dtAlertID ,
+							Apoints:dtInteger,
+							Astatus:etAlertStatus,
+							Alocation:dtGPSLocation,
+							Ainstant:dtDateAndTime,
+							Acomment:dtComment ):ptBoolean
 				operation isSentToCoordinator(AactCoordinator:actCoordinator ):ptBoolean
-			 
 			}
 			
 			class ctCrisis role rnctCrisis cardinality [0..*]{
 				attribute id:dtCrisisID
 				attribute type:etCrisisType
+				attribute points:dtInteger
 				attribute status: etCrisisStatus
 				attribute location:dtGPSLocation
 				attribute instant:dtDateAndTime
@@ -57,15 +59,15 @@ import lu.uni.lassy.messir.libraries.calendar
 				attribute report:dtReport
 				attribute vpReported: ptBoolean
 				
-				operation init(
-										Aid:dtCrisisID ,
-										Atype:etCrisisType ,
-										Astatus:etCrisisStatus ,
-										Alocation:dtGPSLocation ,
-										Ainstant:dtDateAndTime ,
-										Acomment:dtComment,
-										Areport:dtReport,
-										AvpReported:ptBoolean ):ptBoolean
+				operation init(Aid:dtCrisisID,
+								Atype:etCrisisType,
+								Apoints:dtInteger,
+								Astatus:etCrisisStatus,
+								Alocation:dtGPSLocation,
+								Ainstant:dtDateAndTime,
+								Acomment:dtComment,
+								Areport:dtReport,
+								AvpReported:ptBoolean ):ptBoolean
 										
 				operation handlingDelayPassed():ptBoolean
         		operation maxHandlingDelayPassed():ptBoolean
@@ -79,10 +81,9 @@ import lu.uni.lassy.messir.libraries.calendar
 				attribute id:dtPhoneNumber
 				attribute kind:etHumanKind
 				
-				operation init(
-										Aid:dtPhoneNumber ,
-										Akind:etHumanKind ):ptBoolean
-        operation isAcknowledged():ptBoolean
+				operation init(Aid:dtPhoneNumber,
+								Akind:etHumanKind ):ptBoolean
+        		operation isAcknowledged():ptBoolean
 			}
 
 

@@ -51,12 +51,15 @@ import lu.uni.lassy.messir.libraries.calendar
 			datatype dtEmailMessage {
 				attribute subject: dtString
 				attribute body: dtString
+				operation is():ptBoolean
 			}
 						
 		    datatype dtReport {
 		    	attribute crisisId:dtCrisisID
 				attribute position:dtGPSLocation
 				attribute criticity:etCrisisCriticity
+				attribute title:dtString
+				attribute detail:dtString
 				operation is():ptBoolean
 			}
 			
@@ -68,7 +71,7 @@ import lu.uni.lassy.messir.libraries.calendar
 			}
 			
 			enum etCrisisCriticity {
-				constants["simple", "intermediate", "complex"]
+				constants["low", "medium", "high"]
 				operation is():ptBoolean
 			}
 			

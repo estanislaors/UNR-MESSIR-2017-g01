@@ -15,8 +15,9 @@ import icrash.environment
 Operation Model {
 //------------------------------------------------------------
 operation: icrash.concepts.primarytypes.classes.ctCrisis.init(
-                Aid:dtCrisisID, 
+                Aid:dtCrisisID,
                 Atype:etCrisisType,
+                Apoints:dtInteger,
                 Astatus:etCrisisStatus,
                 Alocation:dtGPSLocation,
                 Ainstant:dtDateAndTime,
@@ -31,6 +32,7 @@ if
 let Self:ctCrisis in
 Self.id = Aid
 and Self.type = Atype
+and Self.points = Apoints
 and Self.status = Astatus
 and Self.location = Alocation
 and Self.instant = Ainstant
