@@ -9,15 +9,15 @@
 
 * Cada crisis será puntuada y sólo los coordinadores con cierto nivel de experiencia podrán atenderla. Si no existe coordinador con nivel de experiencia necesario para atender una crisis, se le asignará el coordinador con mayor puntos de experiencia del nivel inmediatamente anterior.
 
-* La crisis será categorizada como: compleja, intermedia o simple. El sistema determinará su puntaje de acuerdo a la cantidad de alertas que se reciban para esa crisis, sumando 10 puntos por cada alerta recibida de la crisis, la pertenecia de una alerta a una crisis se determinará de acuerdo a su ubicación.
+* La crisis será categorizada como: grande, intermedia o pequeña. El sistema determinará su puntaje de acuerdo a la cantidad de alertas que se reciban para esa crisis, sumando 10 puntos por cada alerta recibida de la crisis, la pertenecia de una alerta a una crisis se determinará de acuerdo a su ubicación.
 
 Entonces la categorización de una crisis será la siguiente:
 
 Categoría | Puntaje (p)
 ------------ | -------------
-Compleja | p >= 250
+Grande | p >= 250
 Intermedia | 50 < p < 250
-Simple | 0 < p <= 50
+Pequeña | 0 < p <= 50
 
 El nivel de experiencia se determina de acuerdo a la cantidad de puntos alcanzados por el coordinador, que es un número entero asociado a cada coordinador y, por lo tanto, define una relacion de orden entre ellos: A > B > C
 
@@ -31,9 +31,9 @@ El sistema emitirá la notificación de atención a los coordinadores de acuerdo
 
 Clase de crisis | Nivel de experiencia necesario
 -- | --
-Compleja | A
+Grande | A
 Intermedia | B
-Simple | C
+Pequeña | C
 
 
 # 2) Police (Info Diffusion)
