@@ -29,10 +29,12 @@ preP {
 preF {
 	let 
     	TheSystem : ctState,
+    	TheCoordinator : ctCoordinator,
 		TheCrises : Set(ctCrisis),
 		TheTargetCrisis : Set(ctCrisis)
 	in
-		TheSystem = self.rnActor.rnSystem 
+		TheSystem = self.rnActor.rnSystem
+		TheCoordinator = self.rnActor
 		TheCrises = TheSystem.rnctCrisis
 		/* PreF01 */
 		TheTargetCrisis = TheCrises->select(c : ctCrisis | c.id = AdtCrisisID)

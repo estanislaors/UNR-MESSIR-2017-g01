@@ -1,0 +1,30 @@
+/*
+@author estani
+@date Wed Nov 15 18:43:03 ART 2017
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeCreatePoliceHeadquarter
+@description ""
+@parameter icrash.usecases.subfunctions.oeCreatePoliceHeadquarter.Aid ""
+@parameter icrash.usecases.subfunctions.oeCreatePoliceHeadquarter.Aname ""
+@parameter icrash.usecases.subfunctions.oeCreatePoliceHeadquarter.Alocation ""
+@parameter icrash.usecases.subfunctions.oeCreatePoliceHeadquarter.AphoneNumber ""
+@parameter icrash.usecases.subfunctions.oeCreatePoliceHeadquarter.AemailAddress ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

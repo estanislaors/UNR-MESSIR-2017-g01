@@ -1,0 +1,24 @@
+/*
+@author estani
+@date Wed Nov 15 18:43:11 ART 2017
+*/
+
+
+@@Use Case icrash.usecases.ugReportCrisis.ugReportCrisis
+@description ""
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

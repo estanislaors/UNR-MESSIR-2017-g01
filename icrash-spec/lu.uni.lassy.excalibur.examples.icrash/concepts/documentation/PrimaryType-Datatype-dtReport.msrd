@@ -7,10 +7,19 @@
 @@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtReport
 @description "represent information about crisis"
 @attribute
+icrash.concepts.primarytypes.datatypes.dtReport.crisisId
+""
+@attribute
 icrash.concepts.primarytypes.datatypes.dtReport.position
 ""
 @attribute
 icrash.concepts.primarytypes.datatypes.dtReport.criticity
+""
+@attribute
+icrash.concepts.primarytypes.datatypes.dtReport.title
+""
+@attribute
+icrash.concepts.primarytypes.datatypes.dtReport.detail
 ""
 @endAttributes
 @operation

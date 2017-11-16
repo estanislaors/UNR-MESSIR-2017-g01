@@ -487,6 +487,18 @@
   <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeSetReport.msrd</semanticResources>
   <semanticResources>usecases/usecase-ugReportCrisis.msr</semanticResources>
   <semanticResources>usecases/usecaseinstance-ugReportCrisis-uciugReportCrisis.msr</semanticResources>
+  <semanticResources>documentation/View-uci-uciugReportCrisis.msrd</semanticResources>
+  <semanticResources>concepts/documentation/Operation-dtEmailMessage-is.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeGetScore.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeSetScore.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeGetCrisisType.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-oeCreatePoliceHeadquarter.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-oeDeletePoliceHeadquarter.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-oeGetReport.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-oeSetReport.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-ugReportCrisis.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCaseInstance-uciugReportCrisis.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-ugReportCrisis.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UmILAPWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

@@ -9,19 +9,30 @@ package usecases.uciugReportCrisis {
 			actors {
 				john:actCoordinator
 				peter:actAdministrator
+				claro:actComCompany
+				sec2:actPoliceHeadquarter
 			}
 			use case steps {
 				peter executed instanceof subfunction
-					oeCreatePoliceHeadquarter("3","seccional 2","-32.959356,-60.639990","0341155458249","sec2ros@santafe.gob.ar")
+					oeCreatePoliceHeadquarter("3","seccional 2","-32.959356,-60.639990","0341155458249","sec2ros@santafe.gob.ar"){
+						iePoliceHeadquarterCreated() returned to peter
+					}
+					
+				john executed instanceof subfunction oeSetCrisisHandler("4"){
+						      ieMessage('The crisis with ID 4 is handled by you.') returned to john
+      						  ieSendAnAlert("4;10;valid;-32.954356,-60.639944;15/11/2017 07:45;accidente en colon y pellegrini sin heridos") returned to john
+      						  ieSmsSend("0341155458249","Your alert is being attended") returned to claro
+					}
 					
 				john executed instanceof subfunction
-					oeSetCrisisHandler("4")
-					
-				john executed instanceof subfunction
-					oeSetReport("4;-32.954356,-60.639944;low;accidente de transito;el hecho se prudujo en colon y pellegrini a las 07:50, no hay heridos")
+					oeSetReport("4;-32.954356,-60.639944;low;accidente de transito;el hecho se produjo en colon y pellegrini a las 07:50, no hay heridos") {
+						ieMessage('The report was created for crisis with ID 4') returned to john
+					}
 				
 				john executed instanceof subfunction
-					oeSendPoliceReport("4;-32.954356,-60.639944;low;accidente de transito;el hecho se prudujo en colon y pellegrini a las 07:50, no hay heridos")
+					oeSendPoliceReport("4;-32.954356,-60.639944;low;accidente de transito;el hecho se produjo en colon y pellegrini a las 07:50, no hay heridos") {
+						ieSendReport("4;-32.954356,-60.639944;low;accidente de transito;el hecho se produjo en colon y pellegrini a las 07:50, no hay heridos") returned to sec2
+					} 
 			}
 		}
 	}

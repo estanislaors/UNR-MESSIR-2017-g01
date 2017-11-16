@@ -1,0 +1,26 @@
+/*
+@author estani
+@date Wed Nov 15 18:43:05 ART 2017
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeDeletePoliceHeadquarter
+@description ""
+@parameter icrash.usecases.subfunctions.oeDeletePoliceHeadquarter.Aid ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

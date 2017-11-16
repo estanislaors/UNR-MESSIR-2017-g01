@@ -1,0 +1,26 @@
+/*
+@author estani
+@date Wed Nov 15 18:43:09 ART 2017
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeSetReport
+@description ""
+@parameter icrash.usecases.subfunctions.oeSetReport.AdtReport ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

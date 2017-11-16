@@ -17,6 +17,7 @@ import icrash.usecases.ugManageCrisis
 				actor actAdministrator[primary,active]
 				actor actCoordinator[primary,active]
   				actor actComCompany[secondary,active]
+  				
 	  		
 	  			reuse oeCreatePoliceHeadquarter[1..*]
 	  			reuse oeSetReport

@@ -8,3 +8,5 @@
 @model Use-Case icrash.usecases.subfunctions.oeSendPoliceReport 
 @description " send a crisis report to the police headquarters near to the crisis"
 @caption ""
+@scale MaxHeight
+@orientation Landscape

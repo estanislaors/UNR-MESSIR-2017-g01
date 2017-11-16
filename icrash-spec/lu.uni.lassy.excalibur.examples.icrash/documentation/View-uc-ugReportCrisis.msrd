@@ -1,0 +1,11 @@
+/*
+@author estani
+@date Wed Nov 15 18:56:36 ART 2017
+*/
+
+
+@@view uc-ugReportCrisis
+@model Use-Case icrash.usecases.ugReportCrisis.ugReportCrisis 
+@description ""
+@caption ""
+@orientation Landscape

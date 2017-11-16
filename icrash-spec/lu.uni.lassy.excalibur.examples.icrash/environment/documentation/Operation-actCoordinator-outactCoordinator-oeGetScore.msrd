@@ -1,0 +1,34 @@
+/*
+@author estani
+@date Wed Nov 15 18:42:59 ART 2017
+*/
+
+
+@@Operation
+icrash.environment.actCoordinator.outactCoordinator.oeGetScore
+//parameters
+@parameter
+icrash.environment.actCoordinator.outactCoordinator.oeGetScore.AdtCrisisID
+""
+@endParameters
+
+@description "
+ "
+//preProtocol descriptions
+@preP
+" "
+@endPreP
+//preFunctional descriptions
+@preF
+" "
+@endPreF
+//postFunctional descriptions
+@postF 
+" "
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "
